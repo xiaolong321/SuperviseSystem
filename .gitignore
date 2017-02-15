@@ -61,3 +61,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+.idea/dataSources/0ff6bd96-0506-42df-93ba-f312533b98b7/_src_/
+.idea/dataSources/0ff6bd96-0506-42df-93ba-f312533b98b7/_staging_/
+src/main/java/com/wy/bean/Admin.java
+src/main/java/com/wy/controller/
+src/main/java/com/wy/dao/
+src/main/java/com/wy/service/
+src/main/resources/
+src/test/

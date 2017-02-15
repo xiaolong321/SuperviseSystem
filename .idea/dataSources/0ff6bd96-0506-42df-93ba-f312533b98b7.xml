@@ -22,5 +22,8 @@
     <schema id="17" parent="1" name="shiro_demo"/>
     <schema id="18" parent="1" name="sys"/>
     <schema id="19" parent="1" name="test"/>
+    <schema id="20" parent="1" name="db_supervise">
+      <Current>1</Current>
+    </schema>
   </database-model>
 </dataSource>
