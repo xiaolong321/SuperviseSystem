@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70e22f8-dfe3-450e-8cfd-3bd8975eb954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../typescriptStudy/.idea/jsLibraryMappings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../typescriptStudy/.idea/misc.xml" />
@@ -1072,7 +1071,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/jquery.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/json2.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/0ff6bd96-0506-42df-93ba-f312533b98b7.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/vue.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/.idea/artifacts/ShiroExample_war_exploded.xml" afterPath="" />
@@ -1151,9 +1149,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" afterPath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_Web_exploded/WEB-INF/pager/index.html" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_Web_exploded/WEB-INF/pager/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/index.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_downloader.py" afterPath="$PROJECT_DIR$/../dict_spider/html_downloader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_parser.py" afterPath="$PROJECT_DIR$/../dict_spider/html_parser.py" />
@@ -1194,7 +1189,18 @@
     <favorites_list name="SuperviseSystem" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -2055,12 +2061,12 @@
       <updated>1487057589321</updated>
       <workItem from="1487057595815" duration="5037000" />
       <workItem from="1487117090403" duration="7614000" />
-      <workItem from="1487156626819" duration="80000" />
+      <workItem from="1487156626819" duration="227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12731000" />
+    <option name="totallyTimeSpent" value="12878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2072,8 +2078,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2098,7 +2104,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37030995" sideWeight="0.49546143" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -2380,7 +2386,7 @@
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="25" />
           <folding />
         </state>
       </provider>
