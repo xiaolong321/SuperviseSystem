@@ -5,12 +5,21 @@ package com.wy.bean;
  * Created by Administrator on 2/14/2017.
  */
 public class User {
+    private String id;
     private String username;
     private String password;
     private String email;
     private String address;
     private int phone;
     private String headicon;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
@@ -63,7 +72,8 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "username='" + username + '\'' +
+                "id='" + id + '\'' +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", email='" + email + '\'' +
                 ", address='" + address + '\'' +

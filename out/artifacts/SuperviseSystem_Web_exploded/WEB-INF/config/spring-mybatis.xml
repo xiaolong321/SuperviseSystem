@@ -36,7 +36,7 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.gs.dao" />
+        <property name="basePackage" value="com.wy.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
     </bean>
 
@@ -47,7 +47,7 @@
 
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
-            <tx:method name="insert*" propagation="REQUIRED" rollback-for="java.lang.Throwable"/>
+            <tx:method name="add*" propagation="REQUIRED" rollback-for="java.lang.Throwable"/>
             <tx:method name="update*" propagation="REQUIRED" rollback-for="java.lang.Throwable"/>
             <tx:method name="delete*" propagation="REQUIRED" rollback-for="java.lang.Throwable"/>
             <tx:method name="query*" read-only="true"/>
