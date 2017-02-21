@@ -28,7 +28,7 @@
     <!-- 告诉spring mvc到哪里查找视图文件 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pager/"></property>
-        <property name="suffix" value=".html"></property>
+        <property name="suffix" value=".jsp"></property>
     </bean>
 
     <!-- 文件上传，默认编码，上传的大小单位为字节 -->

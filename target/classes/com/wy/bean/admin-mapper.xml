@@ -9,4 +9,42 @@
         <result column="phone" property="phone"/>
         <result column="headicon" property="headicon"/>
     </resultMap>
+
+
+    <select id="queryByNamePwd" resultMap="adminMap" parameterType="String">
+        <![CDATA[
+          select * from db_supervise.t_admin where username=#{username} and password = #{password}
+        ]]>
+    </select>
+
+    <select id="queryAll" resultMap="adminMap">
+        <![CDATA[
+          SELECT *from db_supervise.t_admin
+        ]]>
+    </select>
+
+    <select id="queryById" resultMap="adminMap">
+        <![CDATA[
+          SELECT *FROM db_supervise.t_user WHERE id=#{id}
+        ]]>
+    </select>
+
+    <insert id="add" parameterType="admin">
+        <![CDATA[
+        INSERT INTO db_supervise.t_admin(id, username, password, address, phone, headicon)
+         VALUES (uuid(),#{username}.#{password},#{address},#{phone},#{headicon})
+         ]]>
+    </insert>
+
+    <insert id="update" parameterType="admin">
+        <![CDATA[
+        UPDATE db_supervise.t_admin set address=#{address},phone=#{phone}
+        ]]>
+    </insert>
+
+    <delete id="deleteById">
+        <![CDATA[
+          DELETE FROM db_supervise.t_admin WHERE id=#{id}
+        ]]>
+    </delete>
 </mapper>

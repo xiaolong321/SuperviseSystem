@@ -2,8 +2,312 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70e22f8-dfe3-450e-8cfd-3bd8975eb954" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/edit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/edit_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/filesave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/filter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_clipart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_shapes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_smartart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/mini_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/mini_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/mini_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-filter/filter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/layout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-center.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-justify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/case-font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/decrease-font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/format.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/grow-font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/increase-font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/numbers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/replace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/selectall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/shrink-font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/strikethrough.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/subscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/superscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/clipart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/shapes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/smartart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/backcolor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/forecolor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/indent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/insertorderedlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/insertunorderedlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifycenter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyfull.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyleft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/outdent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/strikethrough.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_rotate_anticlockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_rotate_clockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_switch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/clear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/cog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/edit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/edit_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/filesave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/filter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/folder_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/information.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_clipart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_shapes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_smartart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/lock_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/lock_password.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-append.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_set.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/recover_deleted_items.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/reload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/set.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/sort_number.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/tip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/user_config.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/wrench_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/QRcode-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/QRcode.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/accordion_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/alert_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/append-images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/calendar_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/combo_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/datagrid-filter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/datagrid_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/disable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/footer_projection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/info-icons-at.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/info-icons-tel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/layout_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/linkbutton_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/list-loding.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/menu_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/menu_arrows_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/menu_arrows_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/messager_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/navigate_more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/pagination_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/panel_tools - 副本.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/panel_tools.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/panel_tools_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/passwordbox_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/passwordbox_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait129x129.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait172x172-select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait172x172.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait250x250.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait28x28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait38x38.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait43x43.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait86x86.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/progressbar-background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/searchbox_navigate_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/set.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/spinner_arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tabs_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tabs_icons_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tabs_icons_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tagbox_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tree_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/docments/doc.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/java/wy/com/fragmentdemo/MainActivity2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/java/wy/com/fragmentdemo/MyFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/java/wy/com/fragmentdemo/MyFragment2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/drawable/radio_pressed.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/layout/fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/layout/main2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_2_2_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/AdminRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/Resource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/RoleResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/UserRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/cache/UserServiceAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/color.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/columns-ext.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/columns-ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-dnd/datagrid-dnd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-dnd/datagrid-dnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-filter/datagrid-filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-filter/datagrid-filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-bufferview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-bufferview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-defaultview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-groupview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-groupview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-dwrloader/dwrloader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-dwrloader/dwrloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-edatagrid/datagrid_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-edatagrid/editable-datagrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-edatagrid/jquery.edatagrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/editable-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/jquery.etree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/jquery.etree.lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/tree_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/jquery.pivotgrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-portal/datagrid_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-portal/jquery.portal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-portal/portal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/jquery.ribbon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon-icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/datagrid_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/easyui-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/easyui-rtl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/rtl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/tree_data1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/jquery.texteditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/treegrid-dnd/treegrid-dnd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/treegrid-dnd/treegrid-dnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/jquery.insdep-extend.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/master.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/mobile.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/artifacts/laySuperviseSystem_Web_exploded.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
@@ -1124,396 +1428,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/jquery.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/json2.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/android-logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/android-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/android_logo.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/andy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/auto-on.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/devices.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/more-from-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/more-from-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/more-from-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/more-from-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/nexus6-on.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/nexus9-on.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/slide01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/tv-on.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/wear-black-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/wear-silver-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/images/wear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/echarts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/jquery.easyui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/jquery.insdep-extend.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/locale/easyui-lang-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/locale/easyui-lang-zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/passwordbox_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/passwordbox_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/tagbox_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/black/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/passwordbox_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/passwordbox_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/tagbox_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/bootstrap/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/color.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/passwordbox_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/passwordbox_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/tagbox_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/default/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/passwordbox_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/passwordbox_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/tagbox_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/gray/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/clear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/edit_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/edit_remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/filesave.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/help.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/large_chart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/large_clipart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/large_picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/large_shapes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/large_smartart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/man.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/mini_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/mini_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/mini_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/pencil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/sum.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/passwordbox_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/passwordbox_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/tagbox_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/material/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/passwordbox_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/passwordbox_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/tagbox_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/passwordbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/switchbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/tagbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/metro/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery-easyui/themes/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery.form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/script/json2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/vue.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/.idea/artifacts/ShiroExample_war_exploded.xml" afterPath="" />
@@ -1591,13 +1509,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MarqueeText/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../MarqueeText/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" afterPath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SuperviseSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SuperviseSystem_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/index.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuperviseSystem.iml" afterPath="$PROJECT_DIR$/SuperviseSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_downloader.py" afterPath="$PROJECT_DIR$/../dict_spider/html_downloader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_parser.py" afterPath="$PROJECT_DIR$/../dict_spider/html_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/spider_main.py" afterPath="$PROJECT_DIR$/../dict_spider/spider_main.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/info.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/info.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1618,16 +1547,6 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="db_supervise@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
@@ -1640,14 +1559,142 @@
     <favorites_list name="SuperviseSystem" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+              <folding>
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-160">
+              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39">
+              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1547#1555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-mapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <marker date="1487677586348" expanded="true" signature="667:755" ph="select * fro... t_admin" />
+                <marker date="1487677586348" expanded="true" signature="774:788" ph="select&gt; &lt;... " />
+                <marker date="1487677586348" expanded="true" signature="788:848" ph="select id=&quot;q... " />
+                <marker date="1487677586348" expanded="true" signature="859:892" ph="SELECT *from... t_admin" />
+                <marker date="1487677586348" expanded="true" signature="859:911" ph="SELECT *from... t_admin" />
+                <marker date="1487677586348" expanded="true" signature="997:1044" ph="SELECT *FROM... t_user" />
+                <marker date="1487677586348" expanded="true" signature="1142:1305" ph="INSERT INTO db_supervise.t_admin... " />
+                <marker date="1487677586348" expanded="true" signature="1407:1472" ph="UPDATE db_su... " />
+                <marker date="1487677586348" expanded="true" signature="1557:1604" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-mapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="15" column="81" lean-forward="true" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+              <folding>
+                <marker date="1487677586362" expanded="true" signature="664:751" ph="select * fro... t_user" />
+                <marker date="1487677586362" expanded="true" signature="854:886" ph="SELECT *from... t_user" />
+                <marker date="1487677586362" expanded="true" signature="990:1037" ph="SELECT *FROM... t_user" />
+                <marker date="1487677586362" expanded="true" signature="1134:1296" ph="INSERT INTO db_supervise.t_user... " />
+                <marker date="1487677586362" expanded="true" signature="1397:1461" ph="UPDATE db_su... " />
+                <marker date="1487677586362" expanded="true" signature="1546:1592" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -1666,8 +1713,22 @@
       <find>5.0</find>
       <find>Phone</find>
       <find>Phones</find>
-      <find>&lt;%=path %&gt;</find>
       <find>/js</find>
+      <find>themes</find>
+      <find>&lt;%=path %&gt;</find>
+      <find>t_admin</find>
+      <find>admin</find>
+      <find>spring-context-support</find>
+      <find>aspectjrt</find>
+      <find>org.aspectj</find>
+      <find>org.apache.shiro</find>
+      <find>ShiroFilterFactoryBean</find>
+      <find>shiroFilter</find>
+      <find>org.apache.shiro.spring.web.ShiroFilterFactoryBean</find>
+      <find>ehCacheManager</find>
+      <find>cacheManager</find>
+      <find>doGetAuthenticationInfo</find>
+      <find>CharacterEncodingFilter</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1687,48 +1748,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0ff6bd96-0506-42df-93ba-f312533b98b7/console_1.sql" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/index.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/indexhtml.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0ff6bd96-0506-42df-93ba-f312533b98b7/console_2.sql" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitattributes" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/Pager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_2.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/css/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/info.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.html" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/info.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/a.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/info.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_3.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Resource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/RoleResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/UserRole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/AdminRole.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_4.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/ResourceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/ResourceDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/ResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/cache/UserCacheService.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/resource-mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/role-mapper.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/cache/UserServiceAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.html" />
-        <option value="$PROJECT_DIR$/web/js/modules/index.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/RoleDAO.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/啊.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
       </list>
     </option>
   </component>
@@ -1822,8 +1892,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -1837,15 +1905,97 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.18874173" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.36020407" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -1854,6 +2004,8 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.splitter.proportion" value="0.205298" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="editor.config.accepted" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="classpath:shiro.ini&#9;null&#9;null&#10;shiro.ini&#9;null&#9;null&#10;ehcache.xml&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1863,12 +2015,15 @@
       <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\config" />
       <recent name="E:\GitHub\SuperviseSystem\src\main\resources\com.wy.bean\user" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wy.bean" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\SuperviseSystem\src\main\java\com\wy\permission" />
+      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\config" />
+      <recent name="E:\GitHub\SuperviseSystem\src\main\resources\com\wy\bean" />
       <recent name="E:\GitHub\SuperviseSystem\web\js" />
       <recent name="E:\GitHub\SuperviseSystem\web\css" />
-      <recent name="E:\GitHub\SuperviseSystem\web\script\jquery-easyui" />
-      <recent name="E:\GitHub\SuperviseSystem\web\script\jquery-easyui\themes\default" />
-      <recent name="E:\GitHub\SuperviseSystem\web\script\jquery-easyui\themes" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.37">
@@ -2365,6 +2520,7 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SuperviseSystem:war exploded" />
+          <artifact name="SuperviseSystem:war exploded" />
         </option>
       </method>
     </configuration>
@@ -2397,12 +2553,20 @@
       <workItem from="1487214867243" duration="783000" />
       <workItem from="1487215771775" duration="136000" />
       <workItem from="1487215957417" duration="550000" />
-      <workItem from="1487216739665" duration="7295000" />
+      <workItem from="1487216739665" duration="9771000" />
+      <workItem from="1487242849202" duration="1970000" />
+      <workItem from="1487320711305" duration="1436000" />
+      <workItem from="1487329542770" duration="126000" />
+      <workItem from="1487376252799" duration="163000" />
+      <workItem from="1487556544410" duration="1216000" />
+      <workItem from="1487578137762" duration="75000" />
+      <workItem from="1487646189916" duration="9958000" />
+      <workItem from="1487664862645" duration="6681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39029000" />
+    <option name="totallyTimeSpent" value="63130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2414,7 +2578,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2422,16 +2586,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33768353" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" x="22" y="260" width="1322" height="207" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.51966715" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43230015" sideWeight="0.5173979" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3034258" sideWeight="0.49016643" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33278957" sideWeight="0.48260212" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.48033282" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.48591548" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.48591548" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2492,70 +2656,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/autoload.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/ResourceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml" />
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_role">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2567,68 +2679,298 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_2.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/resource-mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="56" />
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/android-logo-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/role-mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="304" column="20" lean-forward="false" selection-start-line="304" selection-start-column="20" selection-end-line="304" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="98">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/a.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="406">
+          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding>
-            <marker date="1487212391474" expanded="true" signature="613:645" ph="SELECT *FROM... t_user" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
+            <element signature="e#799#800#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="55" lean-forward="true" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        <state relative-caret-position="154">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/shiro.ini" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2.jar!/org/apache/shiro/spring/LifecycleBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#2133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/LifecycleBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="41" column="108" lean-forward="false" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#545#546#0" expanded="false" />
+            <element signature="e#576#577#0" expanded="false" />
+            <element signature="e#624#625#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-ehcache/1.3.2/shiro-ehcache-1.3.2.jar!/org/apache/shiro/cache/ehcache/EhCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/RoleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/ResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#706#707#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#792#793#0" expanded="false" />
+            <element signature="e#836#837#0" expanded="false" />
+            <element signature="e#883#884#0" expanded="false" />
+            <element signature="e#925#926#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.6.RELEASE/spring-context-support-4.2.6.RELEASE.jar!/org/springframework/cache/ehcache/EhCacheManagerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/啊.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#876#877#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#1076#1077#0" expanded="false" />
+            <element signature="e#1114#1115#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/cache/UserServiceAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+          <folding>
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="85" lean-forward="true" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+        <state relative-caret-position="-294">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/autoload.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2638,255 +2980,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="70">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/android_logo.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/android-logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="321">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1487677586348" expanded="true" signature="667:755" ph="select * fro... t_admin" />
+            <marker date="1487677586348" expanded="true" signature="774:788" ph="select&gt; &lt;... " />
+            <marker date="1487677586348" expanded="true" signature="788:848" ph="select id=&quot;q... " />
+            <marker date="1487677586348" expanded="true" signature="859:892" ph="SELECT *from... t_admin" />
+            <marker date="1487677586348" expanded="true" signature="859:911" ph="SELECT *from... t_admin" />
+            <marker date="1487677586348" expanded="true" signature="997:1044" ph="SELECT *FROM... t_user" />
+            <marker date="1487677586348" expanded="true" signature="1142:1305" ph="INSERT INTO db_supervise.t_admin... " />
+            <marker date="1487677586348" expanded="true" signature="1407:1472" ph="UPDATE db_su... " />
+            <marker date="1487677586348" expanded="true" signature="1557:1604" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="15" column="81" lean-forward="true" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+          <folding>
+            <marker date="1487677586362" expanded="true" signature="664:751" ph="select * fro... t_user" />
+            <marker date="1487677586362" expanded="true" signature="854:886" ph="SELECT *from... t_user" />
+            <marker date="1487677586362" expanded="true" signature="990:1037" ph="SELECT *FROM... t_user" />
+            <marker date="1487677586362" expanded="true" signature="1134:1296" ph="INSERT INTO db_supervise.t_user... " />
+            <marker date="1487677586362" expanded="true" signature="1397:1461" ph="UPDATE db_su... " />
+            <marker date="1487677586362" expanded="true" signature="1546:1592" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+          <folding>
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery-easyui/locale/easyui-lang-af.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery.form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/json2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery.validate.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery-easyui/jquery.easyui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery-easyui/themes/icons/back.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery-easyui/themes/color.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery-easyui/themes/default/easyui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/jquery-easyui/jquery.insdep-extend.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-588">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="195" column="10" lean-forward="true" selection-start-line="195" selection-start-column="10" selection-end-line="195" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/ShiroFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/layui.css">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-160">
+          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.html">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="154">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/layui.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-39">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1547#1555#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/modules/index.js">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/jquery-3.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="378">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -2901,7 +3125,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36020407" />
                 <option value="0.5" />
               </list>
             </option>
@@ -2910,11 +3134,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (SuperviseSystem)|Spring</last-edited>
+          <last-edited>Web (SuperviseSystem)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36020407" />
               </list>
             </option>
           </splitter-proportions>
@@ -2925,7 +3149,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36020407" />
               </list>
             </option>
           </splitter-proportions>
@@ -2937,7 +3161,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36020407" />
               </list>
             </option>
           </splitter-proportions>
@@ -2949,7 +3173,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36020407" />
               </list>
             </option>
           </splitter-proportions>
@@ -2973,7 +3197,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36020407" />
               </list>
             </option>
           </splitter-proportions>
