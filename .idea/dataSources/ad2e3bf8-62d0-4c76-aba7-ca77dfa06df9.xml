@@ -53,7 +53,7 @@
     </column>
     <column id="33" parent="22" name="phone">
       <Position>5</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="34" parent="22" name="headicon">
@@ -164,7 +164,6 @@
       <Position>1</Position>
       <DataType>varchar(36)|0</DataType>
       <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="54" parent="27" name="username">
       <Position>2</Position>
@@ -182,7 +181,7 @@
     </column>
     <column id="57" parent="27" name="phone">
       <Position>5</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
     <column id="58" parent="27" name="headicon">

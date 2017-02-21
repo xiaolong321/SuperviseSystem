@@ -2,211 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d70e22f8-dfe3-450e-8cfd-3bd8975eb954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/clear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/edit_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/edit_remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/filesave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_clipart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_shapes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/large_smartart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/mini_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/mini_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/mini_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/reload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/sum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/tip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-filter/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/layout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/load.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-center.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-justify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/bullets.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/case-font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/decrease-font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/find.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/format.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/grow-font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/increase-font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/numbers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/replace.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/selectall.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/shrink-font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/strikethrough.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/subscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/superscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/clipart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/shapes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/smartart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/table.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/backcolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/forecolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/indent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/insertorderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/insertunorderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifycenter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyfull.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyleft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/outdent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/strikethrough.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/images/underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_rotate_anticlockwise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_rotate_clockwise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/arrow_switch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/clear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/cog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/edit_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/edit_remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/filesave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/folder_search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/information.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_clipart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_shapes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/large_smartart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/lock_go.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/lock_password.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-append.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini-reload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_set.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/mini_tick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/recover_deleted_items.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/reload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/set.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/sort_number.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/sum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/tip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/update.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/user_config.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/wrench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icons/wrench_orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/QRcode-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/QRcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/accordion_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/alert_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/append-images.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/calendar_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/combo_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/datagrid-filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/datagrid_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/datebox_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/disable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/footer_projection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/info-icons-at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/info-icons-tel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/layout_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/linkbutton_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/list-loding.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/menu_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/menu_arrows_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/menu_arrows_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/messager_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/navigate_more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/pagination_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/panel_tools - 副本.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/panel_tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/panel_tools_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/passwordbox_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/passwordbox_open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait129x129.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait172x172-select.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait172x172.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait250x250.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait28x28.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait38x38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait43x43.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/portrait86x86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/progressbar-background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/searchbox_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/searchbox_navigate_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/set.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/slider_handle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/spinner_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tabs_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tabs_icons_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tabs_icons_white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tagbox_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/tree_icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/images/validatebox_warning.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/.idea/vcs.xml" />
@@ -219,95 +14,11 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/layout/main.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/layout/main2.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_2_2_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/AdminRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/Resource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/RoleResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/UserRole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/cache/UserServiceAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.easyui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/color.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/easyui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/columns-ext.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/columns-ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/group.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-dnd/datagrid-dnd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-dnd/datagrid-dnd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-filter/datagrid-filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-filter/datagrid-filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-bufferview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-bufferview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-defaultview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-groupview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-groupview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-dwrloader/dwrloader.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-dwrloader/dwrloader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-edatagrid/datagrid_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-edatagrid/editable-datagrid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-edatagrid/jquery.edatagrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/editable-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/jquery.etree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/jquery.etree.lang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-etree/tree_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/jquery.pivotgrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-portal/datagrid_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-portal/jquery.portal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-portal/portal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/jquery.ribbon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon-icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/content.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/datagrid_data1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/easyui-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/easyui-rtl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/rtl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-rtl/tree_data1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/jquery.texteditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/treegrid-dnd/treegrid-dnd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/treegrid-dnd/treegrid-dnd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/jquery.insdep-extend.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/insdep/master.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/themes/mobile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-material-design.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/ripples.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/artifacts/laySuperviseSystem_Web_exploded.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
@@ -1428,10 +1139,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/jquery.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/json2.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/vue.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/.idea/artifacts/ShiroExample_war_exploded.xml" afterPath="" />
@@ -1509,24 +1216,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MarqueeText/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../MarqueeText/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" afterPath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SuperviseSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SuperviseSystem_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuperviseSystem.iml" afterPath="$PROJECT_DIR$/SuperviseSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_downloader.py" afterPath="$PROJECT_DIR$/../dict_spider/html_downloader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_parser.py" afterPath="$PROJECT_DIR$/../dict_spider/html_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/spider_main.py" afterPath="$PROJECT_DIR$/../dict_spider/spider_main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/info.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/info.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.html" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1547,6 +1243,16 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db_supervise@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
@@ -1560,125 +1266,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdminServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-              <folding>
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="98">
+              <caret line="7" column="114" lean-forward="false" selection-start-line="7" selection-start-column="114" selection-end-line="7" selection-end-column="114" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-160">
-              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1547#1555#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-mapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <marker date="1487677586348" expanded="true" signature="667:755" ph="select * fro... t_admin" />
-                <marker date="1487677586348" expanded="true" signature="774:788" ph="select&gt; &lt;... " />
-                <marker date="1487677586348" expanded="true" signature="788:848" ph="select id=&quot;q... " />
-                <marker date="1487677586348" expanded="true" signature="859:892" ph="SELECT *from... t_admin" />
-                <marker date="1487677586348" expanded="true" signature="859:911" ph="SELECT *from... t_admin" />
-                <marker date="1487677586348" expanded="true" signature="997:1044" ph="SELECT *FROM... t_user" />
-                <marker date="1487677586348" expanded="true" signature="1142:1305" ph="INSERT INTO db_supervise.t_admin... " />
-                <marker date="1487677586348" expanded="true" signature="1407:1472" ph="UPDATE db_su... " />
-                <marker date="1487677586348" expanded="true" signature="1557:1604" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-mapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-42">
-              <caret line="15" column="81" lean-forward="true" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-              <folding>
-                <marker date="1487677586362" expanded="true" signature="664:751" ph="select * fro... t_user" />
-                <marker date="1487677586362" expanded="true" signature="854:886" ph="SELECT *from... t_user" />
-                <marker date="1487677586362" expanded="true" signature="990:1037" ph="SELECT *FROM... t_user" />
-                <marker date="1487677586362" expanded="true" signature="1134:1296" ph="INSERT INTO db_supervise.t_user... " />
-                <marker date="1487677586362" expanded="true" signature="1397:1461" ph="UPDATE db_su... " />
-                <marker date="1487677586362" expanded="true" signature="1546:1592" ph="DELETE FROM " />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1748,17 +1341,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/a.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/info.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_3.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Resource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/RoleResource.java" />
@@ -1799,6 +1386,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_5.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_6.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_7.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_8.sql" />
+        <option value="dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
       </list>
     </option>
   </component>
@@ -1929,6 +1522,156 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2008,22 +1751,22 @@
     <property name="SearchEverywhereHistoryKey" value="classpath:shiro.ini&#9;null&#9;null&#10;shiro.ini&#9;null&#9;null&#10;ehcache.xml&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\SuperviseSystem\web\js" />
+      <recent name="E:\GitHub\SuperviseSystem\web\css" />
+      <recent name="E:\GitHub\SuperviseSystem\src\main\java\com\wy\permission" />
+      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\config" />
+      <recent name="E:\GitHub\SuperviseSystem\src\main\resources\com\wy\bean" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wy.bean" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\SuperviseSystem\web\script" />
       <recent name="E:\GitHub\SuperviseSystem\web\script\jquery-easyui" />
       <recent name="E:\GitHub\SuperviseSystem\web" />
       <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\config" />
       <recent name="E:\GitHub\SuperviseSystem\src\main\resources\com.wy.bean\user" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wy.bean" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\SuperviseSystem\src\main\java\com\wy\permission" />
-      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\config" />
-      <recent name="E:\GitHub\SuperviseSystem\src\main\resources\com\wy\bean" />
-      <recent name="E:\GitHub\SuperviseSystem\web\js" />
-      <recent name="E:\GitHub\SuperviseSystem\web\css" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.37">
@@ -2561,12 +2304,12 @@
       <workItem from="1487556544410" duration="1216000" />
       <workItem from="1487578137762" duration="75000" />
       <workItem from="1487646189916" duration="9958000" />
-      <workItem from="1487664862645" duration="6681000" />
+      <workItem from="1487664862645" duration="8440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63130000" />
+    <option name="totallyTimeSpent" value="64889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2594,8 +2337,9 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.48033282" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.48591548" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.48591548" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2615,7 +2359,6 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5152225" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2656,21 +2399,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/ResourceDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml" />
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_role">
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -2679,439 +2412,618 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/resource-mapper.xml">
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_7.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/role-mapper.xml">
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_8.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/a.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="37" column="27" lean-forward="false" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#761#762#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-          </folding>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java">
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap-material-design.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/ripples.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/shiro.ini" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/realm/AuthorizingRealm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="118" column="16" lean-forward="false" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2.jar!/org/apache/shiro/spring/LifecycleBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#2133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/LifecycleBeanPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" column="108" lean-forward="false" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#545#546#0" expanded="false" />
-            <element signature="e#576#577#0" expanded="false" />
-            <element signature="e#624#625#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#704#705#0" expanded="false" />
-            <element signature="e#733#734#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-ehcache/1.3.2/shiro-ehcache-1.3.2.jar!/org/apache/shiro/cache/ehcache/EhCacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2-sources.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/RoleDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="7" column="114" lean-forward="false" selection-start-line="7" selection-start-column="114" selection-end-line="7" selection-end-column="114" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/ResourceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#566#567#0" expanded="false" />
-            <element signature="e#616#617#0" expanded="false" />
-            <element signature="e#664#665#0" expanded="false" />
-            <element signature="e#706#707#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#836#837#0" expanded="false" />
-            <element signature="e#883#884#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.6.RELEASE/spring-context-support-4.2.6.RELEASE.jar!/org/springframework/cache/ehcache/EhCacheManagerFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/啊.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#876#877#0" expanded="false" />
-            <element signature="e#911#912#0" expanded="false" />
-            <element signature="e#1076#1077#0" expanded="false" />
-            <element signature="e#1114#1115#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/cache/UserServiceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
-          <folding>
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/autoload.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <marker date="1487677586348" expanded="true" signature="667:755" ph="select * fro... t_admin" />
-            <marker date="1487677586348" expanded="true" signature="774:788" ph="select&gt; &lt;... " />
-            <marker date="1487677586348" expanded="true" signature="788:848" ph="select id=&quot;q... " />
-            <marker date="1487677586348" expanded="true" signature="859:892" ph="SELECT *from... t_admin" />
-            <marker date="1487677586348" expanded="true" signature="859:911" ph="SELECT *from... t_admin" />
-            <marker date="1487677586348" expanded="true" signature="997:1044" ph="SELECT *FROM... t_user" />
-            <marker date="1487677586348" expanded="true" signature="1142:1305" ph="INSERT INTO db_supervise.t_admin... " />
-            <marker date="1487677586348" expanded="true" signature="1407:1472" ph="UPDATE db_su... " />
-            <marker date="1487677586348" expanded="true" signature="1557:1604" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="15" column="81" lean-forward="true" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
-          <folding>
-            <marker date="1487677586362" expanded="true" signature="664:751" ph="select * fro... t_user" />
-            <marker date="1487677586362" expanded="true" signature="854:886" ph="SELECT *from... t_user" />
-            <marker date="1487677586362" expanded="true" signature="990:1037" ph="SELECT *FROM... t_user" />
-            <marker date="1487677586362" expanded="true" signature="1134:1296" ph="INSERT INTO db_supervise.t_user... " />
-            <marker date="1487677586362" expanded="true" signature="1397:1461" ph="UPDATE db_su... " />
-            <marker date="1487677586362" expanded="true" signature="1546:1592" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="49" column="56" lean-forward="false" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
-          <folding>
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/ShiroFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1547#1555#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
