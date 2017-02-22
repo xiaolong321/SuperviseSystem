@@ -19,7 +19,7 @@ body{
 }
 a,a:link,a:visited,a:hover,a:active{
 	text-decoration: none; cursor:pointer;
-	text-decoration:blink
+	text-decoration:blink;
 	outline:none;
 }
 select,input,label,button,a,a:link,a:visited,a:hover,a:active,a:focus,*:focus{outline:none; noFocusLine: expression(this.onFocus=this.blur());}

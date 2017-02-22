@@ -1,6 +1,7 @@
 package com.wy.realm;
 
 import com.wy.bean.User;
+import com.wy.common.bean.ControllerResult;
 import com.wy.service.UserService;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -65,6 +66,7 @@ public class MyRealm extends AuthorizingRealm {
         String username=authenticationToken.getPrincipal().toString();
         String password=new String((char[])authenticationToken.getCredentials());
         User user=userService.queryByNamePwd(username,password);
+        System.out.println(user.toString());
         if(user!=null){
             SimpleAuthenticationInfo info=new SimpleAuthenticationInfo(user,user.getPassword(),getName());
             info.setCredentialsSalt(ByteSource.Util.bytes(username.getBytes()));

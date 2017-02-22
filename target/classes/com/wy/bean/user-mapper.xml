@@ -8,10 +8,11 @@
         <result column="address" property="address"/>
         <result column="phone" property="phone"/>
         <result column="headicon" property="headicon"/>
+        <result column="email" property="email"/>
     </resultMap>
 
 
-    <select id="queryByNamePwd" resultMap="adminMap" parameterType="String">
+    <select id="queryByNamePwd" resultMap="userMap" parameterType="string">
         <![CDATA[
           select * from db_supervise.t_user where username=#{username} and password = #{password}
         ]]>
@@ -31,9 +32,9 @@
 
     <insert id="add" parameterType="user">
         <![CDATA[
-        INSERT INTO db_supervise.t_user(id, username, password, address, phone, headicon)
-         VALUES (uuid(),#{username}.#{password},#{address},#{phone},#{headicon})
-         ]]>
+        INSERT INTO db_supervise.t_user(id, username, password, address, phone, email,headicon)
+         VALUES (uuid(),#{username}.#{password},#{address},#{phone},#{email},#{headicon})
+        ]]>
     </insert>
 
     <insert id="update" parameterType="user">

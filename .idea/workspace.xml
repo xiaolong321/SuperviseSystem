@@ -14,11 +14,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/layout/main.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/layout/main2.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FragmentDemo/app/src/main/res/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap-material-design.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/material.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/ripples.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/artifacts/laySuperviseSystem_Web_exploded.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/compiler.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../laySuperviseSystem/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
@@ -1139,6 +1134,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/jquery.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/json2.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap-material-design.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/jquery-3.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/material.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/ripples.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/vue.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/.idea/artifacts/ShiroExample_war_exploded.xml" afterPath="" />
@@ -1218,7 +1219,30 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/bean/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.easyui.min.js" afterPath="$PROJECT_DIR$/web/js/jquery.easyui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/jquery.min.js" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/columns-ext.js" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/columns-ext/columns-ext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.js" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/jquery.pivotgrid.js" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/jquery.pivotgrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid.html" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data1.json" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data2.json" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/jquery.texteditor.js" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/jquery.texteditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.css" afterPath="$PROJECT_DIR$/web/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.css" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.svg" afterPath="$PROJECT_DIR$/web/js/themes/insdep/iconfont/iconfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/insdep/master.css" afterPath="$PROJECT_DIR$/web/js/themes/insdep/master.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/themes/mobile.css" afterPath="$PROJECT_DIR$/web/js/themes/mobile.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_downloader.py" afterPath="$PROJECT_DIR$/../dict_spider/html_downloader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_parser.py" afterPath="$PROJECT_DIR$/../dict_spider/html_parser.py" />
@@ -1253,6 +1277,34 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db_supervise@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="t_user" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db_supervise@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="t_admin" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
@@ -1266,11 +1318,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="114" lean-forward="false" selection-start-line="7" selection-start-column="114" selection-end-line="7" selection-end-column="114" />
+            <state relative-caret-position="112">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="99" column="12" lean-forward="false" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1281,47 +1365,48 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="jsf" />
+        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>org.springframework.web.context.ContextLoader</find>
-      <find>log4j</find>
-      <find>com.gs</find>
-      <find>&lt;im</find>
-      <find>&lt;img</find>
-      <find>src=&quot;images</find>
-      <find>logo-font android-slogan</find>
-      <find>src=&quot;images/</find>
-      <find>android-customized-section-image</find>
-      <find>images/</find>
-      <find>5.0</find>
-      <find>Phone</find>
-      <find>Phones</find>
-      <find>/js</find>
-      <find>themes</find>
-      <find>&lt;%=path %&gt;</find>
-      <find>t_admin</find>
-      <find>admin</find>
-      <find>spring-context-support</find>
-      <find>aspectjrt</find>
-      <find>org.aspectj</find>
-      <find>org.apache.shiro</find>
-      <find>ShiroFilterFactoryBean</find>
-      <find>shiroFilter</find>
       <find>org.apache.shiro.spring.web.ShiroFilterFactoryBean</find>
       <find>ehCacheManager</find>
       <find>cacheManager</find>
       <find>doGetAuthenticationInfo</find>
       <find>CharacterEncodingFilter</find>
+      <find>navbar-collapse collapse</find>
+      <find>jumbotron</find>
+      <find>&lt;property name=&quot;filterChainDefinitions&quot;&gt;             &lt;value&gt;                 &lt;!--anon 表示匿名访问，不需要认证以及授权--&gt;                 /loginAdmin=anon                  &lt;!--authc表示需要认证 没有进行身份认证是不能进行访问的--&gt;                 /admin*=authc                   /student=roles[teacher]                 /teacher=perms[&quot;user:create&quot;]             &lt;/value&gt;         &lt;/property&gt;</find>
+      <find>filterChainDefinitions</find>
+      <find>class=&quot;easyui-textbox&quot;</find>
+      <find>UsernamePasswordToken</find>
+      <find>admin</find>
+      <find>username</find>
+      <find>匿名</find>
+      <find>/js</find>
+      <find>修改资料</find>
+      <find>&lt;img id=&quot;verImg&quot; src=&quot;&lt;%=path %&gt;/kaptch&quot; onclick=&quot;this.src='&lt;%=path %&gt;/kaptch?time=Math.random();'&quot;/&gt;</find>
+      <find>navigate-user-modify</find>
+      <find>navigate-user-panel</find>
+      <find>theme-login-select</find>
+      <find>theme-login-form</find>
+      <find>theme-login-text</find>
+      <find>Code</find>
+      <find>JQuery EasyUI</find>
+      <find>images</find>
+      <find>logo.png</find>
+      <find>login.png</find>
+      <find>image</find>
+      <find>width: 498px;</find>
+      <find>width: 468px;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1341,20 +1426,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_3.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Resource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/RoleResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/UserRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/AdminRole.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_4.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/ResourceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/ResourceDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/ResourceServiceImpl.java" />
@@ -1368,30 +1439,44 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/RoleDAO.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/啊.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_5.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_6.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_7.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_8.sql" />
+        <option value="dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin" />
+        <option value="$PROJECT_DIR$/web/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/util/MD5Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
+        <option value="$PROJECT_DIR$/web/script/admin/user.js" />
+        <option value="$PROJECT_DIR$/web/script/admin/admin.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_5.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_6.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_7.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_8.sql" />
-        <option value="dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
+        <option value="$PROJECT_DIR$/web/js/themes/insdep/default_theme.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
+        <option value="$PROJECT_DIR$/web/script/user/user.js" />
+        <option value="$PROJECT_DIR$/web/js/themes/insdep/easyui.css" />
+        <option value="$PROJECT_DIR$/web/js/themes/insdep/master.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
       </list>
     </option>
   </component>
@@ -1485,7 +1570,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1614,64 +1698,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1691,14 +1717,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1730,13 +1748,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.18874173" />
     <property name="project.structure.side.proportion" value="0.36020407" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1748,28 +1767,48 @@
     <property name="settings.editor.splitter.proportion" value="0.205298" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="editor.config.accepted" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="classpath:shiro.ini&#9;null&#9;null&#10;shiro.ini&#9;null&#9;null&#10;ehcache.xml&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="insdep\images&#9;FILE&#9;file://E:/GitHub/SuperviseSystem/web/js/themes/insdep/images/append-images.png&#10;logo.png&#9;FILE&#9;file://E:/GitHub/SuperviseSystem/web/js/themes/insdep/icons/lock_go.png&#10;JQuery EasyUI&#9;FILE&#9;file://E:/GitHub/SuperviseSystem/web/js/jquery.easyui.min.js&#10;classpath:shiro.ini&#9;null&#9;null&#10;shiro.ini&#9;null&#9;null&#10;ehcache.xml&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\SuperviseSystem\web\js" />
-      <recent name="E:\GitHub\SuperviseSystem\web\css" />
-      <recent name="E:\GitHub\SuperviseSystem\src\main\java\com\wy\permission" />
-      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\config" />
-      <recent name="E:\GitHub\SuperviseSystem\src\main\resources\com\wy\bean" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wy.bean" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\SuperviseSystem\web\script\user" />
       <recent name="E:\GitHub\SuperviseSystem\web\script" />
       <recent name="E:\GitHub\SuperviseSystem\web\script\jquery-easyui" />
       <recent name="E:\GitHub\SuperviseSystem\web" />
       <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\config" />
-      <recent name="E:\GitHub\SuperviseSystem\src\main\resources\com.wy.bean\user" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wy.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\pager" />
+      <recent name="E:\GitHub\SuperviseSystem\web\js" />
+      <recent name="E:\GitHub\SuperviseSystem\web\uploads\images\headicon" />
+      <recent name="E:\GitHub\SuperviseSystem\web\js\plugin\pnotify" />
+      <recent name="E:\GitHub\SuperviseSystem\web\js\themes\insdep" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.37">
+    <configuration default="false" name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wy.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wy.common.util.MD5Util" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SuperviseSystem" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -2162,7 +2201,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 8.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
         <artifact name="SuperviseSystem:war exploded">
           <settings>
@@ -2267,9 +2306,15 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.37" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MD5Util" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.MD5Util" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -2305,11 +2350,12 @@
       <workItem from="1487578137762" duration="75000" />
       <workItem from="1487646189916" duration="9958000" />
       <workItem from="1487664862645" duration="8440000" />
+      <workItem from="1487721845220" duration="28655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64889000" />
+    <option name="totallyTimeSpent" value="93544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2322,30 +2368,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33768353" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" x="22" y="260" width="1322" height="207" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43230015" sideWeight="0.5173979" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42577487" sideWeight="0.526475" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33278957" sideWeight="0.48260212" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.48033282" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.365416" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.48033282" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.48591548" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19288956" sideWeight="0.47727272" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.51038575" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.52272725" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54649264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2359,6 +2404,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5152225" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2390,7 +2436,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2400,261 +2446,164 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.6.RELEASE/spring-aop-4.2.6.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="104" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="34" column="103" lean-forward="true" selection-start-line="34" selection-start-column="103" selection-end-line="34" selection-end-column="103" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="104" lean-forward="false" selection-start-line="26" selection-start-column="104" selection-end-line="26" selection-end-column="104" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="50" column="58" lean-forward="true" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="29" column="103" lean-forward="true" selection-start-line="29" selection-start-column="103" selection-end-line="29" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_7.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/AdminRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_8.sql">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2662,267 +2611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/web/js/plugin/justgage/raphael-2.1.4.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2930,7 +2619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/web/js/plugin/justgage/justgage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2938,7 +2627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap-material-design.min.css">
+    <entry file="file://$PROJECT_DIR$/web/js/plugin/Highcharts/highcharts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2946,7 +2635,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/ripples.min.js">
+    <entry file="file://$PROJECT_DIR$/web/js/plugin/ueditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/plugin/cropper/dist/cropper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2954,76 +2651,239 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/web/js/plugin/cropper/cropper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/web/uploads/images/headicon/login.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/plugin/pnotify/pnotify.custom.min.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/autoload.properties">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/easyui-lang-en.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2522#2523#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/default_theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="480" column="141" lean-forward="false" selection-start-line="480" selection-start-column="141" selection-end-line="480" selection-end-column="141" />
+          <folding>
+            <marker date="1487761549118" expanded="true" signature="576:600" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.easyui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <marker date="1481507654000" expanded="true" signature="86774:86786" ph="..." />
+            <marker date="1481507654000" expanded="true" signature="86936:86948" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/images/blank.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/icons/lock_go.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/easyui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/images/append-images.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <marker date="1487765147322" expanded="true" signature="599:623" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="35" column="89" lean-forward="true" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
+          <folding>
+            <marker date="1487754251862" expanded="true" signature="713:800" ph="select * fro... t_user" />
+            <marker date="1487754251862" expanded="true" signature="903:935" ph="SELECT *from... t_user" />
+            <marker date="1487754251862" expanded="true" signature="1039:1086" ph="SELECT *FROM... t_user" />
+            <marker date="1487754251862" expanded="true" signature="1183:1360" ph="INSERT INTO db_supervise.t_user... " />
+            <marker date="1487754251862" expanded="true" signature="1460:1524" ph="UPDATE db_su... " />
+            <marker date="1487754251862" expanded="true" signature="1609:1655" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="102" column="41" lean-forward="false" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#3491#3492#0" expanded="true" />
+            <element signature="e#3525#3526#0" expanded="true" />
+            <element signature="e#3674#3675#0" expanded="true" />
+            <element signature="e#3701#3702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/script/user/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="166" column="12" lean-forward="false" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/script/admin/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#dd#0;n#dl#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#hgroup#0;n#dd#1;n#dl#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#dd#2;n#dl#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#dd#3;n#dl#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="114" lean-forward="false" selection-start-line="7" selection-start-column="114" selection-end-line="7" selection-end-column="114" />
+        <state relative-caret-position="112">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="99" column="12" lean-forward="false" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3046,7 +2906,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (SuperviseSystem)|Web</last-edited>
+          <last-edited>Spring (SuperviseSystem)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

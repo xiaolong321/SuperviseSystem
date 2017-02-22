@@ -1,65 +1,75 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    String path=request.getContextPath();
+    String path = request.getContextPath();
 %>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>用户登陆</title>
-    <script>
-        function login() {
-            if ($("#login_form").form("validate")) {
-                $.post(contextPath + "/user/login", $("#login_form").serialize(), function (data) {
-                    var result = data.result;
-                    if (result == "success") {
-                        window.location.href = contextPath + "/user/home";
-                    } else {
-                        $("#errMsg").html(data.message);
-                    }
-                });
-            }
+    <link href="<%=path%>/js/themes/insdep/easyui.css" rel="stylesheet" type="text/css">
+    <link href="<%=path%>/js/themes/insdep/master.css" rel="stylesheet" type="text/css">
+    <link href="<%=path%>/js/themes/insdep/icon.css" rel="stylesheet" type="text/css">
+    <link href="<%=path%>/js/themes/insdep/default_theme.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="<%=path%>/js/jquery.min.js"></script>
+    <script type="text/javascript" src="<%=path%>/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="<%=path%>/js/themes/insdep/jquery.insdep-extend.min.js"></script>
+    <script type="text/javascript" src="<%=path%>/script/user/user.js"></script>
+    <style type="text/css">
+        .layout-panel-west {
+            border-right: 1px solid #c5c5c5;
         }
-    </script>
+    </style>
 </head>
-<body>
-<div class="login_container">
-    <div class="login_div input_normal">
-        <div class="easyui-panel" title="管理员登录" style="width:240px;padding:10px;">
-            <div id="errMsg" style="color: red;size: 15px"></div>
-            <form:form id="login_form" method="post" modelAttribute="user">
-                <table>
-                    <tr>
-                        <td>邮箱:</td>
-                        <td><input type="text" name="username" class="easyui-textbox" data-options="required:true"/></td>
-                    </tr>
-                    <tr>
-                        <td>密码:</td>
-                        <td><input type="password" name="password" class="easyui-textbox" data-options="required:true"/></td>
-                    </tr>
-                    <tr>
-                        <td>验证码:</td>
-                        <td><input type="text" name="checkCode" class="easyui-textbox" data-options="required:true"/></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-
-                        <td><img id="verImg" src="<%=path %>/kaptch" onclick="this.src='<%=path %>/kaptch?time=Math.random();'"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <button type="button" onclick="login();">登录</button>
-                        </td>
-                    </tr>
-                </table>
-            </form:form>
+<body class="theme-login-layout">
+<div class="theme-login-header"></div>
+<div id="theme-login-form">
+    <div class="QRcode"></div>
+    <div class="QRcode-layout hide">
+        <div class="QRcode-layout-close"></div>
+        <div class="QRcode-header">
+            <b>APP扫码登录</b>
+            <span>暂时没有app，不给你扫~\(≧▽≦)/~啦啦啦</span>
         </div>
+        <div class="QRcode-content"><img src="/uploads/images/headicon/傲娇.jpg" width="176px"></div>
     </div>
-    <div style="clear:both;"></div>
+    <form:form id="login_form" class="theme-login-form" method="post" modelAttribute="user">
+        <dl>
+            <dt><img src="/uploads/images/headicon/login.jpg"></dt>
+            <dd>
+                <select id="theme-login-select" class="theme-login-select" style="width:100%;">
+                    <option value="0">请选择用户类型</option>
+                    <option value="1">教师</option>
+                    <option value="2">学生</option>
+                </select>
+            </dd>
+            <dd>
+                <hgroup class="group-mail">
+                    <input id="mail" name="mail"/>
+                    <label>@</label>
+                    <select id="mail-add" style="width:145px;">
+                        <option value="0">qq.com</option>
+                        <option value="1">163.com</option>
+                        <option value="2">126.com</option>
+                        <option value="3">gmail.com</option>
+                    </select>
+                </hgroup>
+            </dd>
+            <dd><input id="username" name="username" class="theme-login-text" style="width:100%;"/></dd>
+            <dd><input id="password" name="password" class="theme-login-text" style="width:100%;"/></dd>
+            <dd>
+                <a class="submit" onclick="login();">登陆</a>
+                <a class="easyui-linkbutton button" onclick="userRegister();">注册</a>
+                <a class="easyui-linkbutton button" onclick="changePwd();">忘记密码？</a>
+            </dd>
+        </dl>
+    </form:form>
+</div>
+<%--弹出修改页面的面板--%>
+<div class="navigate-user-panel">
+    <dl>
+
+    </dl>
 </div>
 </body>
 </html>

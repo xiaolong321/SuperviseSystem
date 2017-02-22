@@ -10,7 +10,7 @@ public class User {
     private String password;
     private String email;
     private String address;
-    private int phone;
+    private long phone;
     private String headicon;
 
     public String getId() {
@@ -53,11 +53,11 @@ public class User {
         this.address = address;
     }
 
-    public int getPhone() {
+    public long getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(long phone) {
         this.phone = phone;
     }
 
