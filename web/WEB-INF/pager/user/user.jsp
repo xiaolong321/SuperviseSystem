@@ -8,10 +8,13 @@
     <link href="<%=path%>/js/themes/insdep/easyui.css" rel="stylesheet" type="text/css">
     <link href="<%=path%>/js/themes/insdep/master.css" rel="stylesheet" type="text/css">
     <link href="<%=path%>/js/themes/insdep/icon.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="<%=path %>/css/site_main.css"/>
+    <script type="text/javascript" src="<%=path%>/script/user/user.js"></script>
+    <script type="text/javascript" src="<%=path%>/script/site_easyui.js"></script>
     <script type="text/javascript" src="<%=path%>/js/jquery.min.js"></script>
     <script type="text/javascript" src="<%=path%>/js/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="<%=path%>/js/themes/insdep/jquery.insdep-extend.min.js"></script>
-    <script type="text/javascript" src="<%=path%>/script/user/user.js"></script>
+
     <style type="text/css">
         .layout-panel-west {
             border-right: 1px solid #c5c5c5;
@@ -75,7 +78,7 @@
                     <div data-options="name:'sports'">作者</div>
                     <div data-options="name:'sports'">内容</div>
                 </div>
-                <select id="cc1" class="easyui-combobox navigate-combobox" name="dept" style="width:120px;">
+                <select id="cc" class="easyui-combobox navigate-combobox" name="dept" style="width:120px;">
                     <option>选择样式</option>
                     <option>Insdep</option>
                     <option>Bootstrap</option>
@@ -86,32 +89,32 @@
             </div>
         </div>
     </div>
-    <div data-options="region:'west',split:true,border:true" title="操作" style="width:240px;">
-        <div title="用户管理">
-            <ul class="easyui-tree">
-                <li><span><a href="#">用户信息面板1</a></span>
-                </li>
-                <li><span><a href="#">用户信息面板2</a></span>
-                </li>
-                <li><span><a href="#">用户综合面板3</a></span>
-                </li>
-            </ul>
+    <div data-options="region:'west',split:true,title:'功能菜单'" class="west" style="width: 200px;">
+        <div class="easyui-accordion" data-options="border:false" style="width: 200px;">
+            <div title="用户管理" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('所有用户','<%=path%>/user/list_page');">所有用户</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div title="用户管理">
-            <ul class="easyui-tree">
-                <li><span><a href="#">用户信息面板1</a></span>
-                </li>
-                <li><span><a href="#">用户信息面板2</a></span>
-                </li>
-                <li><span><a href="#">用户综合面板3</a></span>
-                </li>
-            </ul>
+    </div>
+    <div id="mainPanle" data-options="region:'center',border:true">
+        <div id="tabs" class="easyui-tabs" data-options="fit:true,border:false">
+            <div title="主页">
+
+            </div>
         </div>
     </div>
 </div>
 </div>
-
-
 <!--第三方插件加载-->
 <script src="<%=path%>/js/plugin/justgage/raphael-2.1.4.min.js"></script>
 <script src="<%=path%>/js/plugin/justgage/justgage.js"></script>
@@ -121,5 +124,14 @@
 <link href="<%=path%>/js/plugin/cropper/cropper.min.css" rel="stylesheet" type="text/css">
 <script src="<%=path%>/js/plugin/cropper/cropper.min.js"></script>
 <!--第三方插件加载结束-->
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?76386f607e79e997458a326997f1be87";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
 </body>
 </html>

@@ -87,3 +87,13 @@ target/classes/com/wy/service/
 target/classes/rebel.xml
 target/generated-sources/
 web/uploads/
+.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.corrupted.20170223-032707.xml
+target/classes/com/wy/cache/
+target/classes/com/wy/filter/
+target/classes/com/wy/permission/
+target/classes/com/wy/realm/
+target/maven-archiver/
+target/maven-status/
+web/js/themes/insdep/expand/columns-ext/__MACOSX/
+web/js/themes/insdep/expand/jquery-easyui-pivotgrid/__MACOSX/
+web/js/themes/insdep/expand/jquery-easyui-texteditor/__MACOSX/

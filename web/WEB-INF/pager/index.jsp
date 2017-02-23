@@ -3,9 +3,10 @@
     String path = request.getContextPath();
 %>
 <head>
+    <title>首页</title>
 </head>
 <body>
-    <a href="/user/loginPager">登陆</a>
-    <a href="/user/registerPager">注册</a>
+    <a href="<%=path%>/user/loginPager">登陆</a>
+    <a href="<%=path%>/user/registerPager">注册</a>
 </body>
 </html>
