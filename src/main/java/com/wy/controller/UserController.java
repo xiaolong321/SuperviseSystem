@@ -58,7 +58,7 @@ public class UserController {
      * 跳转到用户信息的页面
      * @return
      */
-    @RequestMapping(value = "userInfoPage",method = RequestMethod.GET)
+    @RequestMapping(value = "userInfoPage",method = RequestMethod.POST)
     public String toUserinfo(){
         return "user/info";
     }
