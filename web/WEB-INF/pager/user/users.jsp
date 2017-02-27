@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    String path=request.getContextPath();
+    String path = request.getContextPath();
 %>
 <html>
 <head>
@@ -21,22 +21,14 @@
 </head>
 <body>
 <table id="list" class="easyui-datagrid" toolbar="#tb" style="height:100%;"
-       data-options="
-        url:'<%=path %>/user/serach_page',
-        method:'post',
-				rownumbers:true,
-				singleSelect:true,
-				autoRowHeight:false,
-				pagination:true,
-				border:false,
-				pageSize:20,
-				rowStyler: function(index,row){
-					if (row.role == 'super'){
-						return 'background-color:#ccc;';
-					} else if (row.status == 'N') {
-					    return 'color:red;';
-					}
-				}">
+       data-options="singleSelect:false,
+			collapsible:true,
+			url:'<%=path %>/user/serach_page',
+			method:'post',
+			rownumbers:true,
+			autoRowHeight:true,
+			pagination:true,
+			pageSize:20">
     <thead>
     <tr>
         <th field="id" checkbox="true" width="50">用户id</th>
@@ -47,17 +39,29 @@
     </tr>
     </thead>
 </table>
-<div>
+<div id="tb" style="padding:5px;height:auto">
     <a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-add" plain="true"
-       onclick="openWinFitPos('addWin');">添加</a>
+       onclick="showAddWin();">添加</a>
     <a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-edit" plain="true"
-       onclick="showEdit();">修改</a>
-    <a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-edit" plain="true"
-       onclick="showUpdatePwd();">修改密码</a>
-    <a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-remove" plain="true"
-       onclick="inactive()">冻结</a>
-    <a href="javascript:void(0);" class="easyui-linkbutton" iconCls="icon-ok" plain="true"
-       onclick="active()">激活</a>
+       onclick="showEditWin();">修改</a>
+</div>
+
+<%--添加商品--%>
+<div id="addWin" class="easyui-window" title="添加用户" data-options="closed:true"
+     style="width:500px;height:300px; align: center;">
+    <form:form id="addForm" modelAttribute="product" method="post">
+        <table>
+
+        </table>
+    </form:form>
+</div>
+
+<div id="editWin" class="easyui-window" title="修改用户" data-options="closed:true" style="width:500px;height:300px;">
+    <form:form id="addForm" modelAttribute="product" method="post">
+        <table>
+
+        </table>
+    </form:form>
 </div>
 </body>
 </html>

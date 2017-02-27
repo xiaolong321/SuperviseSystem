@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>用户注册</title>
 </head>
 <body>
-
+    <form>
+        <div></div>
+    </form>
 </body>
 </html>

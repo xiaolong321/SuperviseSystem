@@ -43,13 +43,27 @@ function userRegister() {
     });
 }
 
+//修改账号信息
+function editInfo() {
+    if ($("#editForm").form("validate")) {
+        $.post(contentPath + "/user/editInfo", $("#editForm").serialize(), function (data) {
+            if (data.resutl == "success") {
+                $("#editWin").window("close");
+                $.messager.alert("提示", "修改商品成功", "info");
+            } else {
+
+            }
+        });
+    }
+}
+
 function userInfoPage() {
     window.location.href = contentPath + "/user/userInfoPage";
 }
 
 
-function doSearch(value,name){
-    alert('You input: ' + value+'('+name+')');
+function doSearch(value, name) {
+    alert('You input: ' + value + '(' + name + ')');
 }
 
 /**
@@ -109,18 +123,18 @@ $(function () {
     // mailselect.panel({cls: "theme-mail-select-panel"});
 
     $('#username').textbox({
-        prompt: 'Account or number',
+        prompt: '用户名或者账号',
         required: true,
         missingMessage: "请输入用户名"
     });
     $('#password').textbox({
         type: "password",
-        prompt: 'Password',
+        prompt: '输入你的密码',
         required: true,
         missingMessage: "请输入密码"
     });
     $('#code').textbox({
-        prompt: 'Code',
+        prompt: '验证码',
         required: true,
         missingMessage: "请输入验证码"
     })
@@ -165,5 +179,14 @@ $(function () {
 
     /*验证码tooltip*/
 })
+
+
+/**
+ * 更换皮肤的js
+ */
+function changeTheme() {
+    var str = ($('#cc1').combobox('getValue'));
+    alert(str);
+};
 
 

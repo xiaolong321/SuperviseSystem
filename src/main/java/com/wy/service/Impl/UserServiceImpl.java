@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.io.Serializable;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Administrator on 2/15/2017.
@@ -39,15 +40,15 @@ public class UserServiceImpl implements UserService {
         userDAO.deleteById(id);
     }
 
-    public List<com.wy.bean.Resource> queryAllResource(String userId) {
-        return userDAO.queryAllResource(userId);
+    public User queryByUsername(@Param("username") String username) {
+        return userDAO.queryByUsername(username);
     }
 
-    public List<String> queryRoleSnByUser(String userId) {
-        return userDAO.queryRoleSnByUser(userId);
+    public Set<String> queryRoles(String username) {
+        return userDAO.queryRoles(username);
     }
 
-    public User queryByNamePwd(@Param("username") String username, @Param("password") String password) {
-        return userDAO.queryByNamePwd(username,password);
+    public Set<String> queryPermissions(String username) {
+        return userDAO.queryPermissions(username);
     }
 }

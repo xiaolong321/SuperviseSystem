@@ -5,7 +5,7 @@
 <html>
 <head>
     <title>用户中心</title>
-    <link href="/js/themes/insdep/easyui.css" rel="stylesheet" type="text/css">
+    <link id="easyuiThemes" href="/js/themes/insdep/easyui.css" rel="stylesheet" type="text/css">
     <link href="/js/themes/insdep/default_theme.css" rel="stylesheet" type="text/css">
     <link href="/js/themes/insdep/master.css" rel="stylesheet" type="text/css"/>
     <link href="/css/site_main.css" rel="stylesheet" type="text/css"/>
@@ -14,11 +14,6 @@
     <script type="text/javascript" src="/js/themes/insdep/jquery.insdep-extend.min.js"></script>
     <script type="text/javascript" src="/script/user/user.js"></script>
     <script type="text/javascript" src="/script/site_easyui.js"></script>
-    <style type="text/css">
-        .layout-panel-west {
-            border-right: 1px solid #c5c5c5;
-        }
-    </style>
 </head>
 <body>
 <div id="master-layout">
@@ -29,14 +24,12 @@
                    data-options="menu:'.theme-navigate-user-panel'">${sessionScope.user.username}</a>
                 <a href="#" class="easyui-menubutton" data-options="menu:'#mm3',hasDownArrow:false">消息<span
                         class="badge color-default">15</span></a>
-
                 <select id="cc1" class="easyui-combobox theme-navigate-combobox" name="dept" style="width:120px;">
                     <option>选择样式</option>
-                    <option>Insdep</option>
-                    <option>Bootstrap</option>
-                    <option>Gray</option>
-                    <option>Metro</option>
-                    <option>Material</option>
+                    <option value="insdep">insdep</option>
+                    <option value="bootstrap">bootstrap</option>
+                    <option value="material">material</option>
+                    <option value="metro">metro</option>
                 </select>
 
                 <div id="mm3" class="theme-navigate-menu-panel" style="width:180px;">
@@ -57,21 +50,12 @@
                             <p>手机号码：<i class="text-success">${sessionScope.user.phone}</i></p>
                         </dd>
                         <dt>
-                            <a class="theme-navigate-user-modify">修改资料</a>
-                            <a class="theme-navigate-user-logout">注销</a>
+                            <a class="theme-navigate-user-logout" onclick="logout();">注销</a>
                         </dt>
                     </dl>
                 </div>
             </div>
             <div class="right">
-                <select id="cc2" class="easyui-combobox theme-navigate-combobox" name="dept" style="width:180px;">
-                    <option>Choose a language</option>
-                    <option>Chinese</option>
-                    <option>English</option>
-                    <option>Korean</option>
-                    <option>Japanese</option>
-                    <option>Arabic</option>
-                </select>
                 <input class="easyui-searchbox theme-navigate-search"
                        data-options="prompt:'输入搜索的关键词..',menu:'#mm',searcher:doSearch" style="width:300px"></input>
                 <a href="#" class="easyui-menubutton theme-navigate-more-button"
@@ -108,15 +92,135 @@
                     </li>
                 </ul>
             </div>
+            <div title="权限和角色" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('角色管理','/user/role_list');">角色管理</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div title="用户信息" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改用户信息','/user/role_list');">修改用户信息</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改头像','/user/role_list');">修改头像</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改头像1','/user/role_list');">修改头像</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改头像2','/user/role_list');">修改头像</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div id="mainPanle" data-options="region:'center',border:true">
         <div id="tabs" class="easyui-tabs" data-options="fit:true,border:false">
             <div title="主页">
+                <div class="theme-user-info-panel">
+                    <div class="left">
+                        <img src="/images/headicon/headicon.jpg" width="86" height="86">
+                    </div>
+                    <div class="right">
+                        <style>
+                            .gauge {
+                                    width: 130px;
+                                    height: 130px;
+                            }
+                        </style>
+                        <script>
+                            $(function () {
 
+                                var dflt = {
+                                    min: 0,
+                                    max: 2800,
+                                    donut: true,
+                                    gaugeWidthScale: 0.6,
+                                    counter: true,
+                                    hideInnerShadow: true
+                                }
+                                var gg1 = new JustGage({
+                                    id: 'gg1',
+                                    value: 125,
+                                    defaults: dflt
+                                });
+
+                                var gg2 = new JustGage({
+                                    id: 'gg2',
+                                    defaults: dflt
+                                });
+                                var gg3 = new JustGage({
+                                    id: 'gg3',
+                                    defaults: dflt
+                                });
+                                var gg4 = new JustGage({
+                                    id: 'gg4',
+                                    defaults: dflt
+                                });
+
+                            });
+                        </script>
+                        <ul>
+                            <li>
+                                <div id="gg1" class="gauge" data-value="250"></div>
+                                <span>我的数据</span></li>
+                            <li>
+                                <div id="gg2" class="gauge" data-value="2025"></div>
+                                <span>我的数据</span></li>
+                            <li>
+                                <div id="gg3" class="gauge" data-value="115"></div>
+                                <span>我的数据</span></li>
+                            <li>
+                                <div id="gg4" class="gauge" data-value="687"></div>
+                                <span>我的数据</span></li>
+                        </ul>
+                    </div>
+                    <div class="center">
+                        <h1>${sessionScope.user.username}<span class="color-warning badge">未认证</span></h1>
+                        <h2>管理员</h2>
+                        <dl>
+                            <dt>${sessionScope.user.email}</dt>
+                            <dd>${sessionScope.user.phone}</dd>
+                        </dl>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <script>
     $(function () {
@@ -125,33 +229,10 @@
         $('#master-layout').layout({
             fit: true/*布局框架全屏*/
         });
-
-        $(".theme-navigate-user-modify").on("click", function () {
-            $('.theme-navigate-user-panel').menu('hide');
-            $.insdep.window({id: "personal-set-window", href: "userInfoPage", title: "修改资料"});
-
-        });
-        //$.insdep.control("list.html");
-
-
         var cc1 = $('#cc1').combo('panel');
         cc1.panel({cls: "theme-navigate-combobox-panel"});
         var cc2 = $('#cc2').combo('panel');
         cc2.panel({cls: "theme-navigate-combobox-panel"});
-
-
-        /*$("#open-layout").on("click",function(){
-         var option = {
-         "region":"west",
-         "split":true,
-         "title":"title",
-         "width":180
-         };
-         $('#master-layout').layout('add', option);
-
-         });*/
-
-
     });
     function doSearch(value, name) {
         alert('You input: ' + value + '(' + name + ')');

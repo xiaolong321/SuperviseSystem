@@ -30,7 +30,7 @@
         </div>
         <div class="QRcode-content"><img src="/images/headicon/傲娇.jpg" width="176px"></div>
     </div>
-
+    <p id="errMsg" style="color: red;"></p>
     <form:form id="login_form" class="theme-login-form" method="post" modelAttribute="user">
         <dl>
             <dt><img src="/images/headicon/login.jpg"></dt>
@@ -38,11 +38,13 @@
             <dd><input id="password" name="password" class="theme-login-text" style="width:100%;"/></dd>
             <dd>
                 <a class="submit" onclick="login();">登陆</a>
-                <a class="easyui-linkbutton button" onclick="userRegister();">注册</a>
-                <a class="easyui-linkbutton button" onclick="changePwd();">忘记密码？</a>
+                <a class="easyui-linkbutton button" href="/user/registerPager">注册</a>
+                <a class="easyui-linkbutton button" href="#">忘记密码？</a>
             </dd>
         </dl>
     </form:form>
 </div>
+
+
 </body>
 </html>

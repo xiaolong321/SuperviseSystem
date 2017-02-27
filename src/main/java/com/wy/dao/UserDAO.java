@@ -1,11 +1,11 @@
 package com.wy.dao;
 
-import com.wy.bean.Resource;
 import com.wy.bean.User;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by Administrator on 2/15/2017.
@@ -13,24 +13,24 @@ import java.util.List;
 @Repository
 public interface UserDAO extends BaseDAO<User,String>{
     /**
-     * 查询该id的用户有什么对应的权限
-     * @param userId
-     * @return
-     */
-    public List<Resource> queryAllResource(String userId);
-
-    /**
-     * 查询该id的用户的角色是什么
-     * @param userId
-     * @return
-     */
-    public List<String> queryRoleSnByUser(String userId);
-
-    /**
-     * 查询是否存在账号密码验证注一致的账号
+     * 验证账号密码
      * @param username
-     * @param password
      * @return
      */
-    public User queryByNamePwd(@Param("username") String username, @Param("password") String password);
+    public User queryByUsername(@Param("username") String username);
+
+    /**
+     * 根据id查询该用户的所有的角色，用户角色验证。
+     * @param id
+     * @return
+     */
+    public Set<String> queryRoles(String id);
+
+
+    /**
+     *根据id查询该用户所拥有的权限，用于权限判断。
+     * @param id
+     * @return
+     */
+    public Set<String> queryPermissions(String id);
 }

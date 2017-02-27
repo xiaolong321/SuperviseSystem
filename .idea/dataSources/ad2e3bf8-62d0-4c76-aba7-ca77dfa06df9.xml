@@ -25,201 +25,82 @@
     <schema id="19" parent="1" name="sys"/>
     <schema id="20" parent="1" name="test"/>
     <schema id="21" parent="1" name="ssm_shiro"/>
-    <table id="22" parent="2" name="t_admin"/>
-    <table id="23" parent="2" name="t_admin_role"/>
-    <table id="24" parent="2" name="t_resource"/>
-    <table id="25" parent="2" name="t_role"/>
-    <table id="26" parent="2" name="t_role_resource"/>
-    <table id="27" parent="2" name="t_user"/>
-    <table id="28" parent="2" name="t_user_role"/>
-    <column id="29" parent="22" name="id">
+    <table id="22" parent="2" name="t_permission"/>
+    <table id="23" parent="2" name="t_role"/>
+    <table id="24" parent="2" name="t_user"/>
+    <column id="25" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="22" name="permissionName">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="22" name="roleId">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="28" parent="22" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="29" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="30" parent="23" name="roleName">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="31" parent="23" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="24" name="id">
       <Position>1</Position>
       <DataType>varchar(36)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="30" parent="22" name="username">
+    <column id="33" parent="24" name="username">
       <Position>2</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="31" parent="22" name="password">
+    <column id="34" parent="24" name="password">
       <Position>3</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="32" parent="22" name="address">
+    <column id="35" parent="24" name="address">
       <Position>4</Position>
       <DataType>varchar(50)|0</DataType>
     </column>
-    <column id="33" parent="22" name="phone">
+    <column id="36" parent="24" name="phone">
       <Position>5</Position>
       <DataType>bigint(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="34" parent="22" name="headicon">
+    <column id="37" parent="24" name="headicon">
       <Position>6</Position>
       <DataType>varchar(100)|0</DataType>
     </column>
-    <column id="35" parent="22" name="email">
+    <column id="38" parent="24" name="email">
       <Position>7</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="36" parent="22" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="37" parent="23" name="id">
-      <Position>1</Position>
-      <Comment>用户角色关联表 ID</Comment>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
+    <column id="39" parent="24" name="role_id">
+      <Position>8</Position>
+      <DataType>int(11)|0</DataType>
     </column>
-    <column id="38" parent="23" name="admin_id">
-      <Position>2</Position>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="39" parent="23" name="role_id">
-      <Position>3</Position>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="40" parent="23" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="41" parent="24" name="id">
-      <Position>1</Position>
-      <Comment>资源 ID</Comment>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="42" parent="24" name="name">
-      <Position>2</Position>
-      <Comment>资源名称,一般是中文名称(给人看的)</Comment>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="43" parent="24" name="permission">
-      <Position>3</Position>
-      <Comment>资源权限字符串,一般是 Shiro 默认的通配符表示(给人看的)</Comment>
-      <DataType>varchar(40)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="44" parent="24" name="url">
-      <Position>4</Position>
-      <Comment>资源 url 表示,我们设计的系统让 Shiro 通过这个路径字符串去匹配浏览器中显示的路径</Comment>
-      <DataType>varchar(40)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="45" parent="24" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="46" parent="25" name="id">
-      <Position>1</Position>
-      <Comment>角色表 ID</Comment>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="47" parent="25" name="name">
-      <Position>2</Position>
-      <Comment>角色名称</Comment>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="48" parent="25" name="sn">
-      <Position>3</Position>
-      <Comment>角色字符串</Comment>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="49" parent="25" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="50" parent="26" name="id">
-      <Position>1</Position>
-      <Comment>角色资源关联 ID</Comment>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="51" parent="26" name="role_id">
-      <Position>2</Position>
-      <Comment>角色 id</Comment>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="52" parent="26" name="resource_id">
-      <Position>3</Position>
-      <Comment>资源 id</Comment>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="53" parent="26" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="54" parent="27" name="id">
-      <Position>1</Position>
-      <DataType>varchar(36)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="55" parent="27" name="username">
-      <Position>2</Position>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="56" parent="27" name="password">
-      <Position>3</Position>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="57" parent="27" name="address">
-      <Position>4</Position>
-      <DataType>varchar(50)|0</DataType>
-    </column>
-    <column id="58" parent="27" name="phone">
-      <Position>5</Position>
-      <DataType>bigint(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="59" parent="27" name="headicon">
-      <Position>6</Position>
-      <DataType>varchar(100)|0</DataType>
-    </column>
-    <column id="60" parent="27" name="email">
-      <Position>7</Position>
-      <DataType>varchar(20)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="61" parent="27" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="62" parent="28" name="id">
-      <Position>1</Position>
-      <Comment>用户角色关联表 ID</Comment>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-    </column>
-    <column id="63" parent="28" name="user_id">
-      <Position>2</Position>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="64" parent="28" name="role_id">
-      <Position>3</Position>
-      <DataType>tinyint(4)|0</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <key id="65" parent="28" name="PRIMARY">
+    <key id="40" parent="24" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

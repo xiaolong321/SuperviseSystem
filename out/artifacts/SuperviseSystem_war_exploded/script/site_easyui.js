@@ -358,3 +358,25 @@ function formatterYN(value) {
     }
 }
 /////////////////////////////////////
+
+/**
+ * 用户打开添加商品窗口
+ */
+function showAddWin() {
+    $("#addForm").form("clear");
+    $("#addWin").window("open");//打开添加商品窗口。
+}
+
+/**
+ * 用于打开修改商品窗口，并且读取选中的行的数据。
+ */
+function showEditWin() {
+    var row = $("#list").datagrid("getSelected");
+    if (row) {//如果被选中了
+        $("#editForm").form("load", row);//把从数据行中获取到的数据，根据name属性对应加载的到value值中。
+        $("#editWin").window("open");//打开一个窗口
+    } else {
+        $.messager.alert("提示", "请选中需要修改的数据", "info");
+    }
+}
+
