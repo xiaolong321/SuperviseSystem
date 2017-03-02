@@ -13,11 +13,6 @@
     <script type="text/javascript" src="<%=path%>/script/user/user.js"></script>
     <script type="text/javascript" src="<%=path%>/script/site_easyui.js"></script>
     <script type="text/javascript" src="<%=path%>/js/themes/insdep/jquery.insdep-extend.min.js"></script>
-    <style type="text/css">
-        .layout-panel-west {
-            border-right: 1px solid #c5c5c5;
-        }
-    </style>
 </head>
 <body>
 <table id="list" class="easyui-datagrid" toolbar="#tb" style="height:100%;"

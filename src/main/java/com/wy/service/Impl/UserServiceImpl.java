@@ -16,6 +16,7 @@ import java.util.Set;
  */
 @Service
 public class UserServiceImpl implements UserService {
+
     @Resource
     private UserDAO userDAO;
 

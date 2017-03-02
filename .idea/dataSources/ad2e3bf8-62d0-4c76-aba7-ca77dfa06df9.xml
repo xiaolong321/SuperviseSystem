@@ -19,12 +19,12 @@
     <schema id="13" parent="1" name="oa_db"/>
     <schema id="14" parent="1" name="performance_schema"/>
     <schema id="15" parent="1" name="pytest"/>
-    <schema id="16" parent="1" name="seckill"/>
-    <schema id="17" parent="1" name="shiro"/>
-    <schema id="18" parent="1" name="shiro_demo"/>
-    <schema id="19" parent="1" name="sys"/>
-    <schema id="20" parent="1" name="test"/>
-    <schema id="21" parent="1" name="ssm_shiro"/>
+    <schema id="16" parent="1" name="shiro"/>
+    <schema id="17" parent="1" name="shiro_demo"/>
+    <schema id="18" parent="1" name="sys"/>
+    <schema id="19" parent="1" name="test"/>
+    <schema id="20" parent="1" name="ssm_shiro"/>
+    <schema id="21" parent="1" name="activiti"/>
     <table id="22" parent="2" name="t_permission"/>
     <table id="23" parent="2" name="t_role"/>
     <table id="24" parent="2" name="t_user"/>

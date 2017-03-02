@@ -2,7 +2,6 @@ package com.wy.controller;
 
 import com.wy.bean.User;
 import com.wy.common.bean.ControllerResult;
-import com.wy.common.bean.Pager4EasyUI;
 import com.wy.service.UserService;
 import org.apache.ibatis.annotations.Param;
 import org.apache.shiro.SecurityUtils;
