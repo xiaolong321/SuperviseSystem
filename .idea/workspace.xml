@@ -6,7 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d70e22f8-dfe3-450e-8cfd-3bd8975eb954" name="Default" comment="">
+    <list id="d70e22f8-dfe3-450e-8cfd-3bd8975eb954" name="Default" comment="在原先框架的基础上集成配置了activiti工作流。" />
+    <list default="true" id="c4039dcf-9562-4d00-b9ec-ab7d001b2950" name="删除不需要的编译已编译文件。" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/index" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/js/themes/icons/back.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/js/themes/icons/blank.gif" />
@@ -436,23 +437,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/script/jquery.validate.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/script/site_easyui.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/script/user/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a9ce35b8-c9f1-4d9c-9f50-e018a8a6ed09.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/a9ce35b8-c9f1-4d9c-9f50-e018a8a6ed09/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_converter_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_model_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_engine_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_image_generator_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_process_validation_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_spring_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_email_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CreateDatabaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/activiti_diagrams/leave_process.bpmn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/admin.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewPagerDemo/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../typescriptStudy/.idea/jsLibraryMappings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../typescriptStudy/.idea/misc.xml" />
@@ -1520,7 +1507,53 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/jquery.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/json2.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/AdminRole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/Resource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/RoleResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/UserRole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/admin-mapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/resource-mapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/role-mapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/controller/AdminController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/dao/AdminDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/dao/ResourceDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/dao/RoleDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/AdminService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/Impl/AdminServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/Impl/ResourceServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/Impl/RoleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/ResourceService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/RoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/wy/cache/UserServiceAspect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SuperviseSystem-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/AdminRole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/Resource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/RoleResource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/UserRole.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/resource-mapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/role-mapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/controller/AdminController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/dao/AdminDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/dao/ResourceDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/dao/RoleDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/AdminService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/Impl/AdminServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/Impl/ResourceServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/Impl/RoleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/ResourceService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/RoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/vue.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/.idea/artifacts/ShiroExample_war_exploded.xml" afterPath="" />
@@ -1592,12 +1625,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/web/WEB-INF/views/user/fail.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/web/WEB-INF/views/user/login.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/web/WEB-INF/web.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/Admin.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/Admin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/Role.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/bean/ControllerResult.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/bean/ControllerResult.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/permission/UrlPermission.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/permission/UrlPermission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/Impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/Impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/realm/MyRealm.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/realm/MyRealm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/Admin.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/Admin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/common/bean/ControllerResult.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/common/bean/ControllerResult.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/permission/UrlPermission.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/permission/UrlPermission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/Impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/service/Impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/realm/MyRealm.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/realm/MyRealm.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AutoCompTextViewDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../AutoCompTextViewDemo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CheckBoxDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../CheckBoxDemo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ListViewDemo/app/src/main/res/layout/item.xml" afterPath="$PROJECT_DIR$/../ListViewDemo/app/src/main/res/layout/item.xml" />
@@ -1605,16 +1642,29 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" afterPath="$PROJECT_DIR$/../MarqueeText/app/src/main/java/autocomp/wy/com/marqueetext/MarqueeText.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/SuperviseSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SuperviseSystem_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuperviseSystem.iml" afterPath="$PROJECT_DIR$/SuperviseSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/user-mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/mybatis.xml" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/spring-shiro.xml" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/spring-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/user.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/users.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/users.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/script/user/user.js" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/script/user/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/CreateDatabaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/CreateDatabaseTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/script/user/user.js" afterPath="$PROJECT_DIR$/web/script/user/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_downloader.py" afterPath="$PROJECT_DIR$/../dict_spider/html_downloader.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_parser.py" afterPath="$PROJECT_DIR$/../dict_spider/html_parser.py" />
@@ -1657,7 +1707,25 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="activiti@localhost" />
+        <option name="myItemId" value="db_supervise@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="t_user" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="db_supervise@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="t_roles" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -1674,14 +1742,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateDatabaseTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CreateDatabaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="db_supervise.t_user" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1696,87 +1767,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlPermissionResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1062#1063#0" expanded="false" />
-                <element signature="e#1096#1097#0" expanded="false" />
-                <element signature="e#1256#1257#0" expanded="false" />
-                <element signature="e#1291#1292#0" expanded="false" />
-                <element signature="e#1456#1457#0" expanded="false" />
-                <element signature="e#1494#1495#0" expanded="false" />
-                <element signature="e#1657#1658#0" expanded="false" />
-                <element signature="e#1691#1692#0" expanded="false" />
-                <element signature="e#1829#1830#0" expanded="false" />
-                <element signature="e#1864#1865#0" expanded="false" />
-                <element signature="e#2002#2003#0" expanded="false" />
-                <element signature="e#2037#2038#0" expanded="false" />
-                <element signature="e#2171#2172#0" expanded="false" />
-                <element signature="e#2207#2208#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/BaseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#630#631#0" expanded="false" />
-                <element signature="e#674#675#0" expanded="false" />
-                <element signature="e#708#709#0" expanded="false" />
-                <element signature="e#741#742#0" expanded="false" />
-                <element signature="e#778#779#0" expanded="false" />
-                <element signature="e#814#815#0" expanded="false" />
-                <element signature="e#861#862#0" expanded="false" />
-                <element signature="e#899#900#0" expanded="false" />
-                <element signature="e#970#971#0" expanded="false" />
-                <element signature="e#1026#1027#0" expanded="false" />
-                <element signature="e#1080#1081#0" expanded="false" />
-                <element signature="e#1131#1132#0" expanded="false" />
-                <element signature="e#1191#1192#0" expanded="false" />
-                <element signature="e#1248#1249#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spring-activiti.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="224">
+              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="25" column="155" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="155" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_supervise.t_roles" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_roles">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1800,21 +1830,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>list_page</find>
-      <find>1487820276503</find>
-      <find>cc1</find>
-      <find>infoPage</find>
-      <find>userInfoPage</find>
-      <find>image</find>
-      <find>请选择一个图像文件</find>
-      <find>Global\ngx_reload_8000</find>
-      <find>uploads/</find>
-      <find>/images/</find>
-      <find>../../..</find>
-      <find>mm3</find>
-      <find>doSearch</find>
-      <find>nodeName</find>
-      <find>panel</find>
       <find>theme-login-select</find>
       <find>../../../</find>
       <find>mm1</find>
@@ -1830,6 +1845,21 @@
       <find>aaaaaaaaaaa</find>
       <find>sessionScope.</find>
       <find>tree</find>
+      <find>Admin</find>
+      <find>UserFormType</find>
+      <find>AuthenticationFailedPage</find>
+      <find>myRealm</find>
+      <find>&lt;bean id=&quot;permissionResolver&quot; class=&quot;org.apache.shiro.authz.permission.WildcardPermissionResolver&quot;/&gt;</find>
+      <find>WildcardPermissionResolver</find>
+      <find>ModularRealmAuthorizer</find>
+      <find>dataSource</find>
+      <find>theme-login-layout</find>
+      <find>name</find>
+      <find>,null</find>
+      <find>, null</find>
+      <find>t_role</find>
+      <find>user</find>
+      <find>adminname</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1850,22 +1880,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/AdminDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/User.java" />
-        <option value="$PROJECT_DIR$/web/script/admin/user.js" />
-        <option value="$PROJECT_DIR$/web/script/admin/admin.js" />
-        <option value="$PROJECT_DIR$/web/js/themes/insdep/easyui.css" />
-        <option value="dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/Pager4EasyUI.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/index.jsp" />
-        <option value="$PROJECT_DIR$/web/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/AdminController.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/js/themes/insdep/default_theme.css" />
         <option value="E:/nginx-1.11.9/conf/nginx2.conf" />
@@ -1876,31 +1890,47 @@
         <option value="$PROJECT_DIR$/web/script/site_easyui.js" />
         <option value="$PROJECT_DIR$/web/js/themes/insdep/jquery.insdep-extend.min.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Role.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/roles.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/RoleController.java" />
         <option value="dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_role" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/failed.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp" />
         <option value="$PROJECT_DIR$/web/test.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
-        <option value="$PROJECT_DIR$/web/script/user/user.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CreateDatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test.bpml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Permission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/Role.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_9.sql" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/mybatis.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_10.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/activiti_diagrams/leave_process.bpmn" />
+        <option value="$PROJECT_DIR$/src/test/java/CreateDatabaseTest.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/jdbc.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_11.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_12.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_13.sql" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
+        <option value="dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_re_procdef" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
+        <option value="$PROJECT_DIR$/web/script/user/user.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_14.sql" />
       </list>
     </option>
   </component>
@@ -2014,20 +2044,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -2092,7 +2108,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="script" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2154,15 +2258,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="activiti_diagrams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2189,134 +2289,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="permission" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SuperviseSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2375,6 +2347,10 @@
               <option name="myItemId" value="wy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2402,7 +2378,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2438,6 +2418,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2455,7 +2449,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="editor.config.accepted" value="true" />
     <property name="SearchEverywhereHistoryKey" value="insdep\images&#9;FILE&#9;file://E:/GitHub/SuperviseSystem/web/js/themes/insdep/images/append-images.png&#10;logo.png&#9;FILE&#9;file://E:/GitHub/SuperviseSystem/web/js/themes/insdep/icons/lock_go.png&#10;JQuery EasyUI&#9;FILE&#9;file://E:/GitHub/SuperviseSystem/web/js/jquery.easyui.min.js&#10;classpath:shiro.ini&#9;null&#9;null&#10;shiro.ini&#9;null&#9;null&#10;ehcache.xml&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J/5.1.35/mysql-connector-java-5.1.35-bin.jar" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="320" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -2477,24 +2471,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\pager\user" />
+      <recent name="E:\GitHub\SuperviseSystem\src\main\resources\activiti_diagrams" />
+      <recent name="E:\GitHub\SuperviseSystem\src\main\java\com\wy\activiti_diagrams" />
+      <recent name="E:\GitHub\SuperviseSystem\src\main\java\com\wy" />
       <recent name="E:\GitHub\SuperviseSystem\web\js\themes" />
-      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\js\themes\insdep" />
-      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\js" />
-      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF" />
-      <recent name="E:\GitHub\SuperviseSystem\web\js\themes\insdep" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wy.bean" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\SuperviseSystem\src\main\java" />
+      <recent name="E:\GitHub\SuperviseSystem\src" />
       <recent name="E:\GitHub\SuperviseSystem\web" />
       <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF" />
       <recent name="E:\GitHub\SuperviseSystem\web\script\user" />
-      <recent name="E:\GitHub\SuperviseSystem\web\script" />
-      <recent name="E:\GitHub\SuperviseSystem\web\script\jquery-easyui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateDatabaseTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.37">
     <configuration default="false" name="CreateDatabaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="CreateDatabaseTest" />
@@ -3290,18 +3284,9 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="Nginx1.11.9" type="nginx.configuration.type" factoryName="nginx server" editBeforeRun="true">
-      <option name="serverDescriptorId" value="nginx.descriptor.1487925021637" />
-      <option name="showHttpLog" value="true" />
-      <option name="showErrorLog" value="true" />
-      <option name="httpLogPath" value="E:/nginx-1.11.9/logs/access.log" />
-      <option name="errorLogPath" value="E:/nginx-1.11.9/logs/error.log" />
-      <method />
-    </configuration>
-    <list size="3">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.37" />
-      <item index="1" class="java.lang.String" itemvalue="nginx server.Nginx1.11.9" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CreateDatabaseTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CreateDatabaseTest" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -3318,6 +3303,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d70e22f8-dfe3-450e-8cfd-3bd8975eb954" name="Default" comment="" />
+      <changelist id="c4039dcf-9562-4d00-b9ec-ab7d001b2950" name="删除不需要的编译已编译文件。" comment="" />
       <created>1487057589321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -3367,14 +3353,33 @@
       <workItem from="1488270911915" duration="1612000" />
       <workItem from="1488421950772" duration="2489000" />
       <workItem from="1488425181752" duration="100000" />
-      <workItem from="1488425330571" duration="710000" />
+      <workItem from="1488425330571" duration="1856000" />
+      <workItem from="1488434861008" duration="1572000" />
+      <workItem from="1488436500641" duration="3076000" />
+      <workItem from="1488442414944" duration="772000" />
+      <workItem from="1488443799732" duration="10417000" />
     </task>
+    <task id="LOCAL-00001" summary="在原先框架的基础上集成配置了activiti工作流。">
+      <created>1488426521415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488426521415</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除不需要的编译已编译文件。">
+      <created>1488443984383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488443984383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170798000" />
+    <option name="totallyTimeSpent" value="187781000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -3389,41 +3394,43 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33768353" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" x="22" y="260" width="1322" height="207" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34094617" sideWeight="0.55673224" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3882545" sideWeight="0.55975795" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3882545" sideWeight="0.44024205" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.48033282" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.47471452" order="0" side_tool="false" content_ui="combo" x="530" y="57" width="306" height="613" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.47471452" order="0" side_tool="false" content_ui="combo" x="530" y="57" width="306" height="613" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22995462" sideWeight="0.5252855" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19213313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.52272725" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54649264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4045677" sideWeight="0.5098336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54649264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33768353" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" x="22" y="260" width="1322" height="207" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34094617" sideWeight="0.44326776" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5152225" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21331316" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3451,9 +3458,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="在原先框架的基础上集成配置了activiti工作流。" />
+    <MESSAGE value="删除不需要的编译已编译文件。" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除不需要的编译已编译文件。" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3462,273 +3474,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/role-mapper.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/PrincipalCollection.class">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="140">
+          <caret line="10" column="64" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/authc/SimpleAuthenticationInfo.class">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_12.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/RoleController.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/servlet/ShiroFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_role_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/Subject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_permission">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/default_theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="100" column="38" lean-forward="false" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/site_easyui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="366" column="43" lean-forward="true" selection-start-line="366" selection-start-column="43" selection-end-line="366" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/themes/insdep/images/portrait86x86.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/plugin/pnotify/pnotify.custom.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/plugin/pnotify/pnotify.custom.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/site_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="123" column="14" lean-forward="false" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SPRING/mappedClass=com.wy.controller.UserController">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SPRING</ID>
-          <OriginalElement>mappedClass=com.wy.controller.UserController</OriginalElement>
-          <nodes>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.transaction.interceptor.TransactionInterceptor;bean_name=txAdvice</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.jdbc.datasource.DataSourceTransactionManager;bean_name=transactionManager</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.transaction.interceptor.TransactionInterceptor;tag=tx:annotation-driven;offset=3762</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;tag=aop:config;offset=3570</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;tag=context:property-placeholder;offset=786</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.logicalcobwebs.proxool.ProxoolDataSource;bean_name=dataSource</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.mybatis.spring.SqlSessionFactoryBean;bean_name=sqlSessionFactory</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.mybatis.spring.mapper.MapperScannerConfigurer;tag=bean;offset=2587</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_name=(com.wy) [Component]</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=com.wy.controller.IndexController;bean_name=indexController</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=com.wy.controller.UserController;bean_name=userController</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=com.wy.service.Impl.UserServiceImpl;bean_name=userServiceImpl</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=com.wy.dao.UserDAO;bean_name=userDAO</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=com.wy.realm.MyRealm;bean_name=myRealm</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=org.apache.shiro.web.mgt.DefaultWebSecurityManager;bean_name=securityManager</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=org.apache.shiro.spring.web.ShiroFilterFactoryBean;bean_name=shiroFilter</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=org.apache.shiro.spring.LifecycleBeanPostProcessor;bean_name=lifecycleBeanPostProcessor</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;tag=bean;offset=1553</node>
-            <node x="" y="">module=SuperviseSystem;bean_class=org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;tag=bean;offset=1698</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter;tag=mvc:annotation-driven;offset=689</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_name=(com.wy.controller) [Component]</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler;tag=mvc:default-servlet-handler;offset=719</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=1809</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=1871</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=1933</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=1989</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=2043</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.format.support.FormattingConversionServiceFactoryBean;tag=bean;offset=870</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;tag=bean;offset=1003</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.view.UrlBasedViewResolver;tag=bean;offset=1107</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.multipart.commons.CommonsMultipartResolver;bean_name=multiparResolver</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;bean_name=mappingJacksonHttpMessageConverter</node>
-            <node x="" y="">module=SuperviseSystem;fileset=web DispatcherServlet servlet context;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;tag=bean;offset=2512</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8243902439024393" x="689.0" y="646.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Local context</Category>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/filter/ResourceCheckFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/script/user/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1834">
-          <caret line="131" column="23" lean-forward="false" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/realm/MyRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="66" column="27" lean-forward="false" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/cache/UserServiceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/failed.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/roles.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="105" lean-forward="false" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="243" column="24" lean-forward="false" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/cache/BaseCacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="-1348">
+          <caret line="150" column="19" lean-forward="false" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="19" />
+          <folding>
+            <marker date="1487940264532" expanded="true" signature="498:522" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3736,164 +3543,439 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_13.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="112">
+          <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-mybatis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/activiti_diagrams/leave_process.bpmn">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-444">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/690359d/a9ce35b8-c9f1-4d9c-9f50-e018a8a6ed09/activiti.act_evt_log">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_evt_log">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.bpml" />
-    <entry file="uml://JAVA/com.wy.controller.UserController">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.wy.controller.UserController</OriginalElement>
-          <nodes>
-            <node x="" y="">com.wy.controller.UserController</node>
-            <node x="" y="">org.springframework.web.bind.annotation.RequestMapping</node>
-            <node x="" y="">org.springframework.stereotype.Controller</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="96.0" y="59.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/BaseService.java">
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ge_bytearray">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ge_property">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_actinst">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_attachment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_comment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_detail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_identitylink">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_procinst">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_taskinst">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_hi_varinst">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_id_group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_id_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_id_membership">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_id_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_procdef_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_re_deployment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ru_task">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_re_model">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti_diagrams/leave_process.bpmn">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_re_procdef">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/Pager4EasyUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/Pager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="78" column="116" lean-forward="false" selection-start-line="78" selection-start-column="116" selection-end-line="78" selection-end-column="116" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="55" column="56" lean-forward="false" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
+        <state relative-caret-position="98">
+          <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
           <folding>
-            <marker date="1488210213586" expanded="true" signature="713:773" ph="select * fro... t_user" />
-            <marker date="1488210213586" expanded="true" signature="881:995" ph="SELECT r.rol... t_user" />
-            <marker date="1488210213586" expanded="true" signature="1097:1254" ph="select from db_supervise.t_user... " />
-            <marker date="1488210213586" expanded="true" signature="1345:1377" ph="SELECT *from... t_user" />
-            <marker date="1488210213586" expanded="true" signature="1481:1528" ph="SELECT *FROM... t_user" />
-            <marker date="1488210213586" expanded="true" signature="1625:1802" ph="INSERT INTO db_supervise.t_user... " />
-            <marker date="1488210213586" expanded="true" signature="1902:1966" ph="UPDATE db_su... " />
-            <marker date="1488210213586" expanded="true" signature="2051:2097" ph="DELETE FROM " />
+            <marker date="1488458005245" expanded="true" signature="713:770" ph="select * fro... t_user" />
+            <marker date="1488458005245" expanded="true" signature="878:993" ph="SELECT r.rol... t_user" />
+            <marker date="1488458005245" expanded="true" signature="1095:1253" ph="select from db_supervise.t_user... " />
+            <marker date="1488458005245" expanded="true" signature="1344:1376" ph="SELECT *from... t_user" />
+            <marker date="1488458005245" expanded="true" signature="1480:1527" ph="SELECT *FROM... t_user" />
+            <marker date="1488458005245" expanded="true" signature="1624:1801" ph="INSERT INTO db_supervise.t_user... " />
+            <marker date="1488458005245" expanded="true" signature="1901:1965" ph="UPDATE db_su... " />
+            <marker date="1488458005245" expanded="true" signature="2050:2096" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#630#631#0" expanded="false" />
-            <element signature="e#674#675#0" expanded="false" />
-            <element signature="e#708#709#0" expanded="false" />
-            <element signature="e#741#742#0" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-            <element signature="e#814#815#0" expanded="false" />
-            <element signature="e#861#862#0" expanded="false" />
-            <element signature="e#899#900#0" expanded="false" />
-            <element signature="e#970#971#0" expanded="false" />
-            <element signature="e#1026#1027#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1191#1192#0" expanded="false" />
-            <element signature="e#1248#1249#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="44" lean-forward="false" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="209">
+          <caret line="37" column="37" lean-forward="false" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="23" column="98" lean-forward="false" selection-start-line="23" selection-start-column="98" selection-end-line="23" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="120" column="38" lean-forward="false" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1062#1063#0" expanded="false" />
-            <element signature="e#1096#1097#0" expanded="false" />
-            <element signature="e#1256#1257#0" expanded="false" />
-            <element signature="e#1291#1292#0" expanded="false" />
-            <element signature="e#1456#1457#0" expanded="false" />
-            <element signature="e#1494#1495#0" expanded="false" />
-            <element signature="e#1657#1658#0" expanded="false" />
-            <element signature="e#1691#1692#0" expanded="false" />
-            <element signature="e#1829#1830#0" expanded="false" />
-            <element signature="e#1864#1865#0" expanded="false" />
-            <element signature="e#2002#2003#0" expanded="false" />
-            <element signature="e#2037#2038#0" expanded="false" />
-            <element signature="e#2171#2172#0" expanded="false" />
-            <element signature="e#2207#2208#0" expanded="false" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java">
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/script/user/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3905,13 +3987,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CreateDatabaseTest.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="224">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/console_14.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="25" column="155" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_roles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

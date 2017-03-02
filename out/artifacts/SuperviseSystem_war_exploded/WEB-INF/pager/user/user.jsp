@@ -51,6 +51,8 @@
                         </dd>
                         <dt>
                             <a class="theme-navigate-user-logout" onclick="logout();">注销</a>
+                            <a href="<%=path%>/user/deploy">部署流程</a>
+                            <a href="<%=path%>/user/check">审核通过</a>
                         </dt>
                     </dl>
                 </div>

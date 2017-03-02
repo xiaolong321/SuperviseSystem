@@ -12,7 +12,7 @@
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="/js/themes/insdep/jquery.insdep-extend.min.js"></script>
-    <script type="text/javascript" src="/script/user/user.js"></script>
+    <script type="text/javascript" src="/script/admin/admin.js"></script>
     <script type="text/javascript" src="/script/site_easyui.js"></script>
 </head>
 <body>
@@ -20,8 +20,8 @@
     <div data-options="region:'north',border:false,bodyCls:'theme-header-layout'">
         <div class="theme-navigate">
             <div class="left">
-                <a href="#" class="easyui-menubutton theme-navigate-user-button"
-                   data-options="menu:'.theme-navigate-user-panel'">${sessionScope.user.username}</a>
+                <a href="#" class="easyui-menubutton theme-navigate-admin-button"
+                   data-options="menu:'.theme-navigate-admin-panel'">${sessionScope.admin.username}</a>
                 <a href="#" class="easyui-menubutton" data-options="menu:'#mm3',hasDownArrow:false">消息<span
                         class="badge color-default">15</span></a>
                 <select id="cc1" class="easyui-combobox theme-navigate-combobox" name="dept" style="width:120px;">
@@ -41,18 +41,18 @@
                     <div>清除消息提示</div>
                 </div>
 
-                <div class="theme-navigate-user-panel">
+                <div class="theme-navigate-admin-panel">
                     <dl>
                         <dd>
                             <img src="/js/themes/insdep/images/portrait86x86.png" width="86" height="86">
-                            <b class="badge-prompt">${sessionScope.user.username}<i class="badge color-important">10</i></b>
-                            <span>${sessionScope.user.email}</span>
-                            <p>手机号码：<i class="text-success">${sessionScope.user.phone}</i></p>
+                            <b class="badge-prompt">${sessionScope.admin.username}<i class="badge color-important">10</i></b>
+                            <span>${sessionScope.admin.email}</span>
+                            <p>手机号码：<i class="text-success">${sessionScope.admin.phone}</i></p>
                         </dd>
                         <dt>
-                            <a class="theme-navigate-user-logout" onclick="logout();">注销</a>
-                            <a href="<%=path%>/user/deploy">部署流程</a>
-                            <a href="<%=path%>/user/check">审核通过</a>
+                            <a class="theme-navigate-admin-logout" onclick="logout();">注销</a>
+                            <a href="<%=path%>/admin/deploy">部署流程</a>
+                            <a href="<%=path%>/admin/check">审核通过</a>
                         </dt>
                     </dl>
                 </div>
@@ -87,7 +87,7 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('所有用户','/user/list_page');">所有用户</a>
+                                    <a href="javascript:;" onclick="addTab('所有用户','/admin/list_page');">所有用户</a>
                                 </p>
                             </span>
                         </div>
@@ -100,7 +100,7 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('角色管理','/user/role_list');">角色管理</a>
+                                    <a href="javascript:;" onclick="addTab('角色管理','/admin/role_list');">角色管理</a>
                                 </p>
                             </span>
                         </div>
@@ -113,7 +113,7 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改用户信息','/user/role_list');">修改用户信息</a>
+                                    <a href="javascript:;" onclick="addTab('修改用户信息','/admin/role_list');">修改用户信息</a>
                                 </p>
                             </span>
                         </div>
@@ -122,7 +122,7 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改头像','/user/role_list');">修改头像</a>
+                                    <a href="javascript:;" onclick="addTab('修改头像','/admin/role_list');">修改头像</a>
                                 </p>
                             </span>
                         </div>
@@ -131,7 +131,7 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改头像1','/user/role_list');">修改头像</a>
+                                    <a href="javascript:;" onclick="addTab('修改头像1','/admin/role_list');">修改头像</a>
                                 </p>
                             </span>
                         </div>
@@ -140,7 +140,7 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改头像2','/user/role_list');">修改头像</a>
+                                    <a href="javascript:;" onclick="addTab('修改头像2','/admin/role_list');">修改头像</a>
                                 </p>
                             </span>
                         </div>
@@ -152,7 +152,7 @@
     <div id="mainPanle" data-options="region:'center',border:true">
         <div id="tabs" class="easyui-tabs" data-options="fit:true,border:false">
             <div title="主页">
-                <div class="theme-user-info-panel">
+                <div class="theme-admin-info-panel">
                     <div class="left">
                         <img src="/images/headicon/headicon.jpg" width="86" height="86">
                     </div>
@@ -211,11 +211,11 @@
                         </ul>
                     </div>
                     <div class="center">
-                        <h1>${sessionScope.user.username}<span class="color-warning badge">未认证</span></h1>
+                        <h1>${sessionScope.admin.username}<span class="color-warning badge">未认证</span></h1>
                         <h2>管理员</h2>
                         <dl>
-                            <dt>${sessionScope.user.email}</dt>
-                            <dd>${sessionScope.user.phone}</dd>
+                            <dt>${sessionScope.admin.email}</dt>
+                            <dd>${sessionScope.admin.phone}</dd>
                         </dl>
                     </div>
                 </div>

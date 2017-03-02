@@ -19,7 +19,7 @@ public class CreateDatabaseTest {
         // 设置数据库驱动
         pec.setJdbcDriver("com.mysql.jdbc.Driver");
         // 设置jdbcURL
-        pec.setJdbcUrl("jdbc:mysql://localhost:3306/activiti");
+        pec.setJdbcUrl("jdbc:mysql://localhost:3306/db_supervise");
         // 设置用户名
         pec.setJdbcUsername("root");
         // 设置密码
@@ -27,6 +27,8 @@ public class CreateDatabaseTest {
         // 构建流程引擎对象
         ProcessEngine pe = pec.buildProcessEngine(); // 调用访方法才会创建数据表
         // 调用close方法时，才会删除
+        ///aaaaaa
         pe.close();
+
     }
 }

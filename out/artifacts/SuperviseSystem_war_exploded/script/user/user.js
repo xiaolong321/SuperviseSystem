@@ -3,9 +3,11 @@ var contentPath = '';
 //账号登陆
 function login() {
     $.post(contentPath + "/user/userLogin", $("#login_form").serialize(), function (data) {
-        if (data.result == "success") {
+        if (data.result.message == "success"&&data.result.roleName=="admin") {
+            window.location.href = contentPath + "/user/adminHome";
+        } else if(data.result.message == "success"&&data.result.roleName=="user"){
             window.location.href = contentPath + "/user/userHome";
-        } else {
+        }else {
             $("#errMsg").html(data.message);
         }
     });

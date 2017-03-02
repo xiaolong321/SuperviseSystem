@@ -3,6 +3,10 @@ package com.wy.controller;
 import com.wy.bean.User;
 import com.wy.common.bean.ControllerResult;
 import com.wy.service.UserService;
+import org.activiti.engine.RepositoryService;
+import org.activiti.engine.RuntimeService;
+import org.activiti.engine.TaskService;
+import org.activiti.engine.task.Task;
 import org.apache.ibatis.annotations.Param;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
@@ -27,15 +31,28 @@ public class UserController {
     @Resource
     private UserService userService;
 
+    @Resource
+    private RepositoryService repositoryService;
+
+    @Resource
+    private RuntimeService runtimeService;
+
+    @Resource
+    private TaskService taskService;
+
     private Subject subject;
 
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @RequestMapping(value = "userHome", method = RequestMethod.GET)
-    public String toHome() {
+    public String toUserHome() {
         return "user/user";
     }
 
+    @RequestMapping(value = "adminHome",method = RequestMethod.GET)
+    public String toAdminHome(){
+        return "user/admin";
+    }
     /**
      * 跳转到用户登陆页面
      *
@@ -97,15 +114,17 @@ public class UserController {
     @ResponseBody
     @RequestMapping(value = "userLogin", method = RequestMethod.POST)
     public ControllerResult login(User user, HttpSession session) {
-        System.out.println(user.toString());
         subject = SecurityUtils.getSubject();
-        UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(), user.getPassword());
         try {
-            subject.login(token);
-            logger.info("登陆成功");
-            System.out.println(subject.getPrincipal());
+            subject.login(new UsernamePasswordToken(user.getEmail(), user.getPassword()));
             session.setAttribute("user", userService.queryByUsername(subject.getPrincipal().toString()));
-            return ControllerResult.getSuccessResult("登陆成功");
+            if (subject.hasRole("admin")) {
+                return ControllerResult.getLoginRsult("登陆成功", "admin");
+            } else if (subject.hasRole("user")) {
+                return ControllerResult.getLoginRsult("登陆成功", "user");
+            }else{
+                return ControllerResult.getFailResult("登陆失败");
+            }
         } catch (UnknownAccountException e) {//未知的账号异常
             e.printStackTrace();
             return ControllerResult.getFailResult("登陆失败，请检查你的账号是否存在");
@@ -162,7 +181,7 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "changePwd", method = RequestMethod.POST)
-    public ControllerResult changePwd(User user,@Param("newPwd") String newPwd, @Param("conPwd") String conPwd, HttpSession session) {
+    public ControllerResult changePwd(User user, @Param("newPwd") String newPwd, @Param("conPwd") String conPwd, HttpSession session) {
         return null;
     }
 
@@ -179,4 +198,49 @@ public class UserController {
         session.removeAttribute("user");
         return ControllerResult.getSuccessResult("注销成功");
     }
+
+    /**
+     * activiti开始部署
+     */
+    @ResponseBody
+    @RequestMapping(value = "deploy", method = RequestMethod.GET)
+    public ControllerResult deploy() {
+        repositoryService.createDeployment().addClasspathResource("activiti_diagrams/leave_process.bpmn").deploy();
+        return ControllerResult.getSuccessResult("部署成功");
+    }
+
+
+    /**
+     * 给角色赋予任务
+     *
+     * @param session
+     */
+    @ResponseBody
+    @RequestMapping(value = "leave", method = RequestMethod.GET)
+    public ControllerResult leave(HttpSession session) {
+        runtimeService.startProcessInstanceByKey("leave_process");
+        List<Task> tasks = taskService.createTaskQuery().list();
+        Task currentTask = tasks.get(0);
+        User currentUser = (User) session.getAttribute("user");
+        taskService.setAssignee(currentTask.getId(), currentUser.getEmail());
+        taskService.complete(currentTask.getId());
+        return ControllerResult.getSuccessResult("交付任务成功");
+    }
+
+    /**
+     * 检查该任务
+     *
+     * @param session
+     */
+    @ResponseBody
+    @RequestMapping(value = "check", method = RequestMethod.GET)
+    public ControllerResult check(HttpSession session) {
+        List<Task> tasks = taskService.createTaskQuery().list();
+        Task currentTask = tasks.get(0);
+        User currentUser = (User) session.getAttribute("user");
+        taskService.setAssignee(currentTask.getId(), currentUser.getEmail());
+        taskService.complete(currentTask.getId());
+        return ControllerResult.getSuccessResult("检查完毕");
+    }
+
 }

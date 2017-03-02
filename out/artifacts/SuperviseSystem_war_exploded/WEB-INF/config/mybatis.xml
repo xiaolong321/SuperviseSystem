@@ -9,6 +9,6 @@
         <typeAlias type="com.wy.bean.Admin" alias="admin"/>
         <typeAlias type="com.wy.bean.User" alias="user"/>
         <typeAlias type="com.wy.bean.Role" alias="role"/>
-        <typeAlias type="com.wy.bean.Resource" alias="resource"/>
+        <typeAlias type="com.wy.bean.Permission" alias="permission"/>
     </typeAliases>
 </configuration>

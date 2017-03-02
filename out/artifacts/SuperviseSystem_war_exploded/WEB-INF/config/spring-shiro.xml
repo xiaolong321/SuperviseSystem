@@ -2,13 +2,40 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <!-- 配置自定义Realm -->
-    <bean id="myRealm" class="com.wy.realm.MyRealm"/>
 
-    <!-- 安全管理器 -->
-    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
-        <property name="realm" ref="myRealm"/>
+
+    <!--配置内存缓存管理器-->
+    <bean id="cacheManager" class="org.apache.shiro.cache.MemoryConstrainedCacheManager"/>
+
+    <!--配置通配符解析器-->
+    <bean id="permissionResolver" class="org.apache.shiro.authz.permission.WildcardPermissionResolver"/>
+
+    <!--配置模块化授权器-->
+    <bean id="authorizer" class="org.apache.shiro.authz.ModularRealmAuthorizer">
+        <property name="permissionResolver" ref="permissionResolver"/>
     </bean>
+
+
+    <!-- 配置权限管理器 -->
+    <bean id="jdbcRealm" class="org.apache.shiro.realm.jdbc.JdbcRealm">
+        <property name="dataSource" ref="dataSource"></property>
+        <!-- 根据用户邮箱查找用户密码 -->
+        <property name="authenticationQuery" value="SELECT password FROM t_user WHERE email = ?"></property>
+        <!-- 根据用户的邮箱查找用户的角色名称 -->
+        <property name="userRolesQuery"
+                  value="SELECT roleName FROM t_roles WHERE id in (select role_id from t_user_role where user_id = (select id from t_user where email = ?))"/>
+        <!-- 根据用户的邮箱查找用户的权限 -->
+        <property name="permissionsQuery" value="SELECT permissionName FROM t_permission WHERE id IN (SELECT permission_id FROM t_role_permission WHERE role_id IN (SELECT role_id FROM t_user_role
+                               WHERE user_id = (SELECT id FROM t_user WHERE email = ?)))"/>
+    </bean>
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="authorizer" ref="authorizer"/>
+        <!-- 我们自定义的realm -->
+        <property name="realm" ref="jdbcRealm"/>
+        <!-- 缓存管理器 -->
+        <property name="cacheManager" ref="cacheManager"/>
+    </bean>
+
 
     <!-- Shiro过滤器 核心-->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
@@ -32,12 +59,7 @@
         </property>
     </bean>
 
-    <!-- 保证实现了Shiro内部lifecycle函数的bean执行 -->
+    <!--配置bean最后生命周期的处理程序-->
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
-    <!-- 开启Shiro注解 -->
-    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
-          depends-on="lifecycleBeanPostProcessor"/>
-    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
-        <property name="securityManager" ref="securityManager"/>
-    </bean>
+
 </beans>
