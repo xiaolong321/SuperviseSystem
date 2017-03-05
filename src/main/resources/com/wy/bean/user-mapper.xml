@@ -47,7 +47,7 @@
 
     <insert id="update" parameterType="user">
         <![CDATA[
-        UPDATE db_supervise.t_user set address=#{address},phone=#{phone}
+        UPDATE db_supervise.t_user set address=#{address},phone=#{phone},username=#{username}
         ]]>
     </insert>
 

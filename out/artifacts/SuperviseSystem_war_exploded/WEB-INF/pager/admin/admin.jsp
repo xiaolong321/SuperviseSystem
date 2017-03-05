@@ -1,155 +1,74 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    String path=request.getContextPath();
+    String path = request.getContextPath();
 %>
 <html>
 <head>
     <title>管理员首页</title>
-    <link href="<%=path%>/js/themes/insdep/easyui.css" rel="stylesheet" type="text/css">
-    <link href="<%=path%>/js/themes/insdep/master.css" rel="stylesheet" type="text/css">
-    <link href="<%=path%>/js/themes/insdep/icon.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="<%=path%>/js/jquery.min.js"></script>
-    <script type="text/javascript" src="<%=path%>/js/jquery.easyui.min.js"></script>
-    <script type="text/javascript" src="<%=path%>/js/themes/insdep/jquery.insdep-extend.min.js"></script>
-    <style type="text/css">
-        .layout-panel-west {
-            border-right: 1px solid #c5c5c5;
-        }
-    </style>
+    <link id="easyuiThemes" href="/js/themes/insdep/easyui.css" rel="stylesheet" type="text/css">
+    <link href="/js/themes/insdep/default_theme.css" rel="stylesheet" type="text/css">
+    <link href="/js/themes/insdep/master.css" rel="stylesheet" type="text/css"/>
+    <link href="/css/site_main.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/js/themes/insdep/jquery.insdep-extend.min.js"></script>
+    <script type="text/javascript" src="/script/user/user.js"></script>
+    <script type="text/javascript" src="/script/site_easyui.js"></script>
 </head>
 <body>
 <div id="master-layout">
-    <div data-options="region:'north',border:false,bodyCls:'master-header-layout'">
-        <div class="navigate">
+    <div data-options="region:'north',border:false,bodyCls:'theme-header-layout'">
+        <div class="theme-navigate">
             <div class="left">
-                <a href="#" class="easyui-menubutton navigate-user-button"
-                   data-options="menu:'.navigate-user-panel'">匿名</a>
-                <a href="#" class="easyui-menubutton" data-options="menu:'#mm1',hasDownArrow:false">文件</a>
-                <a href="#" class="easyui-menubutton" data-options="menu:'#mm2',hasDownArrow:false">编辑</a>
+                <a href="#" class="easyui-menubutton theme-navigate-user-button"
+                   data-options="menu:'.theme-navigate-user-panel'">${sessionScope.admin.username}</a>
                 <a href="#" class="easyui-menubutton" data-options="menu:'#mm3',hasDownArrow:false">消息<span
                         class="badge color-default">15</span></a>
-                <select id="cc1" class="easyui-combobox navigate-combobox" name="dept" style="width:120px;">
+                <select id="cc1" class="easyui-combobox theme-navigate-combobox" name="dept" style="width:120px;">
                     <option>选择样式</option>
-                    <option>Insdep</option>
-                    <option>Bootstrap</option>
-                    <option>Gray</option>
-                    <option>Metro</option>
-                    <option>Material</option>
+                    <option value="insdep">insdep</option>
+                    <option value="bootstrap">bootstrap</option>
+                    <option value="material">material</option>
+                    <option value="metro">metro</option>
                 </select>
 
-                <div id="mm1" class="navigate-menu-panel">
-                    <div>新建</div>
-                    <div>打开</div>
-                    <div>
-                        <span>打开最近文件</span>
-                        <div>
-                            <div>1 index.html</div>
-                            <div>2 calendar-custom.html</div>
-                            <div>3 combo-animation.html</div>
-                            <div>4 datebox-restrict.html</div>
-                            <div>5 datetimespinner-icon.html</div>
-                            <div>6 filebox-button-align.html</div>
-                            <div>7 menubutton-alignment.html</div>
-                            <div>8 messager-interactive.html</div>
-                            <div>9 propertygrid-group-format.html</div>
-                            <div class="menu-sep"></div>
-                            <div>启动时重新打开文件</div>
-                        </div>
-                    </div>
-                    <div>关闭</div>
-                    <div>全部关闭</div>
-                    <div class="menu-sep"></div>
-                    <div data-options="disabled:true,iconCls:'icon-save'">保存</div>
-                    <div>另存为</div>
-                    <div data-options="disabled:true">保存为全部</div>
-                    <div class="menu-sep"></div>
-                    <div>
-                        <span>导入</span>
-                        <div>
-                            <div>XML 到模板</div>
-                            <div>表格式数据</div>
-                            <div data-options="disabled:true">Word 文档</div>
-                            <div data-options="disabled:true">Excel 文档</div>
-                        </div>
-                    </div>
-                    <div>
-                        <span>导出</span>
-                        <div>
-                            <div>表格</div>
-                        </div>
-                    </div>
-                    <div class="menu-sep"></div>
-                    <div>退出</div>
-                </div>
-
-                <div id="mm2" class="navigate-menu-panel">
-                    <div>撤销</div>
-                    <div data-options="disabled:true">重做</div>
-                    <div class="menu-sep"></div>
-                    <div>剪切</div>
-                    <div>复制</div>
-                    <div data-options="disabled:true">粘贴</div>
-                    <div data-options="disabled:true">选择性粘贴</div>
-                    <div data-options="disabled:true">清除</div>
-                    <div class="menu-sep"></div>
-                    <div>全选</div>
-                    <div>选择父标签</div>
-                    <div>选择子标签</div>
-                    <div class="menu-sep"></div>
-                    <div>查找和替换</div>
-                    <div>查找所选</div>
-                    <div>查找下一个</div>
-                    <div class="menu-sep"></div>
-                    <div>快捷键</div>
-                    <div>首选项</div>
-                </div>
-
-                <div id="mm3" class="navigate-menu-panel" style="width:180px;">
+                <div id="mm3" class="theme-navigate-menu-panel" style="width:180px;">
                     <div>产品消息<span class="badge color-success">5</span></div>
                     <div>安全消息<span class="badge color-important">10</span></div>
-                    <div>服务消息</div>
                     <div class="menu-sep"></div>
                     <div>查看历史消息</div>
                     <div class="menu-sep"></div>
                     <div>清除消息提示</div>
                 </div>
 
-
-                <div class="navigate-user-panel">
+                <div class="theme-navigate-user-panel">
                     <dl>
                         <dd>
-                            <img src="../themes/insdep/images/portrait86x86.png" width="86" height="86">
-                            <b class="badge-prompt">匿名<i class="badge color-important">10</i></b>
-                            <span>examples@insdep.com</span>
-                            <p>安全等级：<i class="text-success">高</i></p>
+                            <img src="/js/themes/insdep/images/portrait86x86.png" width="86" height="86">
+                            <b class="badge-prompt">${sessionScope.admin.username}<i class="badge color-important">10</i></b>
+                            <span>${sessionScope.admin.email}</span>
+                            <p>手机号码：<i class="text-success">${sessionScope.admin.phone}</i></p>
                         </dd>
                         <dt>
-                            <a class="navigate-user-modify">修改资料</a>
-                            <a class="navigate-user-logout">注销</a>
+                            <a class="theme-navigate-user-logout" onclick="logout();">注销</a>
+                            <a href="<%=path%>/user/deploy">部署流程</a>
+                            <a href="<%=path%>/user/check">审核通过</a>
                         </dt>
                     </dl>
                 </div>
             </div>
             <div class="right">
-                <select id="cc2" class="easyui-combobox navigate-combobox" name="dept" style="width:180px;">
-                    <option>Choose a language</option>
-                    <option>Chinese</option>
-                    <option>English</option>
-                    <option>Korean</option>
-                    <option>Japanese</option>
-                    <option>Arabic</option>
-                </select>
-                <input class="easyui-searchbox navigate-search"
+                <input class="easyui-searchbox theme-navigate-search"
                        data-options="prompt:'输入搜索的关键词..',menu:'#mm',searcher:doSearch" style="width:300px"></input>
-                <a href="#" class="easyui-menubutton navigate-more-button"
+                <a href="#" class="easyui-menubutton theme-navigate-more-button"
                    data-options="menu:'#more',hasDownArrow:false"></a>
-                <div id="more" class="navigate-more-panel">
+                <div id="more" class="theme-navigate-more-panel">
                     <div>联系我们</div>
                     <div>参与改进计划</div>
                     <div>检测更新</div>
                     <div>关于</div>
                 </div>
-                <div id="mm" class="navigate-menu-panel">
+                <div id="mm" class="theme-navigate-menu-panel">
                     <div data-options="name:'all'">全部内容</div>
                     <div data-options="name:'sports'">标题</div>
                     <div data-options="name:'sports'">作者</div>
@@ -158,6 +77,150 @@
             </div>
         </div>
 
+    </div>
+
+    <div data-options="region:'west',split:true,title:'功能菜单'" class="west" style="width: 200px;">
+        <div class="easyui-accordion" data-options="border:false" style="width: 200px;">
+            <div title="用户管理" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('所有用户','/user/list_page');">所有用户</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div title="权限和角色" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('角色管理','/user/role_list');">角色管理</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div title="用户信息" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改用户信息','/user/role_list');">修改用户信息</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改头像','/user/role_list');">修改头像</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改头像1','/user/role_list');">修改头像</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改头像2','/user/role_list');">修改头像</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="mainPanle" data-options="region:'center',border:true">
+        <div id="tabs" class="easyui-tabs" data-options="fit:true,border:false">
+            <div title="主页">
+                <div class="theme-user-info-panel">
+                    <div class="left">
+                        <img src="/images/headicon/headicon.jpg" width="86" height="86">
+                    </div>
+                    <div class="right">
+                        <style>
+                            .gauge {
+                                width: 130px;
+                                height: 130px;
+                            }
+                        </style>
+                        <script>
+                            $(function () {
+
+                                var dflt = {
+                                    min: 0,
+                                    max: 2800,
+                                    donut: true,
+                                    gaugeWidthScale: 0.6,
+                                    counter: true,
+                                    hideInnerShadow: true
+                                }
+                                var gg1 = new JustGage({
+                                    id: 'gg1',
+                                    value: 125,
+                                    defaults: dflt
+                                });
+
+                                var gg2 = new JustGage({
+                                    id: 'gg2',
+                                    defaults: dflt
+                                });
+                                var gg3 = new JustGage({
+                                    id: 'gg3',
+                                    defaults: dflt
+                                });
+                                var gg4 = new JustGage({
+                                    id: 'gg4',
+                                    defaults: dflt
+                                });
+
+                            });
+                        </script>
+                        <ul>
+                            <li>
+                                <div id="gg1" class="gauge" data-value="250"></div>
+                                <span>我的数据</span></li>
+                            <li>
+                                <div id="gg2" class="gauge" data-value="2025"></div>
+                                <span>我的数据</span></li>
+                            <li>
+                                <div id="gg3" class="gauge" data-value="115"></div>
+                                <span>我的数据</span></li>
+                            <li>
+                                <div id="gg4" class="gauge" data-value="687"></div>
+                                <span>我的数据</span></li>
+                        </ul>
+                    </div>
+                    <div class="center">
+                        <h1>${sessionScope.admin.username}<span class="color-warning badge">未认证</span></h1>
+                        <h2>管理员</h2>
+                        <dl>
+                            <dt>${sessionScope.admin.email}</dt>
+                            <dd>${sessionScope.admin.phone}</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </div>
@@ -168,60 +231,23 @@
         $('#master-layout').layout({
             fit: true/*布局框架全屏*/
         });
-
-        $(".navigate-user-modify").on("click", function () {
-            $('.navigate-user-panel').menu('hide');
-            $.insdep.window({id: "personal-set-window", href: "user.html", title: "修改资料"});
-
-        });
-        //$.insdep.control("list.html");
-
-
         var cc1 = $('#cc1').combo('panel');
-        cc1.panel({cls: "navigate-combobox-panel"});
+        cc1.panel({cls: "theme-navigate-combobox-panel"});
         var cc2 = $('#cc2').combo('panel');
-        cc2.panel({cls: "navigate-combobox-panel"});
-
-
-        /*$("#open-layout").on("click",function(){
-         var option = {
-         "region":"west",
-         "split":true,
-         "title":"title",
-         "width":180
-         };
-         $('#master-layout').layout('add', option);
-
-         });*/
-
-
+        cc2.panel({cls: "theme-navigate-combobox-panel"});
     });
     function doSearch(value, name) {
         alert('You input: ' + value + '(' + name + ')');
     }
-
 </script>
-
-
 <!--第三方插件加载-->
-<script src="plugin/justgage-1.2.2/raphael-2.1.4.min.js"></script>
-<script src="plugin/justgage-1.2.2/justgage.js"></script>
-<script src="plugin/Highcharts-5.0.0/js/highcharts.js"></script>
-<script type="text/javascript" src="plugin/ueditor-1.4.3.3/ueditor.config.js"></script>
-<script type="text/javascript" src="plugin/ueditor-1.4.3.3/ueditor.all.min.js"></script>
-<link href="plugin/cropper-2.3.4/dist/cropper.min.css" rel="stylesheet" type="text/css">
-<script src="plugin/cropper-2.3.4/dist/cropper.min.js"></script>
+<script src="/js/plugin/justgage/raphael-2.1.4.min.js"></script>
+<script src="/js/plugin/justgage/justgage.js"></script>
+<script src="/js/plugin/Highcharts/highcharts.js"></script>
+<script type="text/javascript" src="/js/plugin/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="/js/plugin/ueditor/ueditor.all.min.js"></script>
+<link href="/js/plugin/cropper/cropper.min.css" rel="stylesheet" type="text/css">
+<script src="/js/plugin/cropper/cropper.min.js"></script>
 <!--第三方插件加载结束-->
-
-<script>
-    var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?76386f607e79e997458a326997f1be87";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
-</script>
-
 </body>
 </html>

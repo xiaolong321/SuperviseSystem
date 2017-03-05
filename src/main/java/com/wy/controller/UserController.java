@@ -17,8 +17,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
@@ -49,10 +51,11 @@ public class UserController {
         return "user/user";
     }
 
-    @RequestMapping(value = "adminHome",method = RequestMethod.GET)
-    public String toAdminHome(){
-        return "user/admin";
+    @RequestMapping(value = "adminHome", method = RequestMethod.GET)
+    public String toAdminHome() {
+        return "admin/admin";
     }
+
     /**
      * 跳转到用户登陆页面
      *
@@ -78,8 +81,10 @@ public class UserController {
      *
      * @return
      */
-    @RequestMapping(value = "userInfoPage", method = RequestMethod.POST)
-    public String toUserinfo() {
+    @RequestMapping(value = "userInfoPage", method = RequestMethod.GET)
+    public String toUserinfo(String id, HttpServletRequest request) {
+        User user=userService.queryById(id);
+        request.setAttribute("user",user);
         return "user/info";
     }
 
@@ -113,33 +118,41 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "userLogin", method = RequestMethod.POST)
-    public ControllerResult login(User user, HttpSession session) {
-        subject = SecurityUtils.getSubject();
-        try {
-            subject.login(new UsernamePasswordToken(user.getEmail(), user.getPassword()));
-            session.setAttribute("user", userService.queryByUsername(subject.getPrincipal().toString()));
-            if (subject.hasRole("admin")) {
-                return ControllerResult.getLoginRsult("登陆成功", "admin");
-            } else if (subject.hasRole("user")) {
-                return ControllerResult.getLoginRsult("登陆成功", "user");
-            }else{
-                return ControllerResult.getFailResult("登陆失败");
+    public ControllerResult login(User user, HttpSession session, @Param("checkCode") String checkCode) {
+        logger.info("验证码为" + checkCode);
+        String codeSession = (String) session.getAttribute("check_code");
+        if (checkCode != null && checkCode.equals(codeSession)) {
+            subject = SecurityUtils.getSubject();
+            try {
+                subject.login(new UsernamePasswordToken(user.getEmail(), user.getPassword()));
+                if (subject.hasRole("admin")) {
+                    logger.info("验证是否为admin");
+                    session.setAttribute("admin", userService.queryByUsername(subject.getPrincipal().toString()));
+                    return ControllerResult.getLoginRsult("登陆成功", "admin");
+                } else if (subject.hasRole("user")) {
+                    logger.info("验证是否为user");
+                    session.setAttribute("user", userService.queryByUsername(subject.getPrincipal().toString()));
+                    return ControllerResult.getLoginRsult("登陆成功", "user");
+                } else {
+                    return ControllerResult.getFailResult("登陆失败");
+                }
+            } catch (UnknownAccountException e) {//未知的账号异常
+                e.printStackTrace();
+                return ControllerResult.getFailResult("登陆失败，请检查你的账号是否存在");
+            } catch (IncorrectCredentialsException e) {//未知的凭证异常
+                e.printStackTrace();
+                return ControllerResult.getFailResult("登陆失败，请检查你的账号密码是否正确");
+            } catch (LockedAccountException e) {//锁定的账号异常
+                e.printStackTrace();
+                return ControllerResult.getFailResult("登陆失败，你的账号已被冻结，暂时无法使用");
+            } catch (AuthenticationException e) {
+                e.printStackTrace();
+                return ControllerResult.getFailResult("登陆失败，身份验证时出现错误，请重试");
             }
-        } catch (UnknownAccountException e) {//未知的账号异常
-            e.printStackTrace();
-            return ControllerResult.getFailResult("登陆失败，请检查你的账号是否存在");
-        } catch (IncorrectCredentialsException e) {//未知的凭证异常
-            e.printStackTrace();
-            return ControllerResult.getFailResult("登陆失败，请检查你的账号密码是否正确");
-        } catch (LockedAccountException e) {//锁定的账号异常
-            e.printStackTrace();
-            return ControllerResult.getFailResult("登陆失败，你的账号已被冻结，暂时无法使用");
-        } catch (AuthenticationException e) {
-            e.printStackTrace();
-            return ControllerResult.getFailResult("登陆失败，身份验证时出现错误，请重试");
+        } else {
+            return ControllerResult.getFailResult("验证码错误，请重新输入验证码！");
         }
     }
-
 
     /**
      * 用户注册
@@ -181,10 +194,23 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "changePwd", method = RequestMethod.POST)
-    public ControllerResult changePwd(User user, @Param("newPwd") String newPwd, @Param("conPwd") String conPwd, HttpSession session) {
+    public ControllerResult changePwd(User user, @Param("newPwd") String newPwd, @Param("conPwd") String
+            conPwd, HttpSession session) {
         return null;
     }
 
+
+    @ResponseBody
+    @RequestMapping(value = "editInfo", method = RequestMethod.POST)
+    public ControllerResult editInfo(User user,HttpSession session){
+        if(user!=null){
+            userService.update(user);
+            session.setAttribute("user",userService.queryById(user.getId()));
+            return ControllerResult.getSuccessResult("更新成功");
+        }else{
+            return ControllerResult.getFailResult("更新失败");
+        }
+    }
 
     /**
      * 注销登陆
@@ -193,10 +219,17 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "userLogout", method = RequestMethod.POST)
+
     public ControllerResult userLogout(HttpSession session) {
         logger.info("注销成功");
-        session.removeAttribute("user");
-        return ControllerResult.getSuccessResult("注销成功");
+        if (session.getAttribute("user") != null) {
+            session.removeAttribute("user");
+            return ControllerResult.getSuccessResult("注销成功");
+        } else if (session.getAttribute("admin") != null) {
+            session.removeAttribute("admin");
+            return ControllerResult.getSuccessResult("注销成功");
+        }
+        return null;
     }
 
     /**

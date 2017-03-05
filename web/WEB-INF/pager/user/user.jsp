@@ -51,8 +51,10 @@
                         </dd>
                         <dt>
                             <a class="theme-navigate-user-logout" onclick="logout();">注销</a>
-                            <a href="<%=path%>/user/deploy">部署流程</a>
-                            <a href="<%=path%>/user/check">审核通过</a>
+                            <form action="<%=path%>/user/leave">
+                                <input type="text" name="reason" />
+                                <input type="submit" />
+                            </form>
                         </dt>
                     </dl>
                 </div>
@@ -81,66 +83,13 @@
 
     <div data-options="region:'west',split:true,title:'功能菜单'" class="west" style="width: 200px;">
         <div class="easyui-accordion" data-options="border:false" style="width: 200px;">
-            <div title="用户管理" class="site_menu">
-                <ul class="easyui-tree">
-                    <li>
-                        <div class="tree-node">
-                            <span class="tree-title">
-                                <p>
-                                    <a href="javascript:;" onclick="addTab('所有用户','/user/list_page');">所有用户</a>
-                                </p>
-                            </span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div title="权限和角色" class="site_menu">
-                <ul class="easyui-tree">
-                    <li>
-                        <div class="tree-node">
-                            <span class="tree-title">
-                                <p>
-                                    <a href="javascript:;" onclick="addTab('角色管理','/user/role_list');">角色管理</a>
-                                </p>
-                            </span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
             <div title="用户信息" class="site_menu">
                 <ul class="easyui-tree">
                     <li>
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改用户信息','/user/role_list');">修改用户信息</a>
-                                </p>
-                            </span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="tree-node">
-                            <span class="tree-title">
-                                <p>
-                                    <a href="javascript:;" onclick="addTab('修改头像','/user/role_list');">修改头像</a>
-                                </p>
-                            </span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="tree-node">
-                            <span class="tree-title">
-                                <p>
-                                    <a href="javascript:;" onclick="addTab('修改头像1','/user/role_list');">修改头像</a>
-                                </p>
-                            </span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="tree-node">
-                            <span class="tree-title">
-                                <p>
-                                    <a href="javascript:;" onclick="addTab('修改头像2','/user/role_list');">修改头像</a>
+                                    <a href="javascript:;" onclick="addTab('修改用户信息','/user/userInfoPage?id=${sessionScope.user.id}');">修改用户信息</a>
                                 </p>
                             </span>
                         </div>

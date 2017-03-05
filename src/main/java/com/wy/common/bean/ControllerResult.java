@@ -80,6 +80,6 @@ public class ControllerResult {
     }
 
     public static ControllerResult getFailResult(String message) {
-        return new ControllerResult(ControllerResult.FAIL_CODE, ControllerResult.FAIL_RESULT, message,null);
+        return new ControllerResult(ControllerResult.FAIL_CODE, ControllerResult.FAIL_RESULT, message);
     }
 }

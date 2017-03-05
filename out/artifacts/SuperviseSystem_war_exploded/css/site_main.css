@@ -130,7 +130,7 @@ a:hover {
 .site_table tr td {
     padding: 5px;
     border:1px dotted #ccc;
-    text-align: left;
+    text-align: center;
 }
 
 .site_table_td_title {

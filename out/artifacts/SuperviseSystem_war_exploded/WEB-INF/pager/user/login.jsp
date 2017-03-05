@@ -1,50 +1,51 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
 %>
 <html>
 <head>
-    <title>用户登陆</title>
+    <title>用户中心</title>
     <link href="<%=path%>/js/themes/insdep/easyui.css" rel="stylesheet" type="text/css">
     <link href="<%=path%>/js/themes/insdep/master.css" rel="stylesheet" type="text/css">
     <link href="<%=path%>/js/themes/insdep/icon.css" rel="stylesheet" type="text/css">
-    <link href="<%=path%>/js/themes/insdep/default_theme.css" rel="stylesheet" type="text/css">
-
     <script type="text/javascript" src="<%=path%>/js/jquery.min.js"></script>
     <script type="text/javascript" src="<%=path%>/js/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="<%=path%>/script/user/user.js"></script>
+    <script type="text/javascript" src="<%=path%>/script/site_easyui.js"></script>
     <script type="text/javascript" src="<%=path%>/js/themes/insdep/jquery.insdep-extend.min.js"></script>
-    <script type="text/javascript" src="<%=path%>/script/user/user.js"></script>
 </head>
-<body class="theme-login-layout">
-<div class="theme-login-header"></div>
-<div id="theme-login-form">
-    <div class="QRcode"></div>
-    <div class="QRcode-layout hide">
-        <div class="QRcode-layout-close"></div>
-        <div class="QRcode-header">
-            <b>APP扫码登录</b>
-            <span>请使用最新版APP进行扫码登录</span>
-        </div>
-        <div class="QRcode-content"><img src="/images/headicon/傲娇.jpg" width="176px"></div>
+<body>
+<div class="login_container">
+    <div class="easyui-window" title="请先登录"
+         data-options="modal:true,closed:false,iconCls:'Lockgo',closable:false,minimizable:false,maximizable:false"
+         style="width:400px;padding:20px 70px 20px 70px;">
+        <form:form id="login_form" method="post" modelAttribute="user">
+            <p id="errMsg" style="color: red;text-align: center;"></p>
+            <div style="margin-bottom:10px">
+                <input class="easyui-textbox" id="email" name="email" style="width:100%;height:35px;padding:12px"
+                       data-options="prompt:'登录邮箱',iconCls:'icon-man',iconWidth:38,required:true">
+            </div>
+            <div style="margin-bottom:20px">
+                <input class="easyui-textbox" id="password" name="password" type="password"
+                       style="width:100%;height:35px;padding:12px"
+                       data-options="prompt:'登录密码',iconCls:'icon-lock',iconWidth:38,required:true">
+            </div>
+            <div style="margin-bottom:20px">
+                <input class="easyui-textbox" id="checkCode" type="text" name="checkCode" style="width:50%;height:35px;padding:12px"
+                       data-options="prompt:'验证码',required:true">
+                <a href="javascript:;"><img style=" margin:0 0 0 3px ; vertical-align:middle; height:35px;"
+                                            src="<%=path %>/kaptch"
+                                            onclick="this.src='<%=path %>/kaptch?time=Math.random();'"></a>
+            </div>
+            <div>
+                <a href="javascript:;" onclick="login();" class="easyui-linkbutton" data-options="iconCls:'icon-ok'"
+                   style="padding:5px 0px;width:100%;">
+                    <span style="font-size:14px;">登录</span>
+                </a>
+            </div>
+        </form:form>
     </div>
-    <p id="errMsg" style="color: red;"></p>
-    <form id="login_form" method="post">
-        <dl>
-            <dt><img src="/images/headicon/login.jpg"></dt>
-            <dd><input type="text" id="email" name="email" style="width:100%;"/></dd>
-            <dd><input type="password" id="password" name="password" style="width:100%;"/></dd>
-            <dd>
-                <a class="submit" onclick="login();">登陆</a>
-                <a class="easyui-linkbutton button" href="/user/registerPager">注册</a>
-                <a class="easyui-linkbutton button" href="#">忘记密码？</a>
-            </dd>
-        </dl>
-    </form>
 </div>
-
-
 </body>
 </html>
