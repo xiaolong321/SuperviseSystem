@@ -28,5 +28,12 @@ public interface UserService extends BaseService<User,String> {
      */
     public Set<String> queryPermissions(String username);
 
+
+    /**
+     * 用于更新密码
+     * @param user
+     */
+    public void updatePwd(User user);
+
 }
 

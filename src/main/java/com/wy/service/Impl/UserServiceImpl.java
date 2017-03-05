@@ -52,4 +52,8 @@ public class UserServiceImpl implements UserService {
     public Set<String> queryPermissions(String username) {
         return userDAO.queryPermissions(username);
     }
+
+    public void updatePwd(User user) {
+        userDAO.updatePwd(user);
+    }
 }

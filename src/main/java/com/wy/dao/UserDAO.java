@@ -33,4 +33,10 @@ public interface UserDAO extends BaseDAO<User,String>{
      * @return
      */
     public Set<String> queryPermissions(String id);
+
+    /**
+     * 用于更新密码
+     * @param user
+     */
+    public void updatePwd(User user);
 }

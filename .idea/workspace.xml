@@ -437,8 +437,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/script/jquery.validate.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/script/site_easyui.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ManageSystem/web/script/user/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/login_page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/wy/common/bean/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MD5Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/updatePwd.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewPagerDemo/.idea/vcs.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../.gitattributes" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="" />
@@ -1497,7 +1498,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/jquery.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/json2.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../StrutsHibernateProj/web/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/admin.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../VuejsStudy/vue.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/.idea/artifacts/ShiroExample_war_exploded.xml" afterPath="" />
@@ -1569,9 +1569,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/web/WEB-INF/views/user/fail.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/web/WEB-INF/views/user/login.jsp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../example/ShiroExample/web/WEB-INF/web.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/bean/ControllerResult.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/bean/ControllerResult.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/common/bean/ControllerResult.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/common/bean/ControllerResult.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/wy/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AutoCompTextViewDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../AutoCompTextViewDemo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CheckBoxDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../CheckBoxDemo/.idea/vcs.xml" />
@@ -1581,27 +1579,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProgressBarDemo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuperviseSystem.iml" afterPath="$PROJECT_DIR$/SuperviseSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/user-mapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/spring-shiro.xml" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/spring-shiro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/admin/admin.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/admin/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/info.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/info.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/user.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/pager/user/user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/css/site_main.css" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/css/site_main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/script/user/user.js" afterPath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/script/user/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/activiti_diagrams/leave_process.bpmn" afterPath="$PROJECT_DIR$/src/main/resources/activiti_diagrams/leave_process.bpmn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/activiti_diagrams/leave_process.bpmn" afterPath="$PROJECT_DIR$/target/classes/activiti_diagrams/leave_process.bpmn" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/site_main.css" afterPath="$PROJECT_DIR$/web/css/site_main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/script/user/user.js" afterPath="$PROJECT_DIR$/web/script/user/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../checkout-Demo/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../dict_spider/html_downloader.py" afterPath="$PROJECT_DIR$/../dict_spider/html_downloader.py" />
@@ -1666,21 +1650,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/IndexController.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="14">
+              <caret line="213" column="37" lean-forward="false" selection-start-line="213" selection-start-column="37" selection-end-line="213" selection-end-column="37" />
+              <folding>
+                <element signature="e#2581#2582#0" expanded="true" />
+                <element signature="e#2620#2621#0" expanded="true" />
+                <element signature="e#3100#3101#0" expanded="true" />
+                <element signature="e#3136#3137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+              <folding>
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roles.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/roles.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="203" column="37" lean-forward="false" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -1689,27 +1701,38 @@
       <file leaf-file-name="user-mapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="49" column="93" lean-forward="false" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
+            <state relative-caret-position="605">
+              <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
               <folding>
-                <marker date="1488589303069" expanded="true" signature="713:770" ph="select * fro... t_user" />
-                <marker date="1488589303069" expanded="true" signature="878:993" ph="SELECT r.rol... t_user" />
-                <marker date="1488589303069" expanded="true" signature="1095:1253" ph="select from db_supervise.t_user... " />
-                <marker date="1488589303069" expanded="true" signature="1344:1376" ph="SELECT *from... t_user" />
-                <marker date="1488589303069" expanded="true" signature="1480:1527" ph="SELECT *FROM... t_user" />
-                <marker date="1488589303069" expanded="true" signature="1624:1801" ph="INSERT INTO db_supervise.t_user... " />
-                <marker date="1488589303069" expanded="true" signature="1901:1986" ph="UPDATE db_su... " />
-                <marker date="1488589303069" expanded="true" signature="2071:2117" ph="DELETE FROM " />
+                <marker date="1488717856527" expanded="true" signature="713:770" ph="select * fro... t_user" />
+                <marker date="1488717856527" expanded="true" signature="878:993" ph="SELECT r.rol... t_user" />
+                <marker date="1488717856527" expanded="true" signature="1095:1253" ph="select from db_supervise.t_user... " />
+                <marker date="1488717856527" expanded="true" signature="1344:1376" ph="SELECT *from... t_user" />
+                <marker date="1488717856527" expanded="true" signature="1480:1527" ph="SELECT *FROM... t_user" />
+                <marker date="1488717856527" expanded="true" signature="1624:1801" ph="INSERT INTO db_supervise.t_user... " />
+                <marker date="1488717856527" expanded="true" signature="1901:1986" ph="UPDATE db_su... " />
+                <marker date="1488717856527" expanded="true" signature="2071:2117" ph="DELETE FROM " />
+                <marker date="1488717856527" expanded="true" signature="2240:2312" ph="UPDATE db_su... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+            <state relative-caret-position="31">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updatePwd.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/updatePwd.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -1718,31 +1741,29 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/script/user/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+            <state relative-caret-position="168">
+              <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site_main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/css/site_main.css">
+      <file leaf-file-name="user.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1372">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="498">
+              <caret line="100" column="80" lean-forward="false" selection-start-line="100" selection-start-column="80" selection-end-line="100" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
+      <file leaf-file-name="users.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#674#675#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="316">
+              <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1765,7 +1786,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aaaaaaaaaaa</find>
       <find>sessionScope.</find>
       <find>tree</find>
       <find>Admin</find>
@@ -1795,6 +1815,7 @@
       <find>customer</find>
       <find>site_table</find>
       <find>editinfo</find>
+      <find>Customer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1815,18 +1836,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/roles.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/RoleController.java" />
-        <option value="dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_role" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/failed.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp" />
         <option value="$PROJECT_DIR$/web/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermission.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/permission/UrlPermissionResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/test.bpml" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -1855,16 +1870,22 @@
         <option value="$PROJECT_DIR$/web/login_file/style_log.css" />
         <option value="$PROJECT_DIR$/web/css/login_apge.css" />
         <option value="$PROJECT_DIR$/web/css/login_page.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
         <option value="$PROJECT_DIR$/web/css/site_main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/modifypwd .jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/MD5Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/common/bean/Constants.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/updatePwd.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/script/user/user.js" />
       </list>
     </option>
@@ -2035,7 +2056,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2050,6 +2141,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2128,6 +2227,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2229,6 +2362,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperviseSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2269,6 +2428,16 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\pager\user" />
+      <recent name="E:\GitHub\SuperviseSystem\web\images" />
+      <recent name="E:\GitHub\SuperviseSystem\web\js" />
+      <recent name="E:\GitHub\SuperviseSystem\web\css" />
+      <recent name="E:\GitHub\SuperviseSystem\web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wy.bean" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\GitHub\SuperviseSystem\src\main\java" />
       <recent name="E:\GitHub\SuperviseSystem\src" />
@@ -2276,18 +2445,29 @@
       <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF" />
       <recent name="E:\GitHub\SuperviseSystem\web\script\user" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wy.bean" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GitHub\SuperviseSystem\web\images" />
-      <recent name="E:\GitHub\SuperviseSystem\web\js" />
-      <recent name="E:\GitHub\SuperviseSystem\web\css" />
-      <recent name="E:\GitHub\SuperviseSystem\web" />
-      <recent name="E:\GitHub\SuperviseSystem\web\WEB-INF\pager\user" />
-    </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.37">
+    <configuration default="false" name="MD5Test.testMD5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="SuperviseSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MD5Test" />
+      <option name="METHOD_NAME" value="testMD5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -3068,9 +3248,15 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.37" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MD5Test.testMD5" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MD5Test.testMD5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -3142,7 +3328,7 @@
       <workItem from="1488543902981" duration="688000" />
       <workItem from="1488585896040" duration="152000" />
       <workItem from="1488586102601" duration="6605000" />
-      <workItem from="1488711640715" duration="4007000" />
+      <workItem from="1488711640715" duration="7758000" />
     </task>
     <task id="LOCAL-00001" summary="在原先框架的基础上集成配置了activiti工作流。">
       <created>1488426521415</created>
@@ -3161,8 +3347,22 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MD5Test_testMD5 - 2017.03.05 at 20h 24m 38s.xml">
+      <configuration name="MD5Test.testMD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MD5Test_testMD5 - 2017.03.05 at 20h 26m 46s.xml">
+      <configuration name="MD5Test.testMD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MD5Test_testMD5 - 2017.03.05 at 20h 26m 51s.xml">
+      <configuration name="MD5Test.testMD5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MD5Test_testMD5 - 2017.03.05 at 20h 26m 55s.xml">
+      <configuration name="MD5Test.testMD5" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217256000" />
+    <option name="totallyTimeSpent" value="221007000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -3175,7 +3375,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
@@ -3186,7 +3386,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344209" sideWeight="0.43419063" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39477977" sideWeight="0.43419063" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.48033282" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
@@ -3259,78 +3459,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ru_task">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ru_identitylink">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ru_job">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ru_execution">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_ru_event_subscr">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_re_deployment">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.act_re_model">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3359,13 +3487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -3418,19 +3539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/Constants.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/admin/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -3465,14 +3577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/failed.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3481,42 +3585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-364">
-          <caret line="91" column="129" lean-forward="false" selection-start-line="91" selection-start-column="129" selection-end-line="91" selection-end-column="129" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/roles.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -3572,16 +3644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#674#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/site_main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1372">
@@ -3598,23 +3660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="49" column="93" lean-forward="false" selection-start-line="49" selection-start-column="93" selection-end-line="49" selection-end-column="93" />
-          <folding>
-            <marker date="1488589303069" expanded="true" signature="713:770" ph="select * fro... t_user" />
-            <marker date="1488589303069" expanded="true" signature="878:993" ph="SELECT r.rol... t_user" />
-            <marker date="1488589303069" expanded="true" signature="1095:1253" ph="select from db_supervise.t_user... " />
-            <marker date="1488589303069" expanded="true" signature="1344:1376" ph="SELECT *from... t_user" />
-            <marker date="1488589303069" expanded="true" signature="1480:1527" ph="SELECT *FROM... t_user" />
-            <marker date="1488589303069" expanded="true" signature="1624:1801" ph="INSERT INTO db_supervise.t_user... " />
-            <marker date="1488589303069" expanded="true" signature="1901:1986" ph="UPDATE db_su... " />
-            <marker date="1488589303069" expanded="true" signature="2071:2117" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/script/jquery.validate.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
@@ -3623,26 +3668,184 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="46" column="20" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <marker date="1488714958416" expanded="true" signature="2076:2154" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/690359d/ad2e3bf8-62d0-4c76-aba7-ca77dfa06df9/db_supervise.t_user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/ControllerResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MD5Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/bean/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/common/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wy/bean/user-mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
+          <folding>
+            <marker date="1488717856527" expanded="true" signature="713:770" ph="select * fro... t_user" />
+            <marker date="1488717856527" expanded="true" signature="878:993" ph="SELECT r.rol... t_user" />
+            <marker date="1488717856527" expanded="true" signature="1095:1253" ph="select from db_supervise.t_user... " />
+            <marker date="1488717856527" expanded="true" signature="1344:1376" ph="SELECT *from... t_user" />
+            <marker date="1488717856527" expanded="true" signature="1480:1527" ph="SELECT *FROM... t_user" />
+            <marker date="1488717856527" expanded="true" signature="1624:1801" ph="INSERT INTO db_supervise.t_user... " />
+            <marker date="1488717856527" expanded="true" signature="1901:1986" ph="UPDATE db_su... " />
+            <marker date="1488717856527" expanded="true" signature="2071:2117" ph="DELETE FROM " />
+            <marker date="1488717856527" expanded="true" signature="2240:2312" ph="UPDATE db_su... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding>
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="203" column="37" lean-forward="false" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="37" />
+        <state relative-caret-position="14">
+          <caret line="213" column="37" lean-forward="false" selection-start-line="213" selection-start-column="37" selection-end-line="213" selection-end-column="37" />
+          <folding>
+            <element signature="e#2581#2582#0" expanded="true" />
+            <element signature="e#2620#2621#0" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3136#3137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/roles.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="100" column="80" lean-forward="false" selection-start-line="100" selection-start-column="80" selection-end-line="100" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pager/user/updatePwd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/script/user/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="51" column="44" lean-forward="false" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        <state relative-caret-position="168">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>

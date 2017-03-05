@@ -56,4 +56,10 @@
           DELETE FROM db_supervise.t_user WHERE id=#{id}
         ]]>
     </delete>
+
+    <update id="updatePwd" keyProperty="int" parameterType="user">
+        <![CDATA[
+          UPDATE db_supervise.t_user SET password=#{password} WHERE email=#{email}
+        ]]>
+    </update>
 </mapper>

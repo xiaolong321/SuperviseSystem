@@ -1,7 +1,9 @@
 package com.wy.controller;
 
 import com.wy.bean.User;
+import com.wy.common.bean.Constants;
 import com.wy.common.bean.ControllerResult;
+import com.wy.common.util.MD5Util;
 import com.wy.service.UserService;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
@@ -88,6 +90,11 @@ public class UserController {
         return "user/info";
     }
 
+    @RequestMapping(value = "updatePwdPage",method = RequestMethod.GET)
+    public String toUpdatePwdPage(){
+        return "user/updatePwd";
+    }
+
     /**
      * 跳转到查看全部用户页面
      */
@@ -124,7 +131,7 @@ public class UserController {
         if (checkCode != null && checkCode.equals(codeSession)) {
             subject = SecurityUtils.getSubject();
             try {
-                subject.login(new UsernamePasswordToken(user.getEmail(), user.getPassword()));
+                subject.login(new UsernamePasswordToken(user.getEmail(), MD5Util.md5(user.getPassword(), Constants.USERSALT)));
                 if (subject.hasRole("admin")) {
                     logger.info("验证是否为admin");
                     session.setAttribute("admin", userService.queryByUsername(subject.getPrincipal().toString()));
@@ -188,15 +195,30 @@ public class UserController {
 
     /**
      * 修改密码
-     *
+     * 参数：
+     *  1、新的密码
+     *  2、确认的密码
+     *  3、原先的密码放从user对象中获取
      * @param session
      * @return
      */
     @ResponseBody
     @RequestMapping(value = "changePwd", method = RequestMethod.POST)
-    public ControllerResult changePwd(User user, @Param("newPwd") String newPwd, @Param("conPwd") String
-            conPwd, HttpSession session) {
-        return null;
+    public ControllerResult changePwd(@Param("password") String password,@Param("newPwd") String newPwd, @Param("conPwd") String conPwd, HttpSession session) {
+        User user= (User) session.getAttribute("user");
+        if(user!=null){
+            if(user.getPassword().equals(MD5Util.md5(password,Constants.USERSALT))&&newPwd!=null&&newPwd.equals(conPwd)){
+                user.setPassword(MD5Util.md5(conPwd,Constants.USERSALT));
+                userService.updatePwd(user);
+                session.setAttribute("user",user);
+                logger.info("用户更新密码成功");
+                return ControllerResult.getSuccessResult("修改密码成功");
+            }else{
+                return ControllerResult.getFailResult("修改密码失败");
+            }
+        }else{
+            return ControllerResult.getFailResult("抱歉，更新失败");
+        }
     }
 
 

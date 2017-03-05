@@ -24,9 +24,11 @@ function logout() {
 
 //修改密码
 function changePwd() {
-    $.post(contentPath + "/user/changePwd", $("#pwd").serialize(), function (data) {
+    $.post(contentPath + "/user/changePwd", $("#updateForm").serialize(), function (data) {
         if (data.result == "success") {
-            window.location.href = contentPath + "/user/loginPager";
+            $.messager.alert("提示", data.message+",请牢记，下次登录时需要输入修改的密码。", "info",function () {
+                window.location.reload();
+            });
         } else {
             $("#errMsg").html(data.message);
         }

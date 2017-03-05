@@ -94,6 +94,15 @@
                             </span>
                         </div>
                     </li>
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('修改密码','/user/updatePwdPage');">修改密码</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
