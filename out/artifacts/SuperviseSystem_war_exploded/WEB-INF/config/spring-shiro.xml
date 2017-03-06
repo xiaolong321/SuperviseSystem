@@ -3,10 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-
-    <!--配置内存缓存管理器-->
-    <bean id="cacheManager" class="org.apache.shiro.cache.MemoryConstrainedCacheManager"/>
-
     <!--配置通配符解析器-->
     <bean id="permissionResolver" class="org.apache.shiro.authz.permission.WildcardPermissionResolver"/>
 
@@ -32,10 +28,12 @@
         <property name="authorizer" ref="authorizer"/>
         <!-- 我们自定义的realm -->
         <property name="realm" ref="jdbcRealm"/>
-        <!-- 缓存管理器 -->
-        <property name="cacheManager" ref="cacheManager"/>
     </bean>
 
+    <!-- 缓存管理器 使用Ehcache实现 -->
+    <bean id="shiroCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManager" ref="ehCacheManager" />
+    </bean>
 
     <!-- Shiro过滤器 核心-->
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">

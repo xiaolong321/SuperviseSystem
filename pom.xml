@@ -259,5 +259,26 @@
             <artifactId>activiti-rest</artifactId>
             <version>5.22.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
+        <!--ehcache和shiro整合包-->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-ehcache</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
+        <!--mybatis和ehcache整合包-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-ehcache</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
     </dependencies>
 </project>

@@ -56,6 +56,14 @@
         </tx:attributes>
     </tx:advice>
 
+    <!--ehCacheManager缓存管理器配置和shiro进行整合-->
+    <bean id="ehCacheManager"
+          class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+        <property name="configLocation" value="WEB-INF/config/ehcache.xml" />
+        <property name="shared" value="true"></property> <!-- 这里是关键！！！没有必错  -->
+    </bean>
+
+    <!--aop面向切面配置-->
     <aop:config>
         <aop:pointcut id="daoMethods" expression="execution(* com.wy.dao.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="daoMethods"/>

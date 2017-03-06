@@ -5,6 +5,7 @@ import java.util.List;
 /**
  * Created by Administrator on 2/15/2017.
  */
+
 public interface BaseDAO<T,PK extends Serializable> {
     public List<T> queryAll();
 

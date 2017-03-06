@@ -29,7 +29,6 @@ function changePwd() {
             $.messager.alert("提示", data.message+",请牢记，下次登录时需要输入修改的密码。", "info",function () {
                 window.location.reload();
             });
-
         } else {
             $("#errMsg").html(data.message);
         }
