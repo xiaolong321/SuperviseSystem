@@ -30,6 +30,7 @@ public class ControllerResult {
     }
 
 
+
     public int getCode() {
         return code;
     }
@@ -77,6 +78,10 @@ public class ControllerResult {
 
     public static ControllerResult getLoginRsult(String message,String roleName){
         return new ControllerResult(ControllerResult.SUCCESS_CODE, ControllerResult.SUCCESS_RESULT, message,roleName);
+    }
+
+    public static ControllerResult getRegisterResult(String message,String id){
+        return new ControllerResult(ControllerResult.SUCCESS_CODE, ControllerResult.SUCCESS_RESULT, message,id);
     }
 
     public static ControllerResult getFailResult(String message) {

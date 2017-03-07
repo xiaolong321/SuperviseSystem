@@ -10,5 +10,6 @@
         <typeAlias type="com.wy.bean.User" alias="user"/>
         <typeAlias type="com.wy.bean.Role" alias="role"/>
         <typeAlias type="com.wy.bean.Permission" alias="permission"/>
+        <typeAlias type="com.wy.bean.UserRole" alias="userRole"/>
     </typeAliases>
 </configuration>

@@ -4,6 +4,8 @@ import com.wy.bean.User;
 import com.wy.common.bean.Constants;
 import com.wy.common.bean.ControllerResult;
 import com.wy.common.util.MD5Util;
+import com.wy.dao.UserRoleDAO;
+import com.wy.service.UserRoleService;
 import com.wy.service.UserService;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
@@ -19,7 +21,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -32,8 +33,12 @@ import java.util.List;
 @Controller
 @RequestMapping("/user")
 public class UserController {
+
     @Resource
     private UserService userService;
+
+    @Resource
+    private UserRoleService userRoleService;
 
     @Resource
     private RepositoryService repositoryService;
@@ -50,13 +55,9 @@ public class UserController {
 
     @RequestMapping(value = "userHome", method = RequestMethod.GET)
     public String toUserHome() {
-        return "user/user";
+        return "user/userHome";
     }
 
-    @RequestMapping(value = "adminHome", method = RequestMethod.GET)
-    public String toAdminHome() {
-        return "admin/admin";
-    }
 
     /**
      * 跳转到用户登陆页面
@@ -65,7 +66,7 @@ public class UserController {
      */
     @RequestMapping(value = "loginPager", method = RequestMethod.GET)
     public String toLoginPage() {
-        return "user/login";
+        return "user/userLogin";
     }
 
     /**
@@ -75,7 +76,7 @@ public class UserController {
      */
     @RequestMapping(value = "registerPager", method = RequestMethod.GET)
     public String toRegisterPager() {
-        return "user/register";
+        return "user/userRegister";
     }
 
     /**
@@ -85,36 +86,24 @@ public class UserController {
      */
     @RequestMapping(value = "userInfoPage", method = RequestMethod.GET)
     public String toUserinfo(String id, HttpServletRequest request) {
-        User user=userService.queryById(id);
-        request.setAttribute("user",user);
-        return "user/info";
+        User user = userService.queryById(id);
+        request.setAttribute("user", user);
+        return "user/userInfoPage";
     }
 
-    @RequestMapping(value = "updatePwdPage",method = RequestMethod.GET)
-    public String toUpdatePwdPage(){
-        return "user/updatePwd";
+    @RequestMapping(value = "updatePwdPage", method = RequestMethod.GET)
+    public String toUpdatePwdPage() {
+        return "user/userUpdatePwd";
     }
 
     /**
      * 跳转到查看全部用户页面
      */
-    @RequestMapping(value = "list_page", method = RequestMethod.GET)
-    public String toListPage() {
-        return "user/users";
+    @RequestMapping(value = "userAllPage", method = RequestMethod.GET)
+    public String toUserAllPage() {
+        return "user/userAllPage";
     }
 
-    /**
-     * 跳转到查看全部权限页面
-     */
-    @RequestMapping(value = "role_list", method = RequestMethod.GET)
-    public String toRolePage() {
-        return "user/roles";
-    }
-
-    @RequestMapping(value = "AuthenticationFailedPage", method = RequestMethod.GET)
-    public String toAuthenticationFailedPage() {
-        return "user/failed";
-    }
 
     /**
      * 用户登陆
@@ -169,16 +158,49 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "userRegister", method = RequestMethod.POST)
-    public ControllerResult userRegister(User user) {
-        if (user != null) {
-            logger.info("用户注册");
-            userService.add(user);
-            return ControllerResult.getSuccessResult("用户注册成功");
+    public ControllerResult userRegister(User user, @Param("conPassword") String conPassword, @Param("checkCode") String checkCode, HttpSession session) {
+        String codeSession = (String) session.getAttribute("check_code");
+        if (codeSession != null && codeSession.equals(checkCode)) {
+            //该user为前台传入数据。
+            if (user != null) {
+                //判断传入的两次密码知否一致，只有一致才才可以注册
+                if (user.getPassword().equals(conPassword)) {
+                    logger.info("用户注册");
+                    //对密码进行加密
+                    String md5Pwd = MD5Util.md5(conPassword, Constants.USERSALT);
+                    user.setPassword(md5Pwd);
+                    if(userService.queryByEmail(user.getEmail())==null){
+                        userService.add(user);
+                        logger.info("注册成功");
+                        User u = userService.queryByEmail(user.getEmail());
+                        return ControllerResult.getRegisterResult("注册成功", u.getId());
+                    }else{
+                        return ControllerResult.getFailResult("注册失败，该邮箱已被注册，请重新选择账号！");
+                    }
+                } else {
+                    return ControllerResult.getSuccessResult("两次密码不一致");
+                }
+            } else {
+                return ControllerResult.getSuccessResult("你的账号还未激活，请激活后登陆！");
+            }
         } else {
-            return ControllerResult.getFailResult("用户注册失败，请重新注册");
+            return ControllerResult.getFailResult("验证码错误，请重新输入验证码！");
         }
     }
 
+    @ResponseBody
+    @RequestMapping(value = "giveUserRole", method = RequestMethod.POST)
+    public ControllerResult giveUserRole(@Param("userId") String userId) {
+        logger.info("传过来的id为"+userId);
+        if (userId != null) {
+            userRoleService.add(userId, Constants.userRole);
+            logger.info("为用户赋予角色成功");
+            return ControllerResult.getSuccessResult("为用户赋予角色成功");
+        } else {
+            logger.info("为用户赋予角色成功");
+            return ControllerResult.getFailResult("为用户赋予角色失败");
+        }
+    }
 
     /**
      * 查询所有的用户
@@ -196,27 +218,29 @@ public class UserController {
     /**
      * 修改密码
      * 参数：
-     *  1、新的密码
-     *  2、确认的密码
-     *  3、原先的密码放从user对象中获取
+     * 1、新的密码
+     * 2、确认的密码
+     * 3、原先的密码从session中获取
+     *
      * @param session
      * @return
      */
     @ResponseBody
     @RequestMapping(value = "changePwd", method = RequestMethod.POST)
-    public ControllerResult changePwd(@Param("password") String password,@Param("newPwd") String newPwd, @Param("conPwd") String conPwd, HttpSession session) {
-        User user= (User) session.getAttribute("user");
-        if(user!=null){
-            if(user.getPassword().equals(MD5Util.md5(password,Constants.USERSALT))&&newPwd!=null&&newPwd.equals(conPwd)){
-                user.setPassword(MD5Util.md5(conPwd,Constants.USERSALT));
+    public ControllerResult changePwd(@Param("password") String password, @Param("newPwd") String
+            newPwd, @Param("conPwd") String conPwd, HttpSession session) {
+        User user = (User) session.getAttribute("user");
+        if (user != null) {
+            if (user.getPassword().equals(MD5Util.md5(password, Constants.USERSALT)) && newPwd != null && newPwd.equals(conPwd)) {
+                user.setPassword(MD5Util.md5(conPwd, Constants.USERSALT));
                 userService.updatePwd(user);
-                session.setAttribute("user",user);
+                session.setAttribute("user", user);
                 logger.info("用户更新密码成功");
                 return ControllerResult.getSuccessResult("修改密码成功");
-            }else{
+            } else {
                 return ControllerResult.getFailResult("修改密码失败");
             }
-        }else{
+        } else {
             return ControllerResult.getFailResult("抱歉，更新失败");
         }
     }
@@ -224,12 +248,12 @@ public class UserController {
 
     @ResponseBody
     @RequestMapping(value = "editInfo", method = RequestMethod.POST)
-    public ControllerResult editInfo(User user,HttpSession session){
-        if(user!=null){
+    public ControllerResult editInfo(User user, HttpSession session) {
+        if (user != null) {
             userService.update(user);
-            session.setAttribute("user",userService.queryById(user.getId()));
+            session.setAttribute("user", userService.queryById(user.getId()));
             return ControllerResult.getSuccessResult("更新成功");
-        }else{
+        } else {
             return ControllerResult.getFailResult("更新失败");
         }
     }

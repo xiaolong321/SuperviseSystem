@@ -380,3 +380,17 @@ function showEditWin() {
     }
 }
 
+$(function () {
+
+    /*布局部分*/
+    $('#master-layout').layout({
+        fit: true/*布局框架全屏*/
+    });
+    var cc1 = $('#cc1').combo('panel');
+    cc1.panel({cls: "theme-navigate-combobox-panel"});
+    var cc2 = $('#cc2').combo('panel');
+    cc2.panel({cls: "theme-navigate-combobox-panel"});
+});
+function doSearch(value, name) {
+    alert('You input: ' + value + '(' + name + ')');
+}

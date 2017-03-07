@@ -6,7 +6,6 @@ import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 
 import java.util.Set;
-
 @CacheConfig(cacheNames = "menuCache")
 public interface UserService extends BaseService<User, String> {
     /**
@@ -17,6 +16,15 @@ public interface UserService extends BaseService<User, String> {
      */
     @Cacheable(key = "#username")
     public User queryByUsername(@Param("username") String username);
+
+
+    /**
+     * 根据邮箱查询用户对应的id
+     * @param email
+     * @return
+     */
+    @Cacheable(key = "#email")
+    public User queryByEmail(String email);
 
 
     /**

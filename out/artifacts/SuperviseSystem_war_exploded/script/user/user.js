@@ -4,7 +4,7 @@ var contentPath = '';
 function login() {
     $.post(contentPath + "/user/userLogin", $("#login_form").serialize(), function (data) {
         if (data.result == "success" && data.roleName == "admin") {
-            window.location.href = contentPath + "/user/adminHome";
+            window.location.href = contentPath + "/admin/adminHome";
         } else if (data.result == "success" && data.roleName == "user") {
             window.location.href = contentPath + "/user/userHome";
         } else {
@@ -26,7 +26,7 @@ function logout() {
 function changePwd() {
     $.post(contentPath + "/user/changePwd", $("#updateForm").serialize(), function (data) {
         if (data.result == "success") {
-            $.messager.alert("提示", data.message+",请牢记，下次登录时需要输入修改的密码。", "info",function () {
+            $.messager.alert("提示", data.message + ",请牢记，下次登录时需要输入修改的密码。", "info", function () {
                 window.location.reload();
             });
         } else {
@@ -39,10 +39,16 @@ function changePwd() {
 function userRegister() {
     $.post(contentPath + "/user/userRegister", $("#register_form").serialize(), function (data) {
         if (data.result == "success") {
-            alert(data.message);
-            window.location.href = contentPath + "/user/loginPager";
+            $.messager.alert("提示", data.message, "info", function () {
+                alert(data.roleName);
+                $.post(contentPath + "/user/giveUserRole?userId="+data.roleName, function (data) {
+                    if (data.result=="success") {
+                        window.location.href = contentPath + "/user/loginPager";
+                    }
+                });
+            });
         } else {
-            alert(data.message);
+            $("#errMsg").html(data.message);
         }
     });
 }
@@ -81,5 +87,7 @@ function changeTheme() {
     var str = ($('#cc1').combobox('getValue'));
     alert(str);
 };
+
+
 
 

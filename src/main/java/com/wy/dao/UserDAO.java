@@ -19,6 +19,14 @@ public interface UserDAO extends BaseDAO<User,String>{
      */
     public User queryByUsername(@Param("username") String username);
 
+
+    /**
+     *根据邮箱查询用户对应的id
+     * @param email
+     * @return
+     */
+    public User queryByEmail(String email);
+
     /**
      * 根据id查询该用户的所有的角色，用户角色验证。
      * @param id
@@ -39,4 +47,5 @@ public interface UserDAO extends BaseDAO<User,String>{
      * @param user
      */
     public void updatePwd(User user);
+
 }

@@ -48,7 +48,7 @@
             <value>
                 /user/userLogin=anon
                 /user/userHome=authc
-                /user/adminHome=authc
+                /admin/adminHome=authc
                 /css/**=anon
                 /images/**=anon
                 /js/**=anon

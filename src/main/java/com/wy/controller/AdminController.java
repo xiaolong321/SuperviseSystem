@@ -14,6 +14,9 @@ import javax.servlet.http.HttpSession;
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
+
+
+
     /**
      * 注销登陆
      * @return
@@ -23,5 +26,13 @@ public class AdminController {
     public ControllerResult userLogout(HttpSession session) {
         session.removeAttribute("user");
         return ControllerResult.getSuccessResult("注销成功");
+    }
+
+
+
+
+    @RequestMapping(value = "adminHome", method = RequestMethod.GET)
+    public String toAdminHome() {
+        return "admin/adminHome";
     }
 }

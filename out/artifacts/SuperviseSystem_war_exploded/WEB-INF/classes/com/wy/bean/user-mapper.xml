@@ -11,6 +11,14 @@
         <result column="email" property="email"/>
     </resultMap>
 
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache" >
+        <property name="timeToIdleSeconds" value="3600"/>
+        <property name="timeToLiveSeconds" value="3600"/>
+        <property name="maxEntriesLocalHeap" value="1000"/>
+        <property name="maxEntriesLocalDisk" value="10000000"/>
+        <property name="memoryStoreEvictionPolicy" value="LRU"/>
+    </cache>
+
     <select id="queryByUsername" resultMap="userMap" parameterType="string">
         <![CDATA[
           select * from db_supervise.t_user where email=#{username}
@@ -38,16 +46,22 @@
         ]]>
     </select>
 
+    <select id="queryByEmail" resultMap="userMap">
+        <![CDATA[
+          SELECT *FROM db_supervise.t_user WHERE email=#{email}
+        ]]>
+    </select>
+
     <insert id="add" parameterType="user">
         <![CDATA[
-        INSERT INTO db_supervise.t_user(id, username, password, address, phone, email,headicon)
-         VALUES (uuid(),#{username}.#{password},#{address},#{phone},#{email},#{headicon})
+        INSERT INTO db_supervise.t_user(id, username, password, address, phone, email)
+         VALUES (uuid(),#{username},#{password},#{address},#{phone},#{email})
         ]]>
     </insert>
 
     <insert id="update" parameterType="user">
         <![CDATA[
-        UPDATE db_supervise.t_user set address=#{address},phone=#{phone},username=#{username}
+        UPDATE db_supervise.t_user set address=#{address},phone=#{phone},username=#{username} WHERE id=#{id}
         ]]>
     </insert>
 

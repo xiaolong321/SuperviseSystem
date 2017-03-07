@@ -46,16 +46,22 @@
         ]]>
     </select>
 
+    <select id="queryByEmail" resultMap="userMap">
+        <![CDATA[
+          SELECT *FROM db_supervise.t_user WHERE email=#{email}
+        ]]>
+    </select>
+
     <insert id="add" parameterType="user">
         <![CDATA[
-        INSERT INTO db_supervise.t_user(id, username, password, address, phone, email,headicon)
-         VALUES (uuid(),#{username}.#{password},#{address},#{phone},#{email},#{headicon})
+        INSERT INTO db_supervise.t_user(id, username, password, address, phone, email)
+         VALUES (uuid(),#{username},#{password},#{address},#{phone},#{email})
         ]]>
     </insert>
 
     <insert id="update" parameterType="user">
         <![CDATA[
-        UPDATE db_supervise.t_user set address=#{address},phone=#{phone},username=#{username}
+        UPDATE db_supervise.t_user set address=#{address},phone=#{phone},username=#{username} WHERE id=#{id}
         ]]>
     </insert>
 
