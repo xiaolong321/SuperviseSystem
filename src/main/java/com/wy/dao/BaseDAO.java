@@ -7,6 +7,7 @@ import java.util.List;
  */
 
 public interface BaseDAO<T,PK extends Serializable> {
+
     public List<T> queryAll();
 
     public T queryById(Serializable id);

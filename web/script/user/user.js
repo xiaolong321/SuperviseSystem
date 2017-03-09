@@ -40,9 +40,8 @@ function userRegister() {
     $.post(contentPath + "/user/userRegister", $("#register_form").serialize(), function (data) {
         if (data.result == "success") {
             $.messager.alert("提示", data.message, "info", function () {
-                alert(data.roleName);
-                $.post(contentPath + "/user/giveUserRole?userId="+data.roleName, function (data) {
-                    if (data.result=="success") {
+                $.post(contentPath + "/user/giveUserRole?userId=" + data.roleName, function (data) {
+                    if (data.result == "success") {
                         window.location.href = contentPath + "/user/loginPager";
                     }
                 });

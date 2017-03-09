@@ -11,28 +11,36 @@
         <property name="permissionResolver" ref="permissionResolver"/>
     </bean>
 
-
-    <!-- 配置权限管理器 -->
-    <bean id="jdbcRealm" class="org.apache.shiro.realm.jdbc.JdbcRealm">
-        <property name="dataSource" ref="dataSource"></property>
-        <!-- 根据用户邮箱查找用户密码 -->
-        <property name="authenticationQuery" value="SELECT password FROM t_user WHERE email = ?"></property>
-        <!-- 根据用户的邮箱查找用户的角色名称 -->
-        <property name="userRolesQuery"
-                  value="SELECT roleName FROM t_roles WHERE id in (select role_id from t_user_role where user_id = (select id from t_user where email = ?))"/>
-        <!-- 根据用户的邮箱查找用户的权限 -->
-        <property name="permissionsQuery" value="SELECT permissionName FROM t_permission WHERE id IN (SELECT permission_id FROM t_role_permission WHERE role_id IN (SELECT role_id FROM t_user_role
-                               WHERE user_id = (SELECT id FROM t_user WHERE email = ?)))"/>
+    <!--配置模块化身份验证-->
+    <bean id="authenticator" class="com.wy.authenticator.MyModularRealmAuthenticator">
+        <property name="authenticationStrategy">
+            <bean class="org.apache.shiro.authc.pam.FirstSuccessfulStrategy" />
+        </property>
     </bean>
+
+    <!-- 配置admin角色自定义域 -->
+    <bean id="adminRealm" class="com.wy.realm.AdminRealm"/>
+
+    <!-- 配置user角色自定义域 -->
+    <bean id="userRealm" class="com.wy.realm.UserRealm"/>
+
+    <!--配置默认的Web安全管理器-->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <!--模块化权限授权器-->
         <property name="authorizer" ref="authorizer"/>
-        <!-- 我们自定义的realm -->
-        <property name="realm" ref="jdbcRealm"/>
+        <property name="authenticator" ref="authenticator" />
+        <!--配置多个域-->
+        <property name="realms">
+            <list>
+                <ref bean="userRealm" />
+                <ref bean="adminRealm" />
+            </list>
+        </property>
     </bean>
 
     <!-- 缓存管理器 使用Ehcache实现 -->
     <bean id="shiroCacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
-        <property name="cacheManager" ref="ehCacheManager" />
+        <property name="cacheManager" ref="ehCacheManager"/>
     </bean>
 
     <!-- Shiro过滤器 核心-->

@@ -1,31 +1,22 @@
 package com.wy.dao;
 
-import com.wy.bean.User;
-import org.apache.ibatis.annotations.Param;
+import com.wy.bean.Admin;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
 import java.util.Set;
 
 /**
- * Created by Administrator on 2/15/2017.
+ * Created by Administrator on 2017/3/8.
  */
 @Repository
-public interface UserDAO extends BaseDAO<User,String>{
-    /**
-     * 验证账号密码
-     * @param username
-     * @return
-     */
-    public User queryByUsername(@Param("username") String username);
-
+public interface AdminDAO extends BaseDAO<Admin, String> {
 
     /**
-     *根据邮箱查询用户对应的id
+     * 根据email查找该账号有关的信息
      * @param email
      * @return
      */
-    public User queryByEmail(String email);
+    public Admin queryByEmail(String email);
 
     /**
      * 根据id查询该用户的所有的角色，用户角色验证。
@@ -44,8 +35,7 @@ public interface UserDAO extends BaseDAO<User,String>{
 
     /**
      * 用于更新密码
-     * @param user
+     * @param admin
      */
-    public void updatePwd(User user);
-
+    public void updatePwd(Admin admin);
 }

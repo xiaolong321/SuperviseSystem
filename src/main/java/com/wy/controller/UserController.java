@@ -121,13 +121,9 @@ public class UserController {
             subject = SecurityUtils.getSubject();
             try {
                 subject.login(new UsernamePasswordToken(user.getEmail(), MD5Util.md5(user.getPassword(), Constants.USERSALT)));
-                if (subject.hasRole("admin")) {
-                    logger.info("验证是否为admin");
-                    session.setAttribute("admin", userService.queryByUsername(subject.getPrincipal().toString()));
-                    return ControllerResult.getLoginRsult("登陆成功", "admin");
-                } else if (subject.hasRole("user")) {
+                if (subject.hasRole("user")) {
                     logger.info("验证是否为user");
-                    session.setAttribute("user", userService.queryByUsername(subject.getPrincipal().toString()));
+                    session.setAttribute("user", userService.queryByEmail(subject.getPrincipal().toString()));
                     return ControllerResult.getLoginRsult("登陆成功", "user");
                 } else {
                     return ControllerResult.getFailResult("登陆失败");
@@ -178,10 +174,10 @@ public class UserController {
                         return ControllerResult.getFailResult("注册失败，该邮箱已被注册，请重新选择账号！");
                     }
                 } else {
-                    return ControllerResult.getSuccessResult("两次密码不一致");
+                    return ControllerResult.getFailResult("两次密码不一致");
                 }
             } else {
-                return ControllerResult.getSuccessResult("你的账号还未激活，请激活后登陆！");
+                return ControllerResult.getFailResult("你的账号还未激活，请激活后登陆！");
             }
         } else {
             return ControllerResult.getFailResult("验证码错误，请重新输入验证码！");

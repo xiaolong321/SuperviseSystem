@@ -27,7 +27,6 @@ public class CreateDatabaseTest {
         // 构建流程引擎对象
         ProcessEngine pe = pec.buildProcessEngine(); // 调用访方法才会创建数据表
         // 调用close方法时，才会删除
-        ///aaaaaa
         pe.close();
 
     }

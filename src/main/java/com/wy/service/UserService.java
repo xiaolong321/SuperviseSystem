@@ -30,21 +30,21 @@ public interface UserService extends BaseService<User, String> {
     /**
      * 根据id查询该用户的所有的角色，用户角色验证。
      *
-     * @param username
+     * @param email
      * @return
      */
-    @Cacheable(key = "#username")
-    public Set<String> queryRoles(String username);
+    @Cacheable(key = "#email")
+    public Set<String> queryRoles(String email);
 
 
     /**
      * 根据id查询该用户所拥有的权限，用于权限判断。
      *
-     * @param username
+     * @param email
      * @return
      */
-    @Cacheable(key = "#username")
-    public Set<String> queryPermissions(String username);
+    @Cacheable(key = "#email")
+    public Set<String> queryPermissions(String email);
 
 
     /**

@@ -15,12 +15,19 @@
     <script type="text/javascript" src="<%=path%>/script/user/user.js"></script>
     <script type="text/javascript" src="<%=path%>/script/site_easyui.js"></script>
     <script type="text/javascript" src="<%=path%>/js/themes/insdep/jquery.insdep-extend.min.js"></script>
+    <script>
+        function keyLogin() {
+            if(event.keyCode===13){
+                alert("点击登录了");
+            }
+        }
+    </script>
 </head>
-<body style="background: url('/images/bg/register_bg.jpeg');">
+<body style="background: url('/images/bg/register_bg.jpeg')";>
 <div class="register_container">
     <div class="easyui-window" title="请输入必要的信息进行注册"
          data-options="modal:true,closed:false,iconCls:'Lockgo',closable:false,minimizable:false,maximizable:false"
-         style="width:400px; height: 550px;padding:20px 70px 20px 70px;">
+         style="width:400px; height: 555px;padding:20px 70px 20px 70px;">
         <form:form id="register_form" method="post" modelAttribute="user">
             <p id="errMsg" style="color: red;text-align: center;"></p>
             <div style="margin-bottom:10px">
@@ -60,6 +67,7 @@
                 <a href="javascript:;" onclick="userRegister();" class="easyui-linkbutton" data-options="iconCls:'icon-ok'"
                    style="padding:5px 0px;width: 100%;">
                     <span style="font-size:14px;">注册</span>
+                    <a href="<%=path%>/user/loginPager">登陆</a>
                 </a>
             </div>
         </form:form>

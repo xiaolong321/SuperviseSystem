@@ -89,7 +89,7 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改用户信息','/user/userInfoPage?id=${sessionScope.admin.id}');">修改用户信息</a>
+                                    <a href="javascript:;" onclick="addTab('修改用户信息','/admin/adminInfoPage?id=${sessionScope.admin.id}');">修改用户信息</a>
                                 </p>
                             </span>
                         </div>
@@ -98,7 +98,20 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改密码','/user/updatePwdPage');">修改密码</a>
+                                    <a href="javascript:;" onclick="addTab('修改密码','/admin/updatePwdPage');">修改密码</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div title="系统设置" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('添加新的管理员','/admin/addAdminPage');">添加新的管理员</a>
                                 </p>
                             </span>
                         </div>

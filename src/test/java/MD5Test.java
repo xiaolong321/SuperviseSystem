@@ -12,7 +12,7 @@ public class MD5Test {
          *  1、需要加密的内容
          *  2、加密是添加的盐凭证
          */
-        String str=MD5Util.md5("151726","user");
+        String str=MD5Util.md5("151726","admin");
         System.out.println(str.toString());
     }
 }
