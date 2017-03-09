@@ -8,7 +8,6 @@ import org.apache.shiro.realm.Realm;
 import org.apache.shiro.util.CollectionUtils;
 
 import java.util.Collection;
-
 /**
  * Created by Administrator on 2017/3/9.
  */

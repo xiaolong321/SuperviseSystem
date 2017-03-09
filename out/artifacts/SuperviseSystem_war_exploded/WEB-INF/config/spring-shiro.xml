@@ -18,27 +18,11 @@
         </property>
     </bean>
 
-
     <!-- 配置admin角色自定义域 -->
     <bean id="adminRealm" class="com.wy.realm.AdminRealm"/>
 
     <!-- 配置user角色自定义域 -->
     <bean id="userRealm" class="com.wy.realm.UserRealm"/>
-
-
-    <!--&lt;!&ndash; 配置权限管理器 &ndash;&gt;-->
-    <!--<bean id="jdbcRealm" class="org.apache.shiro.realm.jdbc.JdbcRealm">-->
-        <!--<property name="dataSource" ref="dataSource"></property>-->
-        <!--&lt;!&ndash; 根据用户邮箱查找用户密码 &ndash;&gt;-->
-        <!--<property name="authenticationQuery" value="SELECT password FROM t_admin WHERE email = ?"></property>-->
-        <!--&lt;!&ndash; 根据用户的邮箱查找用户的角色名称 &ndash;&gt;-->
-        <!--<property name="userRolesQuery"-->
-                  <!--value="SELECT roleName FROM t_roles WHERE id in (select role_id from t_user_role where user_id = (select id from t_admin where email = ?))"/>-->
-        <!--&lt;!&ndash; 根据用户的邮箱查找用户的权限 &ndash;&gt;-->
-        <!--<property name="permissionsQuery" value="SELECT permissionName FROM t_permission WHERE id IN (SELECT permission_id FROM t_role_permission WHERE role_id IN (SELECT role_id FROM t_user_role-->
-                               <!--WHERE user_id = (SELECT id FROM t_admin-->
-                                <!--WHERE email = ?)))"/>-->
-    <!--</bean>-->
 
     <!--配置默认的Web安全管理器-->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">

@@ -118,6 +118,20 @@
                     </li>
                 </ul>
             </div>
+
+            <div title="流程管理" class="site_menu">
+                <ul class="easyui-tree">
+                    <li>
+                        <div class="tree-node">
+                            <span class="tree-title">
+                                <p>
+                                    <a href="javascript:;" onclick="addTab('查看全部流程','/admin/toViewAllProcessPage');">查看全部流程</a>
+                                </p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div id="mainPanle" data-options="region:'center',border:true">
