@@ -59,8 +59,8 @@
 
     <insert id="add" parameterType="user">
         <![CDATA[
-        INSERT INTO db_supervise.t_user(id, username, password, address, phone, email)
-         VALUES (uuid(),#{username},#{password},#{address},#{phone},#{email})
+        INSERT INTO db_supervise.t_user(id, username, password, address, phone, email,status,registerTime)
+         VALUES (uuid(),#{username},#{password},#{address},#{phone},#{email},1,CURRENT_TIMESTAMP)
         ]]>
     </insert>
 

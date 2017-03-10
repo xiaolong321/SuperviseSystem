@@ -37,7 +37,7 @@ function changePwd() {
 
 //注册用户账号
 function userRegister() {
-    $.post(contentPath + "/user/userRegister", $("#register_form").serialize(), function (data) {
+    $.post(contentPath + "/user/userRegister?", $("#register_form").serialize(), function (data) {
         if (data.result == "success") {
             $.messager.alert("提示", data.message, "info", function () {
                 $.post(contentPath + "/user/giveUserRole?userId=" + data.roleName, function (data) {
@@ -50,6 +50,21 @@ function userRegister() {
             $("#errMsg").html(data.message);
         }
     });
+}
+
+function sendRegisterCode() {
+    var email = $("#email").val();
+    if (email != null) {
+        $.post(contentPath + "/user/sendRegisterCode?receiveMailAccount=" + email, function (data) {
+            if (data.result == "success") {
+                $.messager.alert("提示", data.message, "info");
+            } else {
+                $("#errMsg").html(data.message);
+            }
+        });
+    } else {
+        $("#errMsg").html("请输入你的邮箱再获取注册码");
+    }
 }
 
 //修改账号信息

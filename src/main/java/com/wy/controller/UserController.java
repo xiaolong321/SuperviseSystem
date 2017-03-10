@@ -4,6 +4,7 @@ import com.wy.bean.User;
 import com.wy.common.bean.Constants;
 import com.wy.common.bean.ControllerResult;
 import com.wy.common.util.MD5Util;
+import com.wy.common.util.MailUtil;
 import com.wy.dao.UserRoleDAO;
 import com.wy.service.UserRoleService;
 import com.wy.service.UserService;
@@ -23,6 +24,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.mail.internet.AddressException;
+import javax.naming.ldap.Control;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
@@ -154,24 +157,29 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "userRegister", method = RequestMethod.POST)
-    public ControllerResult userRegister(User user, @Param("conPassword") String conPassword, @Param("checkCode") String checkCode, HttpSession session) {
+    public ControllerResult userRegister(User user, @Param("conPassword") String conPassword, @Param("checkCode") String checkCode, @Param("registerCode") String registerCode, HttpSession session) {
         String codeSession = (String) session.getAttribute("check_code");
         if (codeSession != null && codeSession.equals(checkCode)) {
             //该user为前台传入数据。
             if (user != null) {
                 //判断传入的两次密码知否一致，只有一致才才可以注册
                 if (user.getPassword().equals(conPassword)) {
-                    logger.info("用户注册");
-                    //对密码进行加密
-                    String md5Pwd = MD5Util.md5(conPassword, Constants.USERSALT);
-                    user.setPassword(md5Pwd);
-                    if(userService.queryByEmail(user.getEmail())==null){
-                        userService.add(user);
-                        logger.info("注册成功");
-                        User u = userService.queryByEmail(user.getEmail());
-                        return ControllerResult.getRegisterResult("注册成功", u.getId());
-                    }else{
-                        return ControllerResult.getFailResult("注册失败，该邮箱已被注册，请重新选择账号！");
+                    logger.info(session.getAttribute("registerCode").toString());
+                    if (registerCode != null && registerCode.equals(session.getAttribute("registerCode").toString())) {
+                        logger.info("用户注册");
+                        //对密码进行加密
+                        String md5Pwd = MD5Util.md5(conPassword, Constants.USERSALT);
+                        user.setPassword(md5Pwd);
+                        if (userService.queryByEmail(user.getEmail()) == null) {
+                            userService.add(user);
+                            logger.info("注册成功");
+                            User u = userService.queryByEmail(user.getEmail());
+                            return ControllerResult.getRegisterResult("注册成功", u.getId());
+                        } else {
+                            return ControllerResult.getFailResult("注册失败，该邮箱已被注册，请重新选择账号！");
+                        }
+                    } else {
+                        return ControllerResult.getFailResult("注册码错误，请重新获取");
                     }
                 } else {
                     return ControllerResult.getFailResult("两次密码不一致");
@@ -187,7 +195,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping(value = "giveUserRole", method = RequestMethod.POST)
     public ControllerResult giveUserRole(@Param("userId") String userId) {
-        logger.info("传过来的id为"+userId);
+        logger.info("传过来的id为" + userId);
         if (userId != null) {
             userRoleService.add(userId, Constants.userRole);
             logger.info("为用户赋予角色成功");
@@ -195,6 +203,29 @@ public class UserController {
         } else {
             logger.info("为用户赋予角色成功");
             return ControllerResult.getFailResult("为用户赋予角色失败");
+        }
+    }
+
+
+    @ResponseBody
+    @RequestMapping(value = "sendRegisterCode", method = RequestMethod.POST)
+    public ControllerResult sendRegisterCode(HttpSession session, String receiveMailAccount) throws Exception {
+        logger.info("发送邮箱验证码");
+        int code = MailUtil.getRandomNumber();
+        if (code != 0 && code >= 10000) {
+            session.setAttribute("registerCode", code);
+            logger.info(session.getAttribute("registerCode").toString());
+            if (receiveMailAccount != null && !receiveMailAccount.equals("")) {
+                MailUtil.sendSimpleEmail(receiveMailAccount);
+                logger.info("发送成功");
+                return ControllerResult.getSuccessResult("发送成功");
+            } else {
+                logger.info("发送失败,请输入你的邮箱");
+                return ControllerResult.getFailResult("请输入你的常用邮箱接受注册码");
+            }
+        } else {
+            logger.info("发送失败");
+            return ControllerResult.getFailResult("发送失败，内部出现错误，请重新发送。");
         }
     }
 

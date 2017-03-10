@@ -27,7 +27,7 @@
 <div class="register_container">
     <div class="easyui-window" title="请输入必要的信息进行注册"
          data-options="modal:true,closed:false,iconCls:'Lockgo',closable:false,minimizable:false,maximizable:false"
-         style="width:400px; height: 555px;padding:20px 70px 20px 70px;">
+         style="width:400px; height: 560px;padding:20px 70px 20px 70px;">
         <form:form id="register_form" method="post" modelAttribute="user">
             <p id="errMsg" style="color: red;text-align: center;"></p>
             <div style="margin-bottom:10px">
@@ -53,7 +53,7 @@
                        data-options="prompt:'手机',required:true">
             </div>
             <div style="margin-bottom:10px">
-                <input class="easyui-textbox" id="address" name="address" style="width: 100%;height:100px;padding:12px"
+                <input class="easyui-textbox" id="address" name="address" style="width: 100%;height:70px;padding:12px"
                        data-options="prompt:'家庭地址',required:false">
             </div>
             <div style="margin-bottom:20px">
@@ -62,6 +62,11 @@
                 <a href="javascript:;"><img style=" margin:0 0 0 3px ; vertical-align:middle; height:35px;"
                                             src="<%=path %>/kaptch"
                                             onclick="this.src='<%=path %>/kaptch?time=Math.random();'"></a>
+            </div>
+            <div style="margin-bottom:20px">
+                <input class="easyui-textbox" id="registerCode" type="text" name="registerCode" style="width: 50%;height:35px;padding:12px"
+                       data-options="prompt:'注册码',required:true">
+                <a class="easyui-linkbutton" onclick="sendRegisterCode()">发送注册码</a>
             </div>
             <div>
                 <a href="javascript:;" onclick="userRegister();" class="easyui-linkbutton" data-options="iconCls:'icon-ok'"
