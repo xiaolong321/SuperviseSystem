@@ -12,7 +12,7 @@
     <script type="text/javascript" src="/js/jquery.min.js"></script>
     <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="/js/themes/insdep/jquery.insdep-extend.min.js"></script>
-    <script type="text/javascript" src="/script/user/admin.js"></script>
+    <script type="text/javascript" src="/script/admin/admin.js"></script>
     <script type="text/javascript" src="/script/site_easyui.js"></script>
 </head>
 <body>
@@ -49,12 +49,7 @@
                             <span>${sessionScope.admin.email}</span>
                             <p>手机号码：<i class="text-success">${sessionScope.admin.phone}</i></p>
                         </dd>
-                        <dt>
-                            <a class="theme-navigate-user-logout" onclick="logout();">注销</a>
-                        <form action="<%=path%>/user/leave">
-                            <input type="text" name="reason" />
-                            <input type="submit" />
-                        </form>
+                        <dt><a class="theme-navigate-user-logout" onclick="logout();">注销</a>
                         </dt>
                     </dl>
                 </div>

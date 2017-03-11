@@ -19,6 +19,7 @@ import java.util.Set;
  * Created by Administrator on 2017/3/9.
  */
 public class UserRealm extends AuthorizingRealm {
+
     @Resource
     private UserService userService;
 

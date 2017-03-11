@@ -51,10 +51,6 @@
                         </dd>
                         <dt>
                             <a class="theme-navigate-user-logout" onclick="logout();">注销</a>
-                            <form action="<%=path%>/user/leave">
-                                <input type="text" name="reason" />
-                                <input type="submit" />
-                            </form>
                         </dt>
                     </dl>
                 </div>
@@ -89,7 +85,8 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('修改用户信息','/user/userInfoPage?id=${sessionScope.user.id}');">修改用户信息</a>
+                                    <a href="javascript:;"
+                                       onclick="addTab('修改用户信息','/user/userInfoPage?id=${sessionScope.user.id}');">修改用户信息</a>
                                 </p>
                             </span>
                         </div>
@@ -111,7 +108,8 @@
                         <div class="tree-node">
                             <span class="tree-title">
                                 <p>
-                                    <a href="javascript:;" onclick="addTab('请假申请','/user/userInfoPage?id=${sessionScope.user.id}');">请假申请</a>
+                                    <a href="javascript:;"
+                                       onclick="addTab('请假申请','/user/userInfoPage?id=${sessionScope.user.id}');">请假申请</a>
                                 </p>
                             </span>
                         </div>
@@ -130,8 +128,8 @@
                     <div class="right">
                         <style>
                             .gauge {
-                                    width: 130px;
-                                    height: 130px;
+                                width: 130px;
+                                height: 130px;
                             }
                         </style>
                         <script>
