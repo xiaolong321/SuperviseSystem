@@ -5,7 +5,6 @@ import com.wy.common.bean.Constants;
 import com.wy.common.bean.ControllerResult;
 import com.wy.common.util.MD5Util;
 import com.wy.common.util.MailUtil;
-import com.wy.dao.UserRoleDAO;
 import com.wy.service.UserRoleService;
 import com.wy.service.UserService;
 import org.activiti.engine.RepositoryService;

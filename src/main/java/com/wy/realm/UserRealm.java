@@ -1,6 +1,5 @@
 package com.wy.realm;
 
-import com.wy.bean.Admin;
 import com.wy.bean.User;
 import com.wy.service.UserService;
 import org.apache.shiro.authc.AuthenticationException;
@@ -23,6 +22,7 @@ public class UserRealm extends AuthorizingRealm {
     @Resource
     private UserService userService;
 
+    @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         //获取登陆的账号，账号通常为email。
         String email=principalCollection.getPrimaryPrincipal().toString();
@@ -34,6 +34,7 @@ public class UserRealm extends AuthorizingRealm {
         return info;
     }
 
+    @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         String email=authenticationToken.getPrincipal().toString();
         User user=userService.queryByEmail(email);

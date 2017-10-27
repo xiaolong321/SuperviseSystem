@@ -8,6 +8,7 @@ import org.apache.shiro.realm.Realm;
 import org.apache.shiro.util.CollectionUtils;
 
 import java.util.Collection;
+
 /**
  * Created by Administrator on 2017/3/9.
  */
@@ -31,8 +32,6 @@ public class MyModularRealmAuthenticator extends ModularRealmAuthenticator {
                 if (aggregate != null && !CollectionUtils.isEmpty(aggregate.getPrincipals())) {
                     return aggregate;
                 }
-            } else {
-
             }
         }
         aggregate = strategy.afterAllAttempts(token, aggregate);
