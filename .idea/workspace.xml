@@ -7,394 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4039dcf-9562-4d00-b9ec-ab7d001b2950" name="删除不需要的编译已编译文件。" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__geronimo_spec_geronimo_spec_javamail_1_3_1_rc3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_bpmn_layout_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_common_rest_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_rest_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_activiti_activiti_simple_workflow_5_22_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_ehcache_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tinyjee_jgraphx_jgraphx_1_10_4_1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/bean/user-mapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/cache/BaseCacheService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/cache/UserServiceAspect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/bean/ControllerResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/bean/Pager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/bean/Pager4EasyUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/common/util/MD5Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/dao/BaseDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/dao/UserDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/filter/ResourceCheckFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/permission/UrlPermission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/permission/UrlPermissionResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/realm/MyRealm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/BaseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/Impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/classes/com/wy/service/UserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/autoload.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/spring-applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/spring-mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/spring-shiro.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/config/springmvc-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/aspectjweaver-1.8.8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/avalon-framework-api-4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/avalon-logkit-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/ehcache-2.10.2.2.21.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/ehcache-core-2.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/fastjson-1.2.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/filters-2.0.235-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/geronimo-spec-jms-1.1-rc4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/jackson-annotations-2.7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/jackson-core-2.7.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/jackson-core-lgpl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/jackson-databind-2.7.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/jackson-mapper-lgpl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/kaptcha-2.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/logback-classic-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/logback-core-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/logback-ext-spring-0.1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/mybatis-3.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.36.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/proxool-0.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/proxool-cglib-0.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/shiro-core-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/shiro-ehcache-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/shiro-spring-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/shiro-web-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/slf4j-api-1.7.20.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-context-support-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-orm-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-test-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-tx-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/css/site_main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/images/headicon/headicon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/images/headicon/login.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/images/headicon/傲娇.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/jquery.easyui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/Highcharts/highcharts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/cropper/cropper.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/cropper/cropper.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/justgage/justgage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/justgage/raphael-2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/pnotify/pnotify.custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/pnotify/pnotify.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/ueditor/ueditor.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/plugin/ueditor/ueditor.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/default_theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/columns-ext/__MACOSX/._columns-ext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/columns-ext/columns-ext.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/columns-ext/columns-ext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/columns-ext/group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/datagrid-cellediting/datagrid-cellediting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/datagrid-dnd/datagrid-dnd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/datagrid-dnd/datagrid-dnd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/datagrid-filter/datagrid-filter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/datagrid-filter/datagrid-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/datagrid-filter/filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-bufferview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-bufferview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-defaultview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-detailview2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-groupview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-groupview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid-scrollview2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/datagrid_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-datagridview/images/EST-9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-dwrloader/dwrloader.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-dwrloader/dwrloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-edatagrid/datagrid_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-edatagrid/editable-datagrid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-edatagrid/jquery.edatagrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-etree/editable-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-etree/jquery.etree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-etree/jquery.etree.lang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-etree/tree_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/__MACOSX/._layout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/__MACOSX/._load.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/jquery.pivotgrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/layout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/load.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-pivotgrid/pivotgrid_data2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-portal/datagrid_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-portal/jquery.portal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-portal/portal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-center.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-justify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/align-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/bold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/bullets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/case-font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/decrease-font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/find.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/format.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/go.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/grow-font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/increase-font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/italic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/numbers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/paste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/replace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/select.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/selectall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/shrink-font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/strikethrough.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/subscript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/superscript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/16/underline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/chart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/clipart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/paste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/shapes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/smartart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/images/32/table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/jquery.ribbon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon-icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-ribbon/ribbon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-rtl/content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-rtl/datagrid_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-rtl/easyui-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-rtl/easyui-rtl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-rtl/rtl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-rtl/tree_data1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/__MACOSX/images/._.DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/__MACOSX/images/._backcolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/__MACOSX/images/._forecolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/__MACOSX/images/._indent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/__MACOSX/images/._outdent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/backcolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/bold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/forecolor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/indent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/insertorderedlist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/insertunorderedlist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/italic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifycenter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyfull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyleft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/justifyright.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/outdent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/strikethrough.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/images/underline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/jquery.texteditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/jquery-easyui-texteditor/texteditor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/treegrid-dnd/treegrid-dnd.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/expand/treegrid-dnd/treegrid-dnd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/iconfont/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/iconfont/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/iconfont/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/iconfont/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/iconfont/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/iconfont/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/iconfont/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/arrow_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/arrow_rotate_anticlockwise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/arrow_rotate_clockwise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/arrow_switch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/clear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/cog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/edit_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/edit_remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/filesave.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/folder_search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/help.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/information.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/large_chart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/large_clipart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/large_picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/large_shapes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/large_smartart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/lock_go.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/lock_password.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/man.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini-append.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini-cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini-ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini-pencil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini-reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_cross.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/mini_tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/pencil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/recover_deleted_items.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/sort_number.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/sum.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/tip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/update.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/user_config.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/icons/wrench_orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/QRcode-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/QRcode-demo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/QRcode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/alert_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/append-images.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/datagrid-filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/disable.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/footer_projection.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/info-icons-at.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/info-icons-tel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/list-loding.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/logo_110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/menu_arrows_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/menu_arrows_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/navigate_more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/panel_tools - 副本.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/panel_tools_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/passwordbox_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/passwordbox_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait129x129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait172x172-select.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait172x172.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait250x250.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait28x28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait38x38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait43x43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/portrait86x86.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/progressbar-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/searchbox_navigate_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/tabs_icons_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/tabs_icons_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/tagbox_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/tree_icons_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/jquery.insdep-extend.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/js/themes/insdep/master.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/script/admin/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/script/site_easyui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SuperviseSystem_war_exploded/script/user/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/activiti_diagrams/leave_process.bpmn" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/Role.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/admin-mapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/user-mapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/bean/user_role-mapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/cache/BaseCacheService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/cache/UserServiceAspect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/common/bean/ControllerResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/common/bean/Pager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/common/bean/Pager4EasyUI.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/common/util/MD5Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/dao/BaseDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/dao/UserDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/filter/ResourceCheckFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/permission/UrlPermission.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/permission/UrlPermissionResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/realm/MyRealm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/BaseService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/Impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/wy/service/UserService.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuperviseSystem.iml" afterPath="$PROJECT_DIR$/SuperviseSystem.iml" />
     </list>
     <list id="d70e22f8-dfe3-450e-8cfd-3bd8975eb954" name="Default" comment="在原先框架的基础上集成配置了activiti工作流。" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -555,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wy/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/wy/bean/admin-mapper.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-shiro.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.gitattributes" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/authenticator/MyModularRealmAuthenticator.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring-activiti.xml" />
@@ -583,6 +196,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/user/userHome.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/pager/admin/adminHome.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/wy/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -602,7 +216,7 @@
   <component name="MavenProjectNavigator">
     <treeState />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -710,6 +324,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1647,7 +1262,7 @@
       <workItem from="1489057267530" duration="7703000" />
       <workItem from="1489104379758" duration="11316000" />
       <workItem from="1489190609171" duration="1913000" />
-      <workItem from="1509098403770" duration="289000" />
+      <workItem from="1509098403770" duration="453000" />
     </task>
     <task id="LOCAL-00001" summary="在原先框架的基础上集成配置了activiti工作流。">
       <created>1488426521415</created>
@@ -1706,7 +1321,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320901000" />
+    <option name="totallyTimeSpent" value="321065000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1718,7 +1333,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
@@ -1848,13 +1463,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/bean/Leave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/LeaveServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/activiti/LeaveWorkflowService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wy/service/activiti/LeaveManager.java" />
@@ -2164,6 +1772,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
       </provider>
