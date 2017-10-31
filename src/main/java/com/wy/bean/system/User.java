@@ -1,9 +1,9 @@
-package com.wy.bean;
+package com.wy.bean.system;
 
 /**
- * Created by Administrator on 2017/3/2.
+ * 账户表
  */
-public class Admin {
+public class User {
     private String id;
     private String username;
     private String password;
@@ -70,7 +70,7 @@ public class Admin {
 
     @Override
     public String toString() {
-        return "Admin{" +
+        return "User{" +
                 "id='" + id + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +

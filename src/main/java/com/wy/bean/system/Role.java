@@ -1,7 +1,7 @@
-package com.wy.bean;
+package com.wy.bean.system;
 
 /**
- * Created by Administrator on 2017/3/2.
+ * 角色表
  */
 public class Role {
     private int role;

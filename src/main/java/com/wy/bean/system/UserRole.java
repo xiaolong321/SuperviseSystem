@@ -1,11 +1,11 @@
-package com.wy.bean;
+package com.wy.bean.system;
 
 /**
- * Created by Administrator on 2017/3/2.
+ * 账户角色关联表
  */
-public class Permission {
+public class UserRole {
     private int id;
-    private String permissionName;
+    private String userId;
     private int roleId;
 
     public int getId() {
@@ -16,12 +16,12 @@ public class Permission {
         this.id = id;
     }
 
-    public String getPermissionName() {
-        return permissionName;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setPermissionName(String permissionName) {
-        this.permissionName = permissionName;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     public int getRoleId() {
@@ -34,9 +34,9 @@ public class Permission {
 
     @Override
     public String toString() {
-        return "Permission{" +
+        return "UserRole{" +
                 "id=" + id +
-                ", permissionName='" + permissionName + '\'' +
+                ", userId='" + userId + '\'' +
                 ", roleId=" + roleId +
                 '}';
     }

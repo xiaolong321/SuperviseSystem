@@ -1,10 +1,10 @@
-package com.wy.bean;
+package com.wy.bean.system;
 
 /**
- * 普通用户
- * Created by Administrator on 2/14/2017.
+ * 管理员
+ * Created by Administrator on 2017/3/2.
  */
-public class User {
+public class Admin {
     private String id;
     private String username;
     private String password;
@@ -71,7 +71,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Admin{" +
                 "id='" + id + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
