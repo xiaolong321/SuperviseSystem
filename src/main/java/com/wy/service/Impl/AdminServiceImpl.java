@@ -1,6 +1,6 @@
 package com.wy.service.Impl;
 
-import com.wy.bean.Admin;
+import com.wy.bean.system.Admin;
 import com.wy.dao.AdminDAO;
 import com.wy.service.AdminService;
 import org.springframework.stereotype.Service;

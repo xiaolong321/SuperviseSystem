@@ -10,6 +10,7 @@ import org.apache.shiro.util.CollectionUtils;
 import java.util.Collection;
 
 /**
+ * 模块验证授权器
  * Created by Administrator on 2017/3/9.
  */
 public class MyModularRealmAuthenticator extends ModularRealmAuthenticator {

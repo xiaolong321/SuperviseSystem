@@ -1,11 +1,9 @@
 package com.wy.service.Impl;
 
-import com.wy.bean.User;
+import com.wy.bean.system.User;
 import com.wy.dao.UserDAO;
 import com.wy.service.UserService;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.cache.annotation.CacheConfig;
-import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

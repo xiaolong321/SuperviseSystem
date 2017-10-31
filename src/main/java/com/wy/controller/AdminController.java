@@ -1,15 +1,11 @@
 package com.wy.controller;
 
-import com.wy.bean.Admin;
+import com.wy.bean.system.Admin;
 import com.wy.common.bean.Constants;
 import com.wy.common.bean.ControllerResult;
 import com.wy.common.util.MD5Util;
 import com.wy.service.AdminService;
 import com.wy.service.UserRoleService;
-import org.activiti.engine.ProcessEngine;
-import org.activiti.engine.ProcessEngines;
-import org.activiti.engine.repository.ProcessDefinition;
-import org.activiti.engine.runtime.ProcessInstance;
 import org.apache.ibatis.annotations.Param;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
@@ -24,7 +20,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-import java.util.List;
 
 /**
  * Created by Administrator on 2017/3/3.
@@ -38,9 +33,6 @@ public class AdminController {
 
     @Resource
     private UserRoleService userRoleService;
-
-    //获取默认的流程引擎
-    private ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
 
     private Subject subject;
 
@@ -199,17 +191,5 @@ public class AdminController {
     @RequestMapping(value = "toViewAllProcessPage", method = RequestMethod.GET)
     public String toViewAllProcessPage() {
         return "admin/allProcess";
-    }
-
-
-    /**
-     * 查询全部的流程定义信息，在act_re_procdef表。
-     * 流程定义为activiti加载流程时留下的定义信息。可看到全部部署、启动过的流程。
-     * @return
-     */
-    @ResponseBody
-    @RequestMapping(value = "toViewAllProcess", method = RequestMethod.POST)
-    public List<ProcessDefinition> toViewAllProcess() {
-        return null;
     }
 }

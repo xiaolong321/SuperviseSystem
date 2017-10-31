@@ -1,6 +1,6 @@
 package com.wy.realm;
 
-import com.wy.bean.User;
+import com.wy.bean.system.User;
 import com.wy.service.UserService;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

@@ -1,6 +1,6 @@
 package com.wy.dao;
 
-import com.wy.bean.Admin;
+import com.wy.bean.system.Admin;
 import org.springframework.stereotype.Repository;
 
 import java.util.Set;

@@ -1,6 +1,6 @@
 package com.wy.service;
 
-import com.wy.bean.Admin;
+import com.wy.bean.system.Admin;
 import com.wy.dao.BaseDAO;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;

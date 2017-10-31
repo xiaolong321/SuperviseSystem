@@ -1,16 +1,12 @@
 package com.wy.controller;
 
-import com.wy.bean.User;
+import com.wy.bean.system.User;
 import com.wy.common.bean.Constants;
 import com.wy.common.bean.ControllerResult;
 import com.wy.common.util.MD5Util;
 import com.wy.common.util.MailUtil;
 import com.wy.service.UserRoleService;
 import com.wy.service.UserService;
-import org.activiti.engine.RepositoryService;
-import org.activiti.engine.RuntimeService;
-import org.activiti.engine.TaskService;
-import org.activiti.engine.task.Task;
 import org.apache.ibatis.annotations.Param;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
@@ -23,8 +19,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
-import javax.mail.internet.AddressException;
-import javax.naming.ldap.Control;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
@@ -41,15 +35,6 @@ public class UserController {
 
     @Resource
     private UserRoleService userRoleService;
-
-    @Resource
-    private RepositoryService repositoryService;
-
-    @Resource
-    private RuntimeService runtimeService;
-
-    @Resource
-    private TaskService taskService;
 
     private Subject subject;
 
@@ -303,49 +288,4 @@ public class UserController {
         }
         return null;
     }
-
-    /**
-     * activiti开始部署
-     */
-    @ResponseBody
-    @RequestMapping(value = "deploy", method = RequestMethod.GET)
-    public ControllerResult deploy() {
-        repositoryService.createDeployment().addClasspathResource("activiti_diagrams/leave_process.bpmn").deploy();
-        return ControllerResult.getSuccessResult("部署成功");
-    }
-
-
-    /**
-     * 给角色赋予任务
-     *
-     * @param session
-     */
-    @ResponseBody
-    @RequestMapping(value = "leave", method = RequestMethod.GET)
-    public ControllerResult leave(HttpSession session) {
-        runtimeService.startProcessInstanceByKey("leave_process");
-        List<Task> tasks = taskService.createTaskQuery().list();
-        Task currentTask = tasks.get(0);
-        User currentUser = (User) session.getAttribute("user");
-        taskService.setAssignee(currentTask.getId(), currentUser.getEmail());
-        taskService.complete(currentTask.getId());
-        return ControllerResult.getSuccessResult("交付任务成功");
-    }
-
-    /**
-     * 检查该任务
-     *
-     * @param session
-     */
-    @ResponseBody
-    @RequestMapping(value = "check", method = RequestMethod.GET)
-    public ControllerResult check(HttpSession session) {
-        List<Task> tasks = taskService.createTaskQuery().list();
-        Task currentTask = tasks.get(0);
-        User currentUser = (User) session.getAttribute("user");
-        taskService.setAssignee(currentTask.getId(), currentUser.getEmail());
-        taskService.complete(currentTask.getId());
-        return ControllerResult.getSuccessResult("检查完毕");
-    }
-
 }

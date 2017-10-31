@@ -4,7 +4,6 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import javax.servlet.http.HttpSession;
 import java.util.Date;
 import java.util.Properties;
 
@@ -12,10 +11,10 @@ public class MailUtil {
     // 发件人的 邮箱 和 密码（替换为自己的邮箱和密码）
     // PS: 某些邮箱服务器为了增加邮箱本身密码的安全性，给 SMTP 客户端设置了独立密码（有的邮箱称为“授权码”）,
     //     对于开启了独立密码的邮箱, 这里的邮箱密码必需使用这个独立密码（授权码）。
-    public static String myEmailAccount = "1517262320@qq.com";
-    public static String myEmailPassword = "odtrwjddjvulfdhf";
+    private static String myEmailAccount = "1517262320@qq.com";
+    private static String myEmailPassword = "odtrwjddjvulfdhf";
 
-    public static int randomNumber = ((int) (Math.random() * 1000000));
+    private static int randomNumber = ((int) (Math.random() * 1000000));
 
     public static int getRandomNumber() {
         return randomNumber;
@@ -76,7 +75,7 @@ public class MailUtil {
         //           (5) 如果以上几点都确定无误, 到邮件服务器网站查找帮助。
         //
         //    PS_03: 仔细看log, 认真看log, 看懂log, 错误原因都在log已说明。
-        transport.connect(myEmailAccount, myEmailPassword);
+       transport.connect(myEmailSMTPHost,myEmailAccount,myEmailPassword);
 
         // 6. 发送邮件, 发到所有的收件地址, message.getAllRecipients() 获取到的是在创建邮件对象时添加的所有收件人, 抄送人, 密送人
         transport.sendMessage(message, message.getAllRecipients());
